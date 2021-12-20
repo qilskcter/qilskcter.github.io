@@ -1,3 +1,6 @@
+body {
+font-family: Inter;
+}
 .profile-card header img {
 border-radius:50%;
 margin:15px auto;

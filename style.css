@@ -1,9 +1,14 @@
+a:link {
+color: #FF0000
+}
+
 a:hover {
 color: #FFCC00
 }
 
 body {
 font-family: Inter;
+background-color:#000000;
 }
 
 .profile-card header img {

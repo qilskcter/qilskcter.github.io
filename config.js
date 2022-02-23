@@ -76,7 +76,7 @@ const CONFIG = {
       link: 'https://www.reddit.com/user/KhanhNDK',
     },
     {
-      id: '6',
+      id: '5',
       name: 'Youtube',
       icon: 'youtube',
       link: 'https://youtube.com/',
@@ -133,42 +133,38 @@ const CONFIG = {
       id: '1',
       links: [
         {
-          name: 'Inspirational',
+          name: '天亮了',
+          link: 'https://www.youtube.com/watch?v=DLok7hKy2TM&t=1293s',
+        },
+        {
+          name: '秋意浓',
+          link: 'https://www.youtube.com/watch?v=DLok7hKy2TM&t=1293s',
+        },
+        {
+          name: 'Ұмытылмас күн',
           link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
         },
         {
-          name: 'Classic',
-          link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-        },
-        {
-          name: 'Oldies',
-          link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-        },
-        {
-          name: 'Rock',
-          link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+          name: 'Daididau',
+          link: 'https://www.youtube.com/watch?v=BTXIxXPee3U',
         },
       ],
     },
     {
-      icon: 'coffee',
+      icon: 'bookmark',
       id: '2',
       links: [
         {
-          name: 'Linkedin',
-          link: 'https://www.linkedin.com',
+          name: 'Dortania',
+          link: 'https://dortania.github.io',
         },
         {
-          name: 'Dribbble',
-          link: 'https://www.dribbble.com',
+          name: 'Heavietnam',
+          link: 'https://heavietnam.ga',
         },
         {
-          name: 'Trello',
-          link: 'https://www.trello.com',
-        },
-        {
-          name: 'Slack',
-          link: 'https://www.slack.com',
+          name: 'Olarila',
+          link: 'https://olarila.com',
         },
       ],
     },

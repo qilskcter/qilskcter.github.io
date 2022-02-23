@@ -67,7 +67,7 @@ const CONFIG = {
       id: '3',
       name: 'My Hackintosh EFI',
       icon: 'clover',
-      link: 'https://github.com/Dell-Vostro-3460-Hackintosh',
+      link: 'https://github.com/qilskcter/Dell-Vostro-3460-Hackintosh',
     },
     {
       id: '4',

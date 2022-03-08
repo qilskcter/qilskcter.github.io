@@ -12,7 +12,7 @@ const CONFIG = {
 
   // General
   name: 'Qilskcter',
-  imageBackground: false,
+  imageBackground: true,
   openInNewTab: true,
   twelveHourFormat: false,
 
@@ -83,45 +83,6 @@ const CONFIG = {
     },
   ],
 
-  secondButtonsContainer: [
-    {
-      id: '1',
-      name: 'Music',
-      icon: 'headphones',
-      link: 'https://open.spotify.com',
-    },
-    {
-      id: '2',
-      name: 'twitter',
-      icon: 'twitter',
-      link: 'https://twitter.com/',
-    },
-    {
-      id: '3',
-      name: 'bot',
-      icon: 'bot',
-      link: 'https://discord.com/app',
-    },
-    {
-      id: '4',
-      name: 'Amazon',
-      icon: 'shopping-bag',
-      link: 'https://amazon.com/',
-    },
-    {
-      id: '5',
-      name: 'Hashnode',
-      icon: 'pen-tool',
-      link: 'https://hashnode.com/',
-    },
-    {
-      id: '6',
-      name: 'Figma',
-      icon: 'figma',
-      link: 'https://figma.com/',
-    },
-  ],
-
   // ┬  ┬┌─┐┌┬┐┌─┐
   // │  │└─┐ │ └─┐
   // ┴─┘┴└─┘ ┴ └─┘
@@ -134,11 +95,11 @@ const CONFIG = {
       links: [
         {
           name: '天亮了',
-          link: 'https://www.youtube.com/watch?v=DLok7hKy2TM&t=1293s',
+          link: 'https://youtu.be/DLok7hKy2TM?t=2061',
         },
         {
           name: '秋意浓',
-          link: 'https://www.youtube.com/watch?v=DLok7hKy2TM&t=1293s',
+          link: 'https://youtu.be/DLok7hKy2TM?t=755',
         },
         {
           name: 'Ұмытылмас күн',

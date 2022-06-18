@@ -94,20 +94,20 @@ const CONFIG = {
       id: '1',
       links: [
         {
-          name: '天亮了',
-          link: 'https://youtu.be/DLok7hKy2TM?t=2061',
+          name: 'HeaVietNam',
+          link: 'https://heavietnam.ga',
         },
         {
-          name: '秋意浓',
-          link: 'https://youtu.be/DLok7hKy2TM?t=755',
+          name: 'Dortania',
+          link: 'https://dortania.github.io',
         },
         {
-          name: 'Ұмытылмас күн',
-          link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+          name: 'Olarila',
+          link: 'https://olarila.com',
         },
         {
-          name: 'Daididau',
-          link: 'https://www.youtube.com/watch?v=BTXIxXPee3U',
+          name: 'Repo Kênh Táo 😙',
+          link: 'https://repo.kenhtao.net',
         },
       ],
     },

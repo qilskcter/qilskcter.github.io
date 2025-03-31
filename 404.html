@@ -1,50 +1,47 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>404, something's missing</title>
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet" />
-        <meta name="viewport" content="width=device-width,initial-scale=1">
-        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-        <link rel="icon" href="/favicon.ico" type="image/x-icon">
-    </head>
-    <style>
-        body {
-            font-family: Inter;
-            color: #575757;
-            background-color: #ffffff;
-            text-align: center;
-            -webkit-touch-callout: none; 
-            -webkit-user-select: none; 
-            -khtml-user-select: none; 
-            -moz-user-select: none; 
-            -ms-user-select: none; 
-            user-select: none; 
-        }
-        h2 {
-            font-size: 40px
-        }
-        p {
-            font-size: 20px;
-        }
-        .link {
-            color: inherit;
-            transition: all 0.3s ease-in-out;
-        }
-        .link:hover {
-            color: #ffc0dd
-        }
-        @media screen and (max-width: 900px) {
-            .balls {
-                width: 290px;
-                height: 89px;
-            }
-        }
-    </style>
-    <body>
-        <h2>404, something's not right</h2>
-        <p>the page you are looking for does not exist.</p>
-        <p>Check if there are any typographical errors.</p>
-        <br><br>
-        <p>you can also try going back to the <a href="https://qilskcter.github.io" class="link">homepage</a></p>
-    </body>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ERROR</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="/assets/favicon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body class="preload">
+
+    <nav class="navbar">
+        <ul>
+            <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+            <ul class="nav-links">
+                <li><a href="index.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                            fill="currentColor" class="bi bi-house-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L8 2.207l6.646 6.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293z" />
+                            <path d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293z" />
+                        </svg></a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="awards.html">Award</a></li>
+                <li><a href="skills.html">Skill</a></li>
+                <li><a href="device.html">Device</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </ul>
+    </nav>
+
+    <section>
+        <header class="error">
+            <h1 class="animate-on-load">404</h1>
+        </header>
+        <h5 class="animate-on-load">NOT FOUND</h5>
+    </section>
+    <script src="script.js"></script>
+    <footer class="site-footer">
+        <p>© 2024 qilskcter | Built with ❤️</p>
+    </footer>
+</body>
+
 </html>

@@ -55,7 +55,7 @@ apt-ftparchive packages ./debs > ./Packages;
 bzip2 -c9k ./Packages > ./Packages.bz2;
 echo "------------------"
 echo "Đang Tạo Release...."
-printf "Origin: NDK's Repo\nLabel: NDK's Official Repo\nSuite: stable\nVersion: 1.0\nCodename: ios\nArchitecture: iphoneos-arm\nComponents: main\nDescription: Kho Lưu Trữ Các Tinh Chỉnh Cho iOS\nMD5Sum:\n "$(cat ./Packages | md5sum | cut -d ' ' -f 1)" "$(stat ./Packages --printf="%s")" Packages\n "$(cat ./Packages.bz2 | md5sum | cut -d ' ' -f 1)" "$(stat ./Packages.bz2 --printf="%s")" Packages.bz2\n" >Release;
+printf "Origin: qilskcter\nLabel: qilskcter\nSuite: stable\nVersion: 1.0\nCodename: ios\nArchitecture: iphoneos-arm\nComponents: main\nDescription: Return of the NDK-Jailbreak Repository\nMD5Sum:\n "$(cat ./Packages | md5sum | cut -d ' ' -f 1)" "$(stat ./Packages --printf="%s")" Packages\n "$(cat ./Packages.bz2 | md5sum | cut -d ' ' -f 1)" "$(stat ./Packages.bz2 --printf="%s")" Packages.bz2\n" >Release;
 
 echo "------------------"
 echo "❤️ Đã xong ❤️"

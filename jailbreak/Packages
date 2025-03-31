@@ -101,12 +101,12 @@ MD5sum: d1477dd6328524a6c63091a6cafbd624
 SHA1: 67479b201fbf7c4ea4b12da08862334f3880437d
 SHA256: cd59e2982a33e16a29b726db5f66776eb46f7f121c930d7c4e79f63571fc6647
 SHA512: 9d89fe2b08e1ab4c0de369a04110d4acd52a4d4b16f55bee124a4652b00a6e9b4d79b7fcb7b8d353b0d51058cfeb983fd02652c8b0c2070d247acccf5ac546e9
-Homepage: https://ndk-jailbreak.github.io/info/XenHTML/?p=info
+Homepage: https://qilskcter.github.io/jailbreak/info/XenHTML/?p=info
 Description: Thêm tiện ích lên màn hình chính và màn hình khoá
 Name: Xen HTML
 Author: Matt Clarke
-Depiction: https://ndk-jailbreak.github.io/info/XenHTML/?p=info
-SileoDepiction: https://ndk-jailbreak.github.io/Sileoinfo/XenHTML.json
+Depiction: https://qilskcter.github.io/jailbreak/info/XenHTML/?p=info
+SileoDepiction: https://qilskcter.github.io/jailbreak/Sileoinfo/XenHTML.json
 Icon: file:///Applications/Cydia.app/Sections/NDK-Tweaks.png
 
 Package: com.ndk.nextmusic
@@ -122,11 +122,11 @@ MD5sum: 8fd7e4c40136b8acc7715cea4c9c54a9
 SHA1: 39fadc8a7df7ba70394813fd9a100d6f938c355e
 SHA256: f8345d2a7f576d47957f57f48b93e32aba32140c52fe7af70e9cd3bac83fd922
 SHA512: 48f39c8928d1af74b0d2a83b061cfd53ec0fae8847d8820d320797aa62dff74ef71b8b16eba05040ea730beaa673205e6e2baa2f37cedfefd832be242b71b3ac
-Homepage: https://ndk-jailbreak.github.io/info/nextmusic/?p=info
+Homepage: https://qilskcter.github.io/jailbreak/info/nextmusic/?p=info
 Description: Notify music information with a small banner.
 Name: Next Music
-Depiction: https://ndk-jailbreak.github.io/info/nextmusic/?p=info
-SileoDepiction: https://ndk-jailbreak.github.io/Sileoinfo/nextmusic.json
+Depiction: https://qilskcter.github.io/jailbreak/info/nextmusic/?p=info
+SileoDepiction: https://qilskcter.github.io/jailbreak/Sileoinfo/nextmusic.json
 Author: sugiuta
 Icon: file:///Applications/Cydia.app/Sections/NDK-Tweaks.png
 
@@ -143,11 +143,11 @@ MD5sum: 6c3287428eb440ff69c278f21329573a
 SHA1: 7e50436904007d21b9673dc9c3c907dd90d1d6bd
 SHA256: 6aebc73533e776f7c743f9f155047483132f4dc90cf3c6dbbc2a75a663153ea5
 SHA512: bc1278dd336741da36d4c9dcc7197375d8d57a1d0f5d56189739de41127b348a77c106e85e701bbf12f0870a260a9171ee99726c3396f66f199511b7d975e8b4
-Homepage: https://ndk-jailbreak.github.io/info/weatherls/?p=info
+Homepage: https://qilskcter.github.io/jailbreak/info/weatherls/?p=info
 Description: Add Weather & Lunar Calendar To Your LockScreen!
 Name: WeatherLS
-Depiction: https://ndk-jailbreak.github.io/info/weatherls/?p=info
-SileoDepiction: https://ndk-jailbreak.github.io/Sileoinfo/weatherls.json
+Depiction: https://qilskcter.github.io/jailbreak/info/weatherls/?p=info
+SileoDepiction: https://qilskcter.github.io/jailbreak/Sileoinfo/weatherls.json
 Icon: file:///Applications/Cydia.app/Sections/NDK-Tweaks.png
 Author: nqt1195
 
@@ -164,11 +164,11 @@ MD5sum: 36a9462b807e9997720bdce78abbe8a9
 SHA1: 8a5f70297eaf137e8130c002414f0a67bc20de85
 SHA256: 85feda87782a5f5848f0e8bf341a12f5917c9eb9e62b96a1196bec9817f3b432
 SHA512: a5f6d5119626be519a2db9de4d11076e1f7419cd2828bc28ff8fef93230d0939fffe7ee7b626a9a5f12d85b516681f6a110728f7d04c0694562195fdd982c918
-Homepage: https://ndk-jailbreak.github.io/info/weatherls/?p=info
+Homepage: https://qilskcter.github.io/jailbreak/info/weatherls/?p=info
 Description: Add Weather & Lunar Calendar To Your LockScreen!
 Name: WeatherLS
-Depiction: https://ndk-jailbreak.github.io/info/weatherls/?p=info
-SileoDepiction: https://ndk-jailbreak.github.io/Sileoinfo/weatherls.json
+Depiction: https://qilskcter.github.io/jailbreak/info/weatherls/?p=info
+SileoDepiction: https://qilskcter.github.io/jailbreak/Sileoinfo/weatherls.json
 Icon: file:///Applications/Cydia.app/Sections/NDK-Tweaks.png
 Author: nqt1195
 
@@ -186,12 +186,12 @@ MD5sum: 6194efd8b1dff36a12e33b0434afafc3
 SHA1: b84427fcbf1c827b78ce9aec45e3599634ffb6fc
 SHA256: 8901f3f73f93c8bf18d988c7cdd08e004a1b59b2702954e7d46f0ff31d252212
 SHA512: 3bf94dd6d34b84ef1c86bb6055c1c605cf8763c9e6f65d88b5bcf103f4ff5ed1203c983f783f435d8cfee5470e57e90459e075749f0cc92a1bec0602b80f221b
-Homepage: https://ndk-jailbreak.github.io/info/sh4dow/?p=info
+Homepage: https://qilskcter.github.io/jailbreak/info/sh4dow/?p=info
 Description: Thiết kế màn hình khoá hiện đại hơn.
 Name: Sh4dow
 Author: sugiuta
-Depiction: https://ndk-jailbreak.github.io/info/sh4dow/?p=info
-SileoDepiction: https://ndk-jailbreak.github.io/Sileoinfo/sh4dow.json
+Depiction: https://qilskcter.github.io/jailbreak/info/sh4dow/?p=info
+SileoDepiction: https://qilskcter.github.io/jailbreak/Sileoinfo/sh4dow.json
 Icon: file:///Applications/Cydia.app/Sections/NDK-Tweaks.png
 
 Package: com.ndk.weatherls
@@ -207,11 +207,11 @@ MD5sum: af3082c9e6f83f883b94144452b4c139
 SHA1: 366301561ec1d2ae95638d0848de051c084ff022
 SHA256: bd90a3859d93c3b5635e83bd15d0f95908665d6f715fa96c65ed66295d270dff
 SHA512: 866c5e348fc72779c5ca2c1f812f50c74b680ceb3136e4a3d3e982211e8b11538dba1ee240b900c7f753f5f9637c96c41867ce58d95b29b57e331a2cd5a95721
-Homepage: https://ndk-jailbreak.github.io/info/weatherls/?p=info
+Homepage: https://qilskcter.github.io/jailbreak/info/weatherls/?p=info
 Description: Add Weather & Lunar Calendar To Your LockScreen!
 Name: WeatherLS
-Depiction: https://ndk-jailbreak.github.io/info/weatherls/?p=info
-SileoDepiction: https://ndk-jailbreak.github.io/Sileoinfo/weatherls.json
+Depiction: https://qilskcter.github.io/jailbreak/info/weatherls/?p=info
+SileoDepiction: https://qilskcter.github.io/jailbreak/Sileoinfo/weatherls.json
 Icon: file:///Applications/Cydia.app/Sections/NDK-Tweaks.png
 Author: nqt1195
 
@@ -226,12 +226,12 @@ MD5sum: 3d3036eca20191011ffba0ba0545d1a8
 SHA1: 6e7b3b3d6a90354542b0866f84066c2e13adfb49
 SHA256: bf0bb6ec8cf614926268b283a33cd440f9b296ce092b24ca772d9c35fd0d1c0a
 SHA512: bfc3bc6164f0691474ac11b15efb174c29f19f03184bf5d59ae75a5f4c256a29496d733c7c8684d750687e9f8da3e0db59b52d488238250a7a5ff691b2c98216
-Homepage: https://ndk-jailbreak.github.io/info/Futura/?p=info
+Homepage: https://qilskcter.github.io/jailbreak/info/Futura/?p=info
 Description: Font Futura
 Name: Futura (iOS 12)
 Author: NDK
-Depiction: https://ndk-jailbreak.github.io/info/Futura/?p=info
-SileoDepiction: https://ndk-jailbreak.github.io/Sileoinfo/Futura.json
+Depiction: https://qilskcter.github.io/jailbreak/info/Futura/?p=info
+SileoDepiction: https://qilskcter.github.io/jailbreak/Sileoinfo/Futura.json
 Icon: file:///Applications/Cydia.app/Sections/NDK-Font.png
 
 Package: com.ndk.weatherls
@@ -247,11 +247,11 @@ MD5sum: d11b21a0a0732b3af45152ddf740a98c
 SHA1: a44041db5b899fdd21e214ac714d135024eb9d6e
 SHA256: fa9035fa4603d9da81bf2851be66fdceb59603a637ad87ecbb867820e2204241
 SHA512: 71add76dc978e92a59e6f53036ede67a18571ef18299b1a985fa75006cea0f777ea3c410e43afa8624571b5648a99c064f1c9099a183e9286a379f55a3a37323
-Homepage: https://ndk-jailbreak.github.io/info/weatherls/?p=info
+Homepage: https://qilskcter.github.io/jailbreak/info/weatherls/?p=info
 Description: Add Weather & Lunar Calendar To Your LockScreen!
 Name: WeatherLS
-Depiction: https://ndk-jailbreak.github.io/info/weatherls/?p=info
-SileoDepiction: https://ndk-jailbreak.github.io/Sileoinfo/weatherls.json
+Depiction: https://qilskcter.github.io/jailbreak/info/weatherls/?p=info
+SileoDepiction: https://qilskcter.github.io/jailbreak/Sileoinfo/weatherls.json
 Icon: file:///Applications/Cydia.app/Sections/NDK-Tweaks.png
 Author: nqt1195
 
@@ -1182,8 +1182,8 @@ Description: Biểu tượng Cydia cho kho lưu trữ NDK
 Name: Icon Repo
 Author: @ongcenh
 Icon: file:///Applications/Cydia.app/Sections/NDK-Systems.png
-Depiction: https://ndk-jailbreak.github.io/info/Iconrepo
-SileoDepiction: https://ndk-jailbreak.github.io/info/Iconrepo
+Depiction: https://qilskcter.github.io/jailbreak/info/Iconrepo
+SileoDepiction: https://qilskcter.github.io/jailbreak/info/Iconrepo
 
 Package: com.peterdev.betalert
 Architecture: iphoneos-arm
@@ -1505,13 +1505,13 @@ MD5sum: 8573155e5c0f2c293b3583560aca5fd9
 SHA1: 3b526af354337c6d949dd56f595095aa0f9f77b6
 SHA256: 0497c8c7ef3eb0c9b4b78ed1826fc807338efb136693e305ccabd703dd3a731d
 SHA512: 5c8d2f78a71c5d9a41798cffe9656d4f1b3a4064f580be09a41ab6201cfa6bbf79f9c1e42c041d8763b22141796d2e00b8047f2d2db2f9f73f6a02ddbd41abf2
-Homepage: https://ndk-jailbreak.github.io/info/generatorautosetter/?p=info
+Homepage: https://qilskcter.github.io/jailbreak/info/generatorautosetter/?p=info
 Description: Tự động setnonce khi JB để hạ cấp iOS!
 Name: Generator Auto Setter
 Author: Halo Michael <yc992147156@me.com>
 Icon: file:///Applications/Cydia.app/Sections/NDK-Tweaks.png
-Depiction: https://ndk-jailbreak.github.io/info/generatorautosetter/?p=info
-SileoDepiction: https://ndk-jailbreak.github.io/Sileoinfo/generatorautosetter.json
+Depiction: https://qilskcter.github.io/jailbreak/info/generatorautosetter/?p=info
+SileoDepiction: https://qilskcter.github.io/jailbreak/Sileoinfo/generatorautosetter.json
 
 Package: com.ndk.lunartimetweak
 Architecture: iphoneos-arm
@@ -1526,12 +1526,12 @@ MD5sum: b6a36bba2d4195108e6eb476df094496
 SHA1: d58d24dabeaaa0e0eb3539918cf31c04ff8ac3b7
 SHA256: e60dd45ed243f23243241be91c4173ef5960af085d8415dd226c34fa7c9e0966
 SHA512: 524bf697773eaa700bec91c0d94604e0241a4bd0e3268dc6989adaf31666328b035b3fecadbd758b3f5229e88e3dfef2a769139225a2640a1c9cd65ffbc49408
-Homepage: https://ndk-jailbreak.github.io/info/lunartimetweak/?p=info
+Homepage: https://qilskcter.github.io/jailbreak/info/lunartimetweak/?p=info
 Description: Show LunarCalendar On Default StatusBar!
 Name: LunarTime
 Icon: file:///Applications/Cydia.app/Sections/NDK-Tweaks.png
-Depiction: https://ndk-jailbreak.github.io/info/lunartimetweak/?p=info
-SileoDepiction: https://ndk-jailbreak.github.io/Sileoinfo/lunartimetweak.json
+Depiction: https://qilskcter.github.io/jailbreak/info/lunartimetweak/?p=info
+SileoDepiction: https://qilskcter.github.io/jailbreak/Sileoinfo/lunartimetweak.json
 Author: nqt1195
 
 Package: com.ndk.weathercarrier
@@ -1547,12 +1547,12 @@ MD5sum: ada64403575a08e8ef5b73c9df6f9b04
 SHA1: 8de2c67901ed68333e9463930916fcaf5264098d
 SHA256: 50f24f3c935b7bcb2987840bf4d07d48649593773ed5d4e571b7381f9ccac960
 SHA512: 40eee4a40e49e047dec1ec6dfa9f75f20e468b5969311f16760c088ae53908f54869aadd1f00f99286c937973328dfdcbad032218e1717175b59cefe582556fd
-Homepage: https://ndk-jailbreak.github.io/info/weathercarrier/?p=info
+Homepage: https://qilskcter.github.io/jailbreak/info/weathercarrier/?p=info
 Description: Replace Your Carrier With An Emoji Which Represents The Current Weather Condition!
 Name: WeatherCarrier
 Icon: file:///Applications/Cydia.app/Sections/NDK-Tweaks.png
-Depiction: https://ndk-jailbreak.github.io/info/weathercarrier/?p=info
-SileoDepiction: https://ndk-jailbreak.github.io/Sileoinfo/weathercarrier.json
+Depiction: https://qilskcter.github.io/jailbreak/info/weathercarrier/?p=info
+SileoDepiction: https://qilskcter.github.io/jailbreak/Sileoinfo/weathercarrier.json
 Author: nqt1195
 
 
@@ -1587,12 +1587,12 @@ MD5sum: c0dd9d048a71bb16273af3d6d5021425
 SHA1: c377dabfcfd48b5abd10890706dff8a6b0696df2
 SHA256: 28ae5e81a230db795a9e29219aeafa723c7c9bfa25ae552a5f493f102a9ac4a3
 SHA512: 5ecba5dc1e8b0fc5586f7bfa63dcc9c34d012e919f93fbfaa87203a42b83758a156127cd5a0cc5d7a0dd42a816341f9a8b3128263e503cec51aeba940de4fbfb
-Homepage: http://ndk-jailbreak.github.io/info/noscreenshotview/?p=info
+Homepage: http://qilskcter.github.io/jailbreak/info/noscreenshotview/?p=info
 Description: Tắt xem trước ảnh chụp màn hình
 Name: No ScreenShots view
 Author: iBreak
-Depiction: http://ndk-jailbreak.github.io/info/noscreenshotview/?p=info
-SileoDepiction: http://ndk-jailbreak.github.io/Sileoinfo/noscreenshotview.json
+Depiction: http://qilskcter.github.io/jailbreak/info/noscreenshotview/?p=info
+SileoDepiction: http://qilskcter.github.io/jailbreak/Sileoinfo/noscreenshotview.json
 Icon: file:///Applications/Cydia.app/Sections/NDK-Tweaks.png
 
 Package: com.ndk.cydownvn
@@ -1625,13 +1625,13 @@ MD5sum: 12d41be71eec251e7dd8ebdd340adcfe
 SHA1: 4852fd344d7de4b0dccb3b600731204193d5d4a9
 SHA256: 9f18b21d63a383ecbef40132ffefb4b6f4834a63327b7a0d095361ac335f6a69
 SHA512: fa720fa7d1e55bcfd88b3a766a32c181e47dc55de8c2476466b8f24de3838706d8936bf7168a43962eda349f187f7a05708577707c8b694f713230ba405d3e92
-Homepage: https://ndk-jailbreak.github.io/info/signaldots/?p=info
+Homepage: https://qilskcter.github.io/jailbreak/info/signaldots/?p=info
 Description: Mang biểu tượng sóng cũ trở lại!
 Name: SignalDots
 Author: nqt1195
 Icon: file:///Applications/Cydia.app/Sections/NDK-Tweaks.png
-Depiction: https://ndk-jailbreak.github.io/info/signaldots/?p=info
-SileoDepiction: https://ndk-jailbreak.github.io/Sileoinfo/signaldots.json
+Depiction: https://qilskcter.github.io/jailbreak/info/signaldots/?p=info
+SileoDepiction: https://qilskcter.github.io/jailbreak/Sileoinfo/signaldots.json
 
 Package: com.ndk.whitecolorful
 Architecture: iphoneos-arm
@@ -1644,12 +1644,12 @@ MD5sum: b61074fc9e05d23455f174790a13da67
 SHA1: 624c2c1bbf61d77f2af6d2a115c1d6c064322564
 SHA256: 3ce8f74d5bfb02d27e537eca6b2b38c1e61f68df2f34e03933b0043411ff5e03
 SHA512: a604cb0c67346b48b0764046071e39c5b14f596e694b802e192534ce65f19ec775a5709e0e03fb7c5a24dc182247dbf2822a989035160ff1de8539c3508271f4
-Homepage: http://ndk-jailbreak.github.io/info/WhiteColorful/?p=info
+Homepage: http://qilskcter.github.io/jailbreak/info/WhiteColorful/?p=info
 Description: Chủ đề đầy màu sắc.
 Name: White Colorful
 Author: The Giver
-Depiction: http://ndk-jailbreak.github.io/info/WhiteColorful/?p=info
-SileoDepiction: http://ndk-jailbreak.github.io/info/WhiteColorful.json
+Depiction: http://qilskcter.github.io/jailbreak/info/WhiteColorful/?p=info
+SileoDepiction: http://qilskcter.github.io/jailbreak/info/WhiteColorful.json
 Icon: file:///Applications/Cydia.app/Sections/NDK-Themes.png
 
 Package: com.ndk.de5green
@@ -1663,12 +1663,12 @@ MD5sum: d92ad9230d11e0a8dab2f762c0959335
 SHA1: 799b160e744c4af6182df92870798468f2326fa2
 SHA256: 9b2413845e0293791e0f87ecaa7e227ddd9f45505941b5a6c11673c0ac1262b9
 SHA512: 49671e2637710c8ba0953e55b448cc9b8151df8b2a89e965266c35dd5ce26ee2276b8739fe77b9db8bf98457889540f70cb30bbe564e7b684bec5574eb15a0ca
-Homepage: http://ndk-jailbreak.github.io/info/De5Green/?p=info
+Homepage: http://qilskcter.github.io/jailbreak/info/De5Green/?p=info
 Description: Chủ đề De5 Green
 Name: De5 Green
 Author: The Giver
-Depiction: http://ndk-jailbreak.github.io/info/De5Green/?p=info
-SileoDepiction: http://ndk-jailbreak.github.io/Sileoinfo/De5Green.json
+Depiction: http://qilskcter.github.io/jailbreak/info/De5Green/?p=info
+SileoDepiction: http://qilskcter.github.io/jailbreak/Sileoinfo/De5Green.json
 Icon: file:///Applications/Cydia.app/Sections/NDK-Themes.png
 
 Package: com.ndk.icarus
@@ -1684,13 +1684,13 @@ MD5sum: 0008d2135b5bb77624c1b9cd03114731
 SHA1: 41092985916ba47d2cb10c739d8bac651c4e7e18
 SHA256: 2b2c1c443bc9af16fc2c2864f8c164844954a68ec019ffa2d24cc1ffc8f76557
 SHA512: e1e391488a2c4dd445198c406de569a5c337210b74825d2670b723cef55c950e2205ee7949dfa7e404c47787086f328d432a6ebd6dca1437f5e10bee2b2fdbd4
-Homepage: https://ndk-jailbreak.github.io/info/icarus/?p=info
+Homepage: https://qilskcter.github.io/jailbreak/info/icarus/?p=info
 Description: Hoạt hình cho đa nhiệm của bạn.
 Name: Icarus
 Author: MTAC
 Icon: file:///Applications/Cydia.app/Sections/NDK-Tweaks.png
-Depiction: https://ndk-jailbreak.github.io/info/icarus/?p=info
-SileoDepiction: https://ndk-jailbreak.github.io/Sileoinfo/icarus.json
+Depiction: https://qilskcter.github.io/jailbreak/info/icarus/?p=info
+SileoDepiction: https://qilskcter.github.io/jailbreak/Sileoinfo/icarus.json
 
 
 
@@ -1705,12 +1705,12 @@ MD5sum: 786f21074df7c4e84dd51f295650a314
 SHA1: 53eb1c175e7a7c2ebaaf2e3e442b16b5d9df4ab3
 SHA256: 46a3ce67123a6a53907f25eaade6041420706a775452fe14b025610295975b67
 SHA512: 4e108f82530906aa03e4117a11fa70e0251eda73d8baaeab8d639771b57138e989b9260d86a175c636a8201f9ff0cd4b09657ffd57f6206a59aff4b0a6fa2287
-Homepage: https://ndk-jailbreak.github.io/info/ElagenBpms2725/?p=info
+Homepage: https://qilskcter.github.io/jailbreak/info/ElagenBpms2725/?p=info
 Description: Chủ đề Elagen
 Name: Elagen Bpms2725
 Author: @hatiato
-Depiction: https://ndk-jailbreak.github.io/info/ElagenBpms2725/?p=info
-SileoDepiction: https://ndk-jailbreak.github.io/Sileoinfo/ElagenBpms2725.json
+Depiction: https://qilskcter.github.io/jailbreak/info/ElagenBpms2725/?p=info
+SileoDepiction: https://qilskcter.github.io/jailbreak/Sileoinfo/ElagenBpms2725.json
 Icon: file:///Applications/Cydia.app/Sections/NDK-Themes.png
 
 Package: com.ndk.ElagenGFS
@@ -1724,12 +1724,12 @@ MD5sum: 5094b3d6c25c0d5fb0f855abd7278524
 SHA1: a5f660a84e867574b0c41208535ad38b2ff8bbb7
 SHA256: 026b3f15544e013f964dc9ccdda3fabfa0c28bc0a2dd337091c1cf1cfa95a1fe
 SHA512: 9bdbc9a5539d748c04aab6bd40ada1149b2660cfd6f562e2ba92ecc4f3a45b376010358970798247ca6df45d81d4b832be8d10a9af62e9f914d9a733f27b1b9a
-Homepage: https://ndk-jailbreak.github.io/info/ElagenGFS/?p=info
+Homepage: https://qilskcter.github.io/jailbreak/info/ElagenGFS/?p=info
 Description: Chủ đề Elagen
 Name: Elagen GFS
 Author: @hatiato
-Depiction: https://ndk-jailbreak.github.io/info/ElagenGFS/?p=info
-SileoDepiction: https://ndk-jailbreak.github.io/Sileoinfo/ElagenGFS.json
+Depiction: https://qilskcter.github.io/jailbreak/info/ElagenGFS/?p=info
+SileoDepiction: https://qilskcter.github.io/jailbreak/Sileoinfo/ElagenGFS.json
 Icon: file:///Applications/Cydia.app/Sections/NDK-Themes.png
 
 Package: com.ndk.ElagenPurple
@@ -1743,12 +1743,12 @@ MD5sum: 6bdf52643b48b68ba018883fa48dd600
 SHA1: 76cc1cc48d522e4a82059aeb20211894674bae95
 SHA256: 88bda96259e009aca8422f8a30fddd6a4be92bfa1967354e5e75b566579e9273
 SHA512: 16948f3cd03d220ac83d06f8c9f8d5972cec986e0733612e70d2b368998d200c3fbdd688784646aadb2b1c83156c29dd9cdb8abfb88cfb0d661695ab5469547b
-Homepage: https://ndk-jailbreak.github.io/info/ElagenPurple/?p=info
+Homepage: https://qilskcter.github.io/jailbreak/info/ElagenPurple/?p=info
 Description: Chủ đề Elagen
 Name: Elagen Purple
 Author: @hatiato
-Depiction: https://ndk-jailbreak.github.io/info/ElagenPurple/?p=info
-SileoDepiction: https://ndk-jailbreak.github.io/Sileoinfo/ElagenPurple.json
+Depiction: https://qilskcter.github.io/jailbreak/info/ElagenPurple/?p=info
+SileoDepiction: https://qilskcter.github.io/jailbreak/Sileoinfo/ElagenPurple.json
 Icon: file:///Applications/Cydia.app/Sections/NDK-Themes.png
 
 Package: com.ndk.ElagenRGP
@@ -1762,12 +1762,12 @@ MD5sum: fdf5b648e7857d53b7144bbacec72e74
 SHA1: 26568dac8ead39b1778285193f70232ce93fb9d4
 SHA256: 2000bd5826694dec23d872e190ce37ae8e136af2973e6a127bf2b0599dda4b88
 SHA512: dc899661ba25e2d63638a8bb500d9d7dc4901c3f2837e7c5bea01d7d56a52b3b9e2e8bd55870abb2044dca05cfa784bd1f0f720fd3593e57dd0aba6e8390f77d
-Homepage: https://ndk-jailbreak.github.io/info/ElagenRGP/?p=info
+Homepage: https://qilskcter.github.io/jailbreak/info/ElagenRGP/?p=info
 Description: Chủ đề Elagen
 Name: Elagen RGP
 Author: @hatiato
-Depiction: https://ndk-jailbreak.github.io/info/ElagenRGP/?p=info
-SileoDepiction: https://ndk-jailbreak.github.io/Sileoinfo/ElagenRGP.json
+Depiction: https://qilskcter.github.io/jailbreak/info/ElagenRGP/?p=info
+SileoDepiction: https://qilskcter.github.io/jailbreak/Sileoinfo/ElagenRGP.json
 Icon: file:///Applications/Cydia.app/Sections/NDK-Themes.png
 
 Package: com.ndk.Elagen
@@ -1781,12 +1781,12 @@ MD5sum: bf7d975078bca52a41a4fe58ac4c5a46
 SHA1: b5a8d2da266ae5ab844ba56fff89ed5e0ac1a5dd
 SHA256: 1c8f23eaf44a30df37c9faa9798b4a64fe42fd0ab7a3daaf1bdd8bb7c6108454
 SHA512: 4bea909f32c4e989be7cb452a0fd53985c34df01dacb4b9645b574571bcad3d30c64f4e6271ac626fbb06cb1a76efe3b49afb66803b19a826981eeaa36d50fe9
-Homepage: https://ndk-jailbreak.github.io/info/ElagenGMG/?p=info
+Homepage: https://qilskcter.github.io/jailbreak/info/ElagenGMG/?p=info
 Description: Chủ đề Elagen
 Name: Elagen
 Author: @hatiato
-Depiction: https://ndk-jailbreak.github.io/info/ElagenGMG/?p=info
-SileoDepiction: https://ndk-jailbreak.github.io/Sileoinfo/ElagenGMG.json
+Depiction: https://qilskcter.github.io/jailbreak/info/ElagenGMG/?p=info
+SileoDepiction: https://qilskcter.github.io/jailbreak/Sileoinfo/ElagenGMG.json
 Icon: file:///Applications/Cydia.app/Sections/NDK-Themes.png
 
 Package: com.ndk.Elagencyan
@@ -1800,12 +1800,12 @@ MD5sum: 2b00a5957a786eb2dbb1894cef5c4fbc
 SHA1: 1c311dbbf223ec5df18e8198d9726c36c6546021
 SHA256: b730c1512199bf7aaf0723a8b2070db6ce9ed90eca7f76ff674f385efa81131a
 SHA512: 041b3f7bf7b8b595ace18147914e204098d9eef000dcae821c186cb868a86dc8b5c0cff7a7077d0c5783dfd09751706fcb572745fbc7afef1e073d0619c34f0c
-Homepage: https://ndk-jailbreak.github.io/info/ElagenCyan/?p=info
+Homepage: https://qilskcter.github.io/jailbreak/info/ElagenCyan/?p=info
 Description: Chủ đề Elagen
 Name: Elagen Cyan
 Author: @hatiato
-Depiction: https://ndk-jailbreak.github.io/info/ElagenCyan/?p=info
-SileoDepiction: https://ndk-jailbreak.github.io/Sileoinfo/ElagenCyan.json
+Depiction: https://qilskcter.github.io/jailbreak/info/ElagenCyan/?p=info
+SileoDepiction: https://qilskcter.github.io/jailbreak/Sileoinfo/ElagenCyan.json
 Icon: file:///Applications/Cydia.app/Sections/NDK-Themes.png
 
 Package: com.ndk.Elagendark
@@ -1819,12 +1819,12 @@ MD5sum: 381c7f04e2868d1c4225ab85cdae9ca2
 SHA1: 83721f34613a3c131a86873496f353af5d3065af
 SHA256: 7b67e99e4a2677c01250391bde13a40066a7d0eab257254ac2e48ecbac07b14f
 SHA512: 5f3fa28421473666ae35f4844250426b2228356938d18dc781b9dd29171c03d9c560c82d15a05e3d587a65e7994c747aa05177b9288626980a32324bf1e622c9
-Homepage: https://ndk-jailbreak.github.io/info/ElagenDark/?p=info
+Homepage: https://qilskcter.github.io/jailbreak/info/ElagenDark/?p=info
 Description: Chủ đề Elagen
 Name: Elagen Dark
 Author: @hatiato
-Depiction: https://ndk-jailbreak.github.io/info/ElagenDark/?p=info
-SileoDepiction: https://ndk-jailbreak.github.io/Sileoinfo/ElagenDark.json
+Depiction: https://qilskcter.github.io/jailbreak/info/ElagenDark/?p=info
+SileoDepiction: https://qilskcter.github.io/jailbreak/Sileoinfo/ElagenDark.json
 Icon: file:///Applications/Cydia.app/Sections/NDK-Themes.png
 
 Package: com.ndk.Elagenlyo
@@ -1838,12 +1838,12 @@ MD5sum: 7cb216535d22d301de437e1188533184
 SHA1: c907f7414565eb9ff4f5eae5e35225de9eec6d4c
 SHA256: 5d15f5f895e865004a4a30ca15a964b41e64a71a628b34447ada1b8db5c596be
 SHA512: 7e653d7dec3d718fac5dd887394a95cf1ad179f77ba9cfa4467a4bf70f2c8abc2e6a6b1526dc676b9718fd5d43c7516f85bd3256bb179dfcdc10bb2c93a51fe6
-Homepage: https://ndk-jailbreak.github.io/info/ElagenLYO/?p=info
+Homepage: https://qilskcter.github.io/jailbreak/info/ElagenLYO/?p=info
 Description: Chủ đề Elagen
 Name: Elagen LYO
 Author: @hatiato
-Depiction: https://ndk-jailbreak.github.io/info/ElagenLYO/?p=info
-SileoDepiction: https://ndk-jailbreak.github.io/Sileoinfo/ElagenLYO.json
+Depiction: https://qilskcter.github.io/jailbreak/info/ElagenLYO/?p=info
+SileoDepiction: https://qilskcter.github.io/jailbreak/Sileoinfo/ElagenLYO.json
 Icon: file:///Applications/Cydia.app/Sections/NDK-Themes.png
 
 Package: com.ndk.Elagenmbg
@@ -1857,12 +1857,12 @@ MD5sum: ff212edc2a13ca95e7721b741bde1430
 SHA1: 50487d5c302a3065415e4837100115ea9868a569
 SHA256: b3a9dc6f8835d7e1ee2fffac05d9332941d12565166fab50e532eaf4e86cb5e0
 SHA512: 548f4ee3d95ea9abb48af9b06910a01cc6f68e21d737ef5ef42209d0c5cfe47d71d241f0ada4f04a52cf93a1a78756ec11a4a951d650435d3f85842a2c76e8ed
-Homepage: https://ndk-jailbreak.github.io/info/ElagenMBG/?p=info
+Homepage: https://qilskcter.github.io/jailbreak/info/ElagenMBG/?p=info
 Description: Chủ đề Elagen
 Name: Elagen MBG
 Author: @hatiato
-Depiction: https://ndk-jailbreak.github.io/info/ElagenMBG/?p=info
-SileoDepiction: https://ndk-jailbreak.github.io/Sileoinfo/ElagenMBG.json
+Depiction: https://qilskcter.github.io/jailbreak/info/ElagenMBG/?p=info
+SileoDepiction: https://qilskcter.github.io/jailbreak/Sileoinfo/ElagenMBG.json
 Icon: file:///Applications/Cydia.app/Sections/NDK-Themes.png
 
 Package: com.ndk.elagengmg
@@ -1876,12 +1876,12 @@ MD5sum: f47f742e1dae4c3088b14025ba85ba22
 SHA1: 7097c9209e80e8c3144dff7eb041c018b519afe8
 SHA256: 168d01957424f156c32acb47ed6959583404f87845068a1aa8bb11359d6eeb73
 SHA512: 0b5ac7beae17834f2bbfc968f07bfd810d8e8b65cb0c62c74c262660c4187cc9ae407a9ab088d2a6e3f660ec8dc8b1125de857991287ca8d1b62d27d1b1c1359
-Homepage: https://ndk-jailbreak.github.io/info/ElagenGMG/?p=info
+Homepage: https://qilskcter.github.io/jailbreak/info/ElagenGMG/?p=info
 Description: Elagen GMG theme
 Name: Elagen GMG
 Author: @hatiato
-Depiction: https://ndk-jailbreak.github.io/info/ElagenGMG/?p=info
-SileoDepiction: https://ndk-jailbreak.github.io/Sileoinfo/ElagenGMG.json
+Depiction: https://qilskcter.github.io/jailbreak/info/ElagenGMG/?p=info
+SileoDepiction: https://qilskcter.github.io/jailbreak/Sileoinfo/ElagenGMG.json
 Icon: file:///Applications/Cydia.app/Sections/NDK-Themes.png
 
 
@@ -1936,8 +1936,8 @@ Description: Biểu tượng Cydia cho kho lưu trữ NDK
 Name: Icon Repo
 Author: @ongcenh
 Icon: file:///Applications/Cydia.app/Sections/NDK-Systems.png
-Depiction: https://ndk-jailbreak.github.io/info/Iconrepo
-SileoDepiction: https://ndk-jailbreak.github.io/info/Iconrepo
+Depiction: https://qilskcter.github.io/jailbreak/info/Iconrepo
+SileoDepiction: https://qilskcter.github.io/jailbreak/info/Iconrepo
 
 Package: com.ndk.ip13
 Architecture: iphoneos-arm
@@ -1986,12 +1986,12 @@ MD5sum: af1b53e6bbda9e606fc623d6b939aed3
 SHA1: 4a0b1059e970ff1a63a8898113f16191e3573f89
 SHA256: 378d95bf649e4a7f7c4a6011bc0e3c494581f636f4de2ce7824674d46139e646
 SHA512: 885c6ebe18f34b9ba3667663d858fb70bd279c3ff403b0e76ea54994f1ee66ab499487aa4aad407cbb2f531458b8cf5835eb902e9781ccde558eb23c8dee0950
-Homepage: https://ndk-jailbreak.github.io/info/wallpaperloader/?p=info
+Homepage: https://qilskcter.github.io/jailbreak/info/wallpaperloader/?p=info
 Description: Thêm nhiều hình nền mặc định hơn!
 Name: WallpaperLoader
 Icon: file:///Applications/Cydia.app/Sections/NDK-Tweaks.png
-Depiction: https://ndk-jailbreak.github.io/info/wallpaperloader/?p=info
-SileoDepiction: https://ndk-jailbreak.github.io/Sileoinfo/wallpaperloader.json
+Depiction: https://qilskcter.github.io/jailbreak/info/wallpaperloader/?p=info
+SileoDepiction: https://qilskcter.github.io/jailbreak/Sileoinfo/wallpaperloader.json
 Author: Skitty
 
 Package: com.ndk.win11wp
@@ -2026,13 +2026,13 @@ MD5sum: f56df696ba5f034edb3d99a49d3c8506
 SHA1: c2cae8e33008eb28552ee84bfbb397f38fd95870
 SHA256: 952632bd5fa910caa7ad76cd990e4ab493ad7b2df6111124db39a7fcf2ac81f2
 SHA512: a390cad3090f6e8ba4bda6bd030d15ceef6ce7f55de7006d860cd9e738f3cc5d13990970754cd20875ea0e91e50be48d8e9a27558490b0ff54b45835a4972065
-Homepage: https://ndk-jailbreak.github.io/info/topstt3xs/?p=info
+Homepage: https://qilskcter.github.io/jailbreak/info/topstt3xs/?p=info
 Description: Di chuyển thanh trạng thái giả X nên cao !
 Name: Top StatusbarXS
 Author: fahlnbg
 Icon: file:///Applications/Cydia.app/Sections/NDK-Tweaks.png
-Depiction: https://ndk-jailbreak.github.io/info/topstt3xs/?p=info
-SileoDepiction: https://ndk-jailbreak.github.io/Sileoinfo/topstt3xs.json
+Depiction: https://qilskcter.github.io/jailbreak/info/topstt3xs/?p=info
+SileoDepiction: https://qilskcter.github.io/jailbreak/Sileoinfo/topstt3xs.json
 
 Package: com.ndk.touchbar
 Architecture: iphoneos-arm
@@ -2047,13 +2047,13 @@ MD5sum: cc2ad57208259950850e9decf219b2e6
 SHA1: 035f74454804d0482264abd605e4c4a8b7cc5bc4
 SHA256: d71f235f107cd17011a612e525fb6f2499ff8c496ad1a556b61c2cb34022f59c
 SHA512: dc6f4bee11418be7242c03192d857a01a445097f9917319482802ea176dd42a055257543540e3a58dd2ed326dbe79b90c25fcab8f02dd009ebe5d544b4028c71
-Homepage: https://ndk-jailbreak.github.io/info/touchbar/?p=info
+Homepage: https://qilskcter.github.io/jailbreak/info/touchbar/?p=info
 Description: Thanh TouchBar như trên MacOS cho iOS!
 Name: TouchBar
 Author: Ethan Whited
 Icon: file:///Applications/Cydia.app/Sections/NDK-Tweaks.png
-Depiction: https://ndk-jailbreak.github.io/info/touchbar/?p=info
-SileoDepiction: https://ndk-jailbreak.github.io/Sileoinfo/touchbar.json
+Depiction: https://qilskcter.github.io/jailbreak/info/touchbar/?p=info
+SileoDepiction: https://qilskcter.github.io/jailbreak/Sileoinfo/touchbar.json
 
 Package: com.ndk.touchflow
 Architecture: iphoneos-arm
@@ -2070,14 +2070,14 @@ MD5sum: b40580c5739f88eed39dc8929686dffb
 SHA1: a9aef5b343325e74af3a87e959639edf4d483f25
 SHA256: e28f17d568b59d538f95446576437cc57479663cdf9a4a20038793c2043721db
 SHA512: bdedb390ac4da1e31e2773722c8490aab39ff50c1c8b495b0a94da694ae45c63c7049c793c27cc47489e31ac0bf332bf2ecc345ad89c91303b5f92bd936d7364
-Homepage: https://ndk-jailbreak.github.io/info/touchflow/?p=info
+Homepage: https://qilskcter.github.io/jailbreak/info/touchflow/?p=info
 Description: Hiển thị chạm khi chạm vào màn hình.
 Tag: purpose::extension, compatible_min::iosiOS11
 Name: TouchFlow
 Author: CreatureSurvive <support@creaturecoding.com>
 Icon: file:///Applications/Cydia.app/Sections/NDK-Tweaks.png
-Depiction: https://ndk-jailbreak.github.io/info/touchflow/?p=info
-SileoDepiction: https://ndk-jailbreak.github.io/Sileoinfo/touchflow.json
+Depiction: https://qilskcter.github.io/jailbreak/info/touchflow/?p=info
+SileoDepiction: https://qilskcter.github.io/jailbreak/Sileoinfo/touchflow.json
 
 Package: com.ndk.tinybanners2
 Architecture: iphoneos-arm
@@ -2092,13 +2092,13 @@ MD5sum: 0e154fa1377c9e95ec4df81c73e2c3b8
 SHA1: 0e6023e3e66f7eea4fee3d1aa7b4b90bdf8563ee
 SHA256: 956e88ae49a7a054d4333f12c6b2b574e353bbc62bdcbb54e447e30b39b7b663
 SHA512: 22cd1376ee093bada9f521bb53adb329590dd62e59384f0b294da17ee3d58fd0c050b7afa8ced1f347e2a1bb5fcb7ffc218de148290b291d0f747b0f8f9137a6
-Homepage: https://ndk-jailbreak.github.io/info/tinybanners2/?p=info
+Homepage: https://qilskcter.github.io/jailbreak/info/tinybanners2/?p=info
 Description: Thông báo tối giảm
 Name: TinyBanners 2
 Author: Don
 Icon: file:///Applications/Cydia.app/Sections/NDK-Tweaks.png
-Depiction: https://ndk-jailbreak.github.io/info/tinybanners2/?p=info
-SileoDepiction: https://ndk-jailbreak.github.io/Sileoinfo/tinybanners2.json
+Depiction: https://qilskcter.github.io/jailbreak/info/tinybanners2/?p=info
+SileoDepiction: https://qilskcter.github.io/jailbreak/Sileoinfo/tinybanners2.json
 
 Package: com.ndk.tinybanners
 Architecture: iphoneos-arm
@@ -2113,13 +2113,13 @@ MD5sum: c0eff928fa1ec6e894553c6e348286d4
 SHA1: 694ad5aa6962aa34c8f8339b3b4346fe2c6c0725
 SHA256: 923e1ee5a50cf761d336c1028747a137a896da4c646db2b0ea7b063bc51c53ef
 SHA512: e3f134b9cfa2bc631baf48c5f3c1e07c387dfdfe2d830d34cf68cb1985de9352b60fe239303652a96556c26aa9d8969a0e949638c2844d5599301e42430e3f61
-Homepage: https://ndk-jailbreak.github.io/info/tinybanners/?p=info
+Homepage: https://qilskcter.github.io/jailbreak/info/tinybanners/?p=info
 Description: Thông báo tối giản
 Name: TinyBanners
 Author: Don
 Icon: file:///Applications/Cydia.app/Sections/NDK-Tweaks.png
-Depiction: https://ndk-jailbreak.github.io/info/tinybanners/?p=info
-SileoDepiction: https://ndk-jailbreak.github.io/Sileoinfo/tinybanners.json
+Depiction: https://qilskcter.github.io/jailbreak/info/tinybanners/?p=info
+SileoDepiction: https://qilskcter.github.io/jailbreak/Sileoinfo/tinybanners.json
 
 
 
@@ -2136,12 +2136,12 @@ MD5sum: cfeb4901556784d003787633b25f62f0
 SHA1: 06ccace6897ef5c80fb983558b9d5c080b3188ff
 SHA256: 8c95f52e47787feda094b8626df83b98612bed44be0c7b9180edc3325bcd9d8c
 SHA512: 531f22578b99079e9578123d5dd3086de93bd47370de590504d6389e72446328837c60b053cb6b4021c256416a1c0498d11677d2c75599aab3caadfde968fa77
-Homepage: https://ndk-jailbreak.github.io/info/dr4w/?p=info
+Homepage: https://qilskcter.github.io/jailbreak/info/dr4w/?p=info
 Description: Bạn có thể vẽ và chụp ảnh màn hình ở mọi nơi.
 Name: Dr4w VN
 Icon: file:///Applications/Cydia.app/Sections/NDK-Tweaks.png
-Depiction: https://ndk-jailbreak.github.io/info/dr4w/?p=info
-SileoDepiction: https://ndk-jailbreak.github.io/Sileoinfo/dr4w.json
+Depiction: https://qilskcter.github.io/jailbreak/info/dr4w/?p=info
+SileoDepiction: https://qilskcter.github.io/jailbreak/Sileoinfo/dr4w.json
 Author: sugiuta
 
 Package: com.ndk.routeconfigurator
@@ -2157,13 +2157,13 @@ MD5sum: ab75bd7ad039b778aafcae808f2b8a06
 SHA1: a23ea97466e3544d33144aba69c612257e023ed4
 SHA256: b68271bcb0a39fca8441bd208d4dfd2c090dc9751deb84f412b1a0415140fa6d
 SHA512: ede8245d85dee43383d2457af03c7356261480464b613239dc919cd3914c3a2e1679de6ccc36894a1763b31817ce7ae9c26f34881d999113234f3c318ff9b0d5
-Homepage: https://ndk-jailbreak.github.io/info/routeconfigurator/?p=info
+Homepage: https://qilskcter.github.io/jailbreak/info/routeconfigurator/?p=info
 Description: Tuỳ chỉnh thiết bị âm thanh trong mỗi ứng dụng.
 Name: RouteConfigurator VN
 Author: Ginsu
 Icon: file:///Applications/Cydia.app/Sections/NDK-Tweaks.png
-Depiction: https://ndk-jailbreak.github.io/info/routeconfigurator/?p=info
-SileoDepiction: https://ndk-jailbreak.github.io/Sileoinfo/routexonfigurator.json
+Depiction: https://qilskcter.github.io/jailbreak/info/routeconfigurator/?p=info
+SileoDepiction: https://qilskcter.github.io/jailbreak/Sileoinfo/routexonfigurator.json
 
 
 
@@ -2180,14 +2180,14 @@ MD5sum: 8ce9874970bd078b88ea853390189c61
 SHA1: d04d2d29c8c20ded34a37b35c5e501dead2592d1
 SHA256: a2909408ebf4405d601a0e35b68a44e4206ed2a69d3b343be8231de887147648
 SHA512: 598afa887b5fbc85173c2dede593df3c7df9f89c30d14a16d430c1a67266bd5d9f3ea8b77343420deeb810e379fcf9ff18e66b8efe80b03e3bd8af757ea2bce7
-Homepage: https://ndk-jailbreak.github.io/info/translation/?p=info
+Homepage: https://qilskcter.github.io/jailbreak/info/translation/?p=info
 Description: Dịch văn bản được bôi đen nhanh hơn.
 Tag: purpose::extension
 Name: Translation
 Author: Sky - Pain <2398453359@qq.com>
 Icon: file:///Applications/Cydia.app/Sections/NDK-Tweaks.png
-Depiction: https://ndk-jailbreak.github.io/info/translation/?p=info
-SileoDepiction: https://ndk-jailbreak.github.io/Sileoinfo/translation.json
+Depiction: https://qilskcter.github.io/jailbreak/info/translation/?p=info
+SileoDepiction: https://qilskcter.github.io/jailbreak/Sileoinfo/translation.json
 
 
 
@@ -2204,13 +2204,13 @@ MD5sum: 079fec18da927b04a63c59cc02882431
 SHA1: 4e1b097720e439680e06eb1a9789004ad216983d
 SHA256: de07eb8666dfc7e7b30d04b602c2355d9f20709f911d5e53668b241402000910
 SHA512: a85f018b93800abffcfc613aa1cc503d3309d89cebedf6165b82a8c674c244cbbf620d39d1987fb9169153ae80d1790259f3ab9a0960f4febafa26ad368570b3
-Homepage: https://ndk-jailbreak.github.io/info/twig/?p=info
+Homepage: https://qilskcter.github.io/jailbreak/info/twig/?p=info
 Description: Thêm một số Thời tiết vào Màn hình khóa iPhone hoặc iPod Touch iOS 10 của bạn
 Name: Twig
 Author: iOS Creatix
 Icon: file:///Applications/Cydia.app/Sections/NDK-Tweaks.png
-Depiction: https://ndk-jailbreak.github.io/info/twig/?p=info
-SileoDepiction: https://ndk-jailbreak.github.io/Sileoinfo/twig.json
+Depiction: https://qilskcter.github.io/jailbreak/info/twig/?p=info
+SileoDepiction: https://qilskcter.github.io/jailbreak/Sileoinfo/twig.json
 
 
 
@@ -2228,12 +2228,12 @@ MD5sum: ba3df9a094fc774f277ca852546b3236
 SHA1: 52c4ff23e288653a6f48d65c2af368f28564e577
 SHA256: 63e9a23b547ba5dc90dea2047b6b4f655dcf0a34702993939bfd569a41d229cc
 SHA512: ceccbb23c730a1da185563a2887760c34afe102ceaf633b8da727fca1dfe28ee1689fa82988d19800d846d0dc65755189506296e678a3f98d36a05356109bd70
-Homepage: http://ndk-jailbreak.github.io/info/CarBridge/?p=info
+Homepage: http://qilskcter.github.io/jailbreak/info/CarBridge/?p=info
 Description: Mở bất kỳ ứng dụng nào trong CarPlay!
 Name: CarBridge VN
 Author: leftyfl1p <carbridgetweak@gmail.com>
-Depiction: http://ndk-jailbreak.github.io/info/CarBridge/?p=info
-SileoDepiction: http://ndk-jailbreak.github.io/Sileoinfo/CarBridge.json
+Depiction: http://qilskcter.github.io/jailbreak/info/CarBridge/?p=info
+SileoDepiction: http://qilskcter.github.io/jailbreak/Sileoinfo/CarBridge.json
 Icon: file:///Applications/Cydia.app/Sections/NDK-Tweaks.png
 
 
@@ -2251,14 +2251,14 @@ MD5sum: 89b890479f7b016823d8f17096cd93a1
 SHA1: aac42fe9c63aedf868b943178f7c437efe5e698c
 SHA256: 01345fb83b99ca23df979fe04bf9c9067a1dee714a0c7d26d1313fca9cfeffbb
 SHA512: 5c23d0931e201d9f9d3f89db9d3960631022ea44bd369b9ea8e0ca64280f624f0065c02701601fe54aaa1974a01980b4e6de648b1f7891c9e96ec541d4a5ebd1
-Homepage: https://ndk-jailbreak.github.io/info/tranzlo/?p=info
+Homepage: https://qilskcter.github.io/jailbreak/info/tranzlo/?p=info
 Description: Một tinh chỉnh dịch thuật cứu tinh cuộc sống.
 Tag: purpose::extension, compatible_min::ios13, compatible_max::ios14
 Name: Tranzlo
 Author: MiRO <tweaks_support@miro92.com>
 Icon: file:///Applications/Cydia.app/Sections/NDK-Tweaks.png
-Depiction: https://ndk-jailbreak.github.io/info/tranzlo/?p=info
-SileoDepiction: https://ndk-jailbreak.github.io/Sileoinfo/tranzlo.json
+Depiction: https://qilskcter.github.io/jailbreak/info/tranzlo/?p=info
+SileoDepiction: https://qilskcter.github.io/jailbreak/Sileoinfo/tranzlo.json
 
 Package: com.ndk.tranzlo
 Architecture: iphoneos-arm
@@ -2273,14 +2273,14 @@ MD5sum: f80cfcfcf9c519fdcd8afa3f5f07ac5c
 SHA1: 7252d162ecc2ba02a03e448a87ea729f9cc91430
 SHA256: ab8d5f885a9053de87753bf51f5524b62c92847a872d8be4c2ba563c87334d68
 SHA512: 11ce072654a661b1489cb4ed7c791ce199a7471542c9556a990371aa53c6609b8268e770112aed6ce4a97592aa84d1d1afdb2b0989aed81bcbe306a65347795b
-Homepage: https://ndk-jailbreak.github.io/info/tranzlo/?p=info
+Homepage: https://qilskcter.github.io/jailbreak/info/tranzlo/?p=info
 Description: Một tinh chỉnh dịch thuật cứu tinh cuộc sống.
 Tag: purpose::extension, compatible_min::ios13, compatible_max::ios14
 Name: Tranzlo
 Author: MiRO <tweaks_support@miro92.com>
 Icon: file:///Applications/Cydia.app/Sections/NDK-Tweaks.png
-Depiction: https://ndk-jailbreak.github.io/info/tranzlo/?p=info
-SileoDepiction: https://ndk-jailbreak.github.io/Sileoinfo/tranzlo.json
+Depiction: https://qilskcter.github.io/jailbreak/info/tranzlo/?p=info
+SileoDepiction: https://qilskcter.github.io/jailbreak/Sileoinfo/tranzlo.json
 
 
 
@@ -2297,14 +2297,14 @@ MD5sum: c4ffbd3b765501397db7e386af74291d
 SHA1: 45b66768a3cbc4e8d7ad27639dd1945e66bb9624
 SHA256: 8456a11ff6f785a236ef2daa7c3c7c9c9d13a169fc03f599625d531bb8e00a4c
 SHA512: 6f888d20c3139766619b625773f081abaa3abd1b88d3e6aa391d10e4bceea55f06a1d8cbbff894d5007f57913fcedf092d9d04c5ee943e11b53cc9ed682df6b5
-Homepage: https://ndk-jailbreak.github.io/info/tranzlo/?p=info
+Homepage: https://qilskcter.github.io/jailbreak/info/tranzlo/?p=info
 Description: Một tinh chỉnh dịch thuật cứu tinh cuộc sống.
 Tag: purpose::extension, compatible_min::ios13, compatible_max::ios14
 Name: Tranzlo
 Author: MiRO <tweaks_support@miro92.com>
 Icon: file:///Applications/Cydia.app/Sections/NDK-Tweaks.png
-Depiction: https://ndk-jailbreak.github.io/info/tranzlo/?p=info
-SileoDepiction: https://ndk-jailbreak.github.io/Sileoinfo/tranzlo.json
+Depiction: https://qilskcter.github.io/jailbreak/info/tranzlo/?p=info
+SileoDepiction: https://qilskcter.github.io/jailbreak/Sileoinfo/tranzlo.json
 
 Package: com.ndk.tranzlo
 Architecture: iphoneos-arm
@@ -2319,14 +2319,14 @@ MD5sum: 54ee4a29c9eb0deebeb08685c3ca187b
 SHA1: f018dfde0c4560fe3f9b77db35d9404c60bb01d2
 SHA256: 3a1e18eb4ffcf3ed44874c820bd3593f7a944e926d2cbe1cac1813d2503e41fd
 SHA512: 4b815e6952e40d6559333a4288767ace1b3ba3f3f3b02f78c29abade4d0c3206a563749bb4d3ebadab29c06e607dd456b261cfd8e47ed7dea36703a34b7c7726
-Homepage: https://ndk-jailbreak.github.io/info/tranzlo/?p=info
+Homepage: https://qilskcter.github.io/jailbreak/info/tranzlo/?p=info
 Description: Một tinh chỉnh dịch thuật cứu tinh cuộc sống.
 Tag: purpose::extension, compatible_min::ios13, compatible_max::ios14
 Name: Tranzlo
 Author: MiRO <tweaks_support@miro92.com>
 Icon: file:///Applications/Cydia.app/Sections/NDK-Tweaks.png
-Depiction: https://ndk-jailbreak.github.io/info/tranzlo/?p=info
-SileoDepiction: https://ndk-jailbreak.github.io/Sileoinfo/tranzlo.json
+Depiction: https://qilskcter.github.io/jailbreak/info/tranzlo/?p=info
+SileoDepiction: https://qilskcter.github.io/jailbreak/Sileoinfo/tranzlo.json
 
 Package: com.ndk.tranzlo
 Architecture: iphoneos-arm
@@ -2341,14 +2341,14 @@ MD5sum: e4710cdf1e5ac52438a84d495360e769
 SHA1: 711b1dad40b0575beebdfea41246d2a7d1e08f72
 SHA256: c46d9f5c50d0419f1330b9fd2a3770dd196ff9d72f5121ba02d0c280b4eb5a12
 SHA512: 8c44f6a0a6ec4fb9221c8e28fb4acca658f55bce6452c44f834fc208f7b7867420755cb4759550e86db35fc4834a4e965dd089f8a424e523d04ec641af099da1
-Homepage: https://ndk-jailbreak.github.io/info/tranzlo/?p=info
+Homepage: https://qilskcter.github.io/jailbreak/info/tranzlo/?p=info
 Description: Một tinh chỉnh dịch thuật cứu tinh cuộc sống.
 Tag: purpose::extension, compatible_min::ios13, compatible_max::ios14
 Name: Tranzlo
 Author: MiRO <tweaks_support@miro92.com>
 Icon: file:///Applications/Cydia.app/Sections/NDK-Tweaks.png
-Depiction: https://ndk-jailbreak.github.io/info/tranzlo/?p=info
-SileoDepiction: https://ndk-jailbreak.github.io/Sileoinfo/tranzlo.json
+Depiction: https://qilskcter.github.io/jailbreak/info/tranzlo/?p=info
+SileoDepiction: https://qilskcter.github.io/jailbreak/Sileoinfo/tranzlo.json
 
 Package: com.ndk.tranzlo
 Architecture: iphoneos-arm
@@ -2363,14 +2363,14 @@ MD5sum: f02495a58a9e23d43a96827da102fc3f
 SHA1: 9a2dd372cb2f42f7ae2b3b7b78b0a698296e7550
 SHA256: b98a5038dffd96338d7653637f4d775ebf9db0a7d03499ae98c0cf824a3bdc2c
 SHA512: 8e1391e6720f2299bdffe8df44e03f70dc0f5ca9ca9d009822e51f2f5995321e20efa67a0cf67bda7cf95a75c2446c6b4d07ee5d3ea772fded51ff432f395c79
-Homepage: https://ndk-jailbreak.github.io/info/tranzlo/?p=info
+Homepage: https://qilskcter.github.io/jailbreak/info/tranzlo/?p=info
 Description: Một tinh chỉnh dịch thuật cứu tinh cuộc sống.
 Tag: purpose::extension, compatible_min::ios13, compatible_max::ios14
 Name: Tranzlo
 Author: MiRO <tweaks_support@miro92.com>
 Icon: file:///Applications/Cydia.app/Sections/NDK-Tweaks.png
-Depiction: https://ndk-jailbreak.github.io/info/tranzlo/?p=info
-SileoDepiction: https://ndk-jailbreak.github.io/Sileoinfo/tranzlo.json
+Depiction: https://qilskcter.github.io/jailbreak/info/tranzlo/?p=info
+SileoDepiction: https://qilskcter.github.io/jailbreak/Sileoinfo/tranzlo.json
 
 Package: com.ndk.tranzlo
 Architecture: iphoneos-arm
@@ -2385,14 +2385,14 @@ MD5sum: 4518916165d8c666c96774b6e7ce89a1
 SHA1: 24fa4cbdd010a2974870aa59a3ec9bb5399a4d6c
 SHA256: 43b67da0e41905be9234dab3c6ad6aa38b53cb5497fcaa2c75aff7adf7f1030b
 SHA512: f47056cbc80cec6d4fe2e20ca9de046d759d2264b5c0eedfc5dbe2190b996bee5e50d8f63824fd599fa858c173a1c181507587aa1748059fb589961a2ca880d4
-Homepage: https://ndk-jailbreak.github.io/info/tranzlo/?p=info
+Homepage: https://qilskcter.github.io/jailbreak/info/tranzlo/?p=info
 Description: Một tinh chỉnh dịch thuật cứu tinh cuộc sống.
 Tag: purpose::extension, compatible_min::ios13, compatible_max::ios14
 Name: Tranzlo
 Author: MiRO <tweaks_support@miro92.com>
 Icon: file:///Applications/Cydia.app/Sections/NDK-Tweaks.png
-Depiction: https://ndk-jailbreak.github.io/info/tranzlo/?p=info
-SileoDepiction: https://ndk-jailbreak.github.io/Sileoinfo/tranzlo.json
+Depiction: https://qilskcter.github.io/jailbreak/info/tranzlo/?p=info
+SileoDepiction: https://qilskcter.github.io/jailbreak/Sileoinfo/tranzlo.json
 
 Package: com.ndk.tranzlo
 Architecture: iphoneos-arm
@@ -2407,14 +2407,14 @@ MD5sum: 95b90e7e407ffd283d88ceb574ec6ecd
 SHA1: a28280357cc6bc626aeae6f93c8cb60754fc70bf
 SHA256: 8a3cda2d49758a703a1f624385f31dbc06b32617215c5c82a3cd10e610030ad1
 SHA512: f374df4281bcf4a99012053e65967085474801095465dec71d084502b2559b694a02b7d6558feaa48ff45193043442d969418b76a29a05ed3dc54769bba698bc
-Homepage: https://ndk-jailbreak.github.io/info/tranzlo/?p=info
+Homepage: https://qilskcter.github.io/jailbreak/info/tranzlo/?p=info
 Description: Một tinh chỉnh dịch thuật cứu tinh cuộc sống.
 Tag: purpose::extension, compatible_min::ios13, compatible_max::ios14
 Name: Tranzlo
 Author: MiRO <tweaks_support@miro92.com>
 Icon: file:///Applications/Cydia.app/Sections/NDK-Tweaks.png
-Depiction: https://ndk-jailbreak.github.io/info/tranzlo/?p=info
-SileoDepiction: https://ndk-jailbreak.github.io/Sileoinfo/tranzlo.json
+Depiction: https://qilskcter.github.io/jailbreak/info/tranzlo/?p=info
+SileoDepiction: https://qilskcter.github.io/jailbreak/Sileoinfo/tranzlo.json
 
 
 
@@ -2431,12 +2431,12 @@ MD5sum: 96617cda5f7b709df336ef042589a3f6
 SHA1: d1ae820dc0aa325209a8bae59e9d2a5a34e895f2
 SHA256: 49bbeb76b06eedc78f34cec91759779c65b067c2588e3a7afe5bbbf8ff505680
 SHA512: 4e8a18d623ea1616ea0ea10c842007aec3d600553a60e74b417988cf27b9aaba180885d3036bf3beea5c2b91b54b83e1ecc840da60a4c7db0bc8b2e5210bbe7d
-Homepage: http://ndk-jailbreak.github.io/info/safarinoappbanner/?p=info
+Homepage: http://qilskcter.github.io/jailbreak/info/safarinoappbanner/?p=info
 Description: Loại bỏ các biểu ngữ ứng dụng trong Safari.
 Name: SafariNoAppBanner VN
 Author: Ginsu
-Depiction: http://ndk-jailbreak.github.io/info/safarinoappbanner/?p=info
-SileoDepiction: http://ndk-jailbreak.github.io/Sileoinfo/safarinoappbanner.json
+Depiction: http://qilskcter.github.io/jailbreak/info/safarinoappbanner/?p=info
+SileoDepiction: http://qilskcter.github.io/jailbreak/Sileoinfo/safarinoappbanner.json
 Icon: file:///Applications/Cydia.app/Sections/NDK-Tweaks.png
 
 
@@ -2455,14 +2455,14 @@ MD5sum: 72245b6432a9caeafcd9660deb811ee2
 SHA1: 93438f9f5c90ea9460d454b6518b9c4dd73ab766
 SHA256: 0c82a0c8b2829ff9645ffd5aef55a7ccdbfb1854fe3bb53e7f4908820535e6d7
 SHA512: 4000e1e4ecc403625afc390972c9917e765d0259f5e85bf69706e1b73f2e62fc266d686e45164efb82f273daee88d886aa4a46754bcc43fe769c7db25616b08c
-Homepage: https://ndk-jailbreak.github.io/info/iconcert/?p=info
+Homepage: https://qilskcter.github.io/jailbreak/info/iconcert/?p=info
 Description: Hiện ngày hết hạn trong ứng dụng JB
 Tag: purpose::extension, compatible::ios10
 Name: IconCert
 Author: faz <fazilnc8@gmail.com>
 dev: fazilnc8
 Icon: file:///Applications/Cydia.app/Sections/NDK-Tweaks.png
-Depiction: https://ndk-jailbreak.github.io/info/iconcert/?p=info
+Depiction: https://qilskcter.github.io/jailbreak/info/iconcert/?p=info
 SileoDepiction: https://ongcenh.github.io/Sileoinfo/iconcert.json
 
 
@@ -2999,14 +2999,14 @@ MD5sum: 8909e80152290704998d8e88f6bc6dcb
 SHA1: 14c27598289c3525d702c44bcaa902103e2e6297
 SHA256: 7724e34850f8f9f0a622578f6ad004ff3e1cf1ce57c681d1830f4a86571c22d3
 SHA512: 45445f26c6714c38dd033f128083cddce65bae7c139cbc64bcd44fa3e50565bf0f13624bc24cf74ca45d1d0b47051fb066f6ee780bdf4d0b57c891ba9609081e
-Homepage: https://ndk-jailbreak.github.io/info/SmartDND/?p=info
+Homepage: https://qilskcter.github.io/jailbreak/info/SmartDND/?p=info
 Description: Chế độ không làm phiền của iOS 15 và hơn nữa.​
 Name: SmartDND
 Author: Elias Sfeir
 Icon: file:///Applications/Cydia.app/Sections/NDK-Tweaks.png
-Website: https://ndk-jailbreak.github.io/info/SmartDND/?p=info
-Depiction: https://ndk-jailbreak.github.io/info/SmartDND/?p=info
-SileoDepiction: https://ndk-jailbreak.github.io/Sileoinfo/SmartDND.json
+Website: https://qilskcter.github.io/jailbreak/info/SmartDND/?p=info
+Depiction: https://qilskcter.github.io/jailbreak/info/SmartDND/?p=info
+SileoDepiction: https://qilskcter.github.io/jailbreak/Sileoinfo/SmartDND.json
 
 Package: com.ndk.pockettranslator
 Architecture: iphoneos-arm
@@ -3021,13 +3021,13 @@ MD5sum: 528616c952568ca3d2b48969d61df254
 SHA1: 009bd250012ae818f63f8ea7dbf2dcf3106c785f
 SHA256: 13ee58625576c5353379dc5ab1e14b96a6d047d4e2308e08c009a76b5df357fc
 SHA512: 769c6c2a21212e4c40232a9b02f7c3b20c7fa3fa3d16aa8a189b4e2f790d9cceea35e6513b0f10461aaecab2acf89a38295a4443d40734732f3521c33d9dcf1f
-Homepage: https://ndk-jailbreak.github.io/info/pockettranslator/?p=info
+Homepage: https://qilskcter.github.io/jailbreak/info/pockettranslator/?p=info
 Description: Trình dịch văn bản nhẹ trên iOS
 Name: Pocket Translator
 Author: Ginsu
 Icon: file:///Applications/Cydia.app/Sections/NDK-Tweaks.png
-Depiction: https://ndk-jailbreak.github.io/info/pockettranslator/?p=info
-SileoDepiction: https://ndk-jailbreak.github.io/Sileoinfo/pockettranslator.json
+Depiction: https://qilskcter.github.io/jailbreak/info/pockettranslator/?p=info
+SileoDepiction: https://qilskcter.github.io/jailbreak/Sileoinfo/pockettranslator.json
 
 Package: com.ndk.pockettranslator
 Architecture: iphoneos-arm
@@ -3042,13 +3042,13 @@ MD5sum: 69d0312c332556663c7b9c3772180d7c
 SHA1: 31c330f8a907d502664ef3a37f670a759279bccb
 SHA256: f27d734c79a8c686addd9732c5c7f410d37fce839e9924f1daf0af9da13f707f
 SHA512: 077fdb70224a23d614c562b13c14f1dd77cca02e9a3aa69181fbf2691b5b96800fa68f7b519b0f081fde840fc5afcddbd8ee62466f1ccbacabfee33b0af9934a
-Homepage: https://ndk-jailbreak.github.io/info/pockettranslator/?p=info
+Homepage: https://qilskcter.github.io/jailbreak/info/pockettranslator/?p=info
 Description: Dịch văn bản nhẹ trên iOS
 Name: Pocket Translator
 Author: Ginsu
 Icon: file:///Applications/Cydia.app/Sections/NDK-Tweaks.png
-Depiction: https://ndk-jailbreak.github.io/info/pockettranslator/?p=info
-SileoDepiction: https://ndk-jailbreak.github.io/Sileoinfo/pockettranslator.json
+Depiction: https://qilskcter.github.io/jailbreak/info/pockettranslator/?p=info
+SileoDepiction: https://qilskcter.github.io/jailbreak/Sileoinfo/pockettranslator.json
 
 Package: com.ndk.pockettranslator
 Architecture: iphoneos-arm
@@ -3063,13 +3063,13 @@ MD5sum: 02bca89ec524004b0e53aaa9f8f3805b
 SHA1: c724e2601a7bcefe140a31999c35c517d10c8d6e
 SHA256: 293ab8f426511976bfc361e91b7556f69ed405edda89a6d5f16e469c2a6c0e68
 SHA512: fe6afe70e6336950206c8f73a4820fcc06ae50954624cd79a8b1142c039d93cc836d16b786042765ff4996f3321423bf8a272ff4fdfb1e8fc90c3077295fc183
-Homepage: https://ndk-jailbreak.github.io/info/pockettranslator/?p=info
+Homepage: https://qilskcter.github.io/jailbreak/info/pockettranslator/?p=info
 Description: Dịch văn bản nhẹ trên iOS
 Name: Pocket Translator
 Author: Ginsu
 Icon: file:///Applications/Cydia.app/Sections/NDK-Tweaks.png
-Depiction: https://ndk-jailbreak.github.io/info/pockettranslator/?p=info
-SileoDepiction: https://ndk-jailbreak.github.io/Sileoinfo/pockettranslator.json
+Depiction: https://qilskcter.github.io/jailbreak/info/pockettranslator/?p=info
+SileoDepiction: https://qilskcter.github.io/jailbreak/Sileoinfo/pockettranslator.json
 
 
 
@@ -3087,13 +3087,13 @@ MD5sum: eeaee7f9456ad0246dbb4bb7fd8e959a
 SHA1: fe015bcec8c415cffc072b64948e4d0b4ecfa51e
 SHA256: e1bcceb17375a16e63825ab2d45c4b9216a1b827360c671de4a2b6e893236279
 SHA512: 672f2b10b0bdfb1dd6d169b4c50525b4250f5be22a17b962e05bdec2650216023144a1069ea6bfe85bbb0b5238a53c4290dafcedebeb4836e89fac812131357c
-Homepage: https://ndk-jailbreak.github.io/info/doublerecents/?p=info
+Homepage: https://qilskcter.github.io/jailbreak/info/doublerecents/?p=info
 Description: Hiển thị thêm 100 - 200 liên hệ ở nhật ký của điện thoại.
 Tag: purpose::extension, compatible_min::ios13, compatible_max::ios14
 Name: DoubleRecents
 Author: MiRO <tweaks_support@miro92.com>
-Depiction: https://ndk-jailbreak.github.io/info/doublerecents/?p=info
-SileoDepiction: https://ndk-jailbreak.github.io/Sileoinfo/doublerecents.json
+Depiction: https://qilskcter.github.io/jailbreak/info/doublerecents/?p=info
+SileoDepiction: https://qilskcter.github.io/jailbreak/Sileoinfo/doublerecents.json
 Icon: file:///Applications/Cydia.app/Sections/NDK-Tweaks.png
 
 Package: com.ndk.semirestore
@@ -3107,7 +3107,7 @@ MD5sum: fca8d4e47082f3dcd41809be02e81d59
 SHA1: 25527af4cfaaf5b57b692dd829c36aefc052a918
 SHA256: 2719434ab8bb74fafcb4f5d388eadfa622e800bfe6a4ae93c6af3ff89a7f10f1
 SHA512: 5bcfe2d79d9e4b088257a156bfe5c17e5d74e169cdc6670ede6bde172c51badfd0126a265b2a04428696d2c6070acdc28de0616c5580e686cec99b2cd77cdf9c
-Homepage: http://ndk-jailbreak.github.io/info/SemiRestore/?p=info
+Homepage: http://qilskcter.github.io/jailbreak/info/SemiRestore/?p=info
 Description: Công cụ gỡ jailbreak sạch 100%
  - Hỗ trợ tất cả các thiết bị từ iOS 11.3 tới iOS 14.7
  - Chạy ứng dụng này sẽ xoá sạch 100% tất cả dữ liệu và khôi phục lại máy về như lúc xuất xưởng
@@ -3120,8 +3120,8 @@ Description: Công cụ gỡ jailbreak sạch 100%
  - Ủng hộ tôi để phát triển mạnh hơn 👌
 Name: SemiRestore 11-14
 Author: Pwn20wnd
-Depiction: http://ndk-jailbreak.github.io/info/SemiRestore/?p=info
-SileoDepiction: http://ndk-jailbreak.github.io/Sileoinfo/SemiRestore.json
+Depiction: http://qilskcter.github.io/jailbreak/info/SemiRestore/?p=info
+SileoDepiction: http://qilskcter.github.io/jailbreak/Sileoinfo/SemiRestore.json
 Icon: file:///Applications/Rollectra.app/AppIcon20x20@3x.png
 
 Package: com.ndk.successionrestore
@@ -3161,13 +3161,13 @@ MD5sum: 878d2c7f2e68e6d3903142bf1d310ac1
 SHA1: 14735a1312241ac4521c50079dcc1ba1a89b940d
 SHA256: 6118c8b174faa0411d37eca0a80274e7753039dc2dcee1f9b64c569ec83c425b
 SHA512: abdcfba8bdf661f55d4ddc50b980b978dc4c359c5e1b8d5c05e7587d3dbbcaaad420b66095ad9eb0540f41cd7e929a9e5e027959583972c41cac666e925928bc
-Homepage: https://ndk-jailbreak.github.io/info/13HUD/?p=info
+Homepage: https://qilskcter.github.io/jailbreak/info/13HUD/?p=info
 Description: Thanh điều chỉnh âm lượng của iOS 13 cho iOS 11, 12
 Name: 13HUD VN
 Author: Muirey03
 Icon: file:///Applications/Cydia.app/Sections/NDK-Tweaks.png
-Depiction: https://ndk-jailbreak.github.io/info/13HUD/?p=info
-SileoDepiction: https://ndk-jailbreak.github.io/Sileoinfo/13HUD.json
+Depiction: https://qilskcter.github.io/jailbreak/info/13HUD/?p=info
+SileoDepiction: https://qilskcter.github.io/jailbreak/Sileoinfo/13HUD.json
 
 
 
@@ -3185,13 +3185,13 @@ MD5sum: f26552bec9befca1ada27b7894f4d01d
 SHA1: 58d74f69b52f29cbdb5cfc02339706fd18b51f2d
 SHA256: ad0f42d3dfae1bb98de87944c9d4505efa957817cd0e3556aa11d9adc21ffa7b
 SHA512: 558bdf693c46a6c69f713f8c50b4da898244ba6726eeed2d456c4bd4c59c032c0ffe9a4c6a6800f85c82fd307951bbfb43d056c9681385fc9b52da8c63676bb4
-Homepage: https://ndk-jailbreak.github.io/info/ninels/?p=info
+Homepage: https://qilskcter.github.io/jailbreak/info/ninels/?p=info
 Description: Bring back the iOS 9 Lock Screen!
 Name: NineLS
 Author: MinhTon <ford.tonthat@gmail.com>
 Icon: file:///Applications/Cydia.app/Sections/NDK-Tweaks.png
-Depiction: https://ndk-jailbreak.github.io/info/ninels/?p=info
-SileoDepiction: https://ndk-jailbreak.github.io/Sileoinfo/ninels.json
+Depiction: https://qilskcter.github.io/jailbreak/info/ninels/?p=info
+SileoDepiction: https://qilskcter.github.io/jailbreak/Sileoinfo/ninels.json
 
 Package: com.ndk.ninemusic
 Architecture: iphoneos-arm
@@ -3207,13 +3207,13 @@ MD5sum: a6b83f92bd69538eac3f17476cab631b
 SHA1: c099157db49ef97bb33201d11d068cdac7080185
 SHA256: faf0646c9595b854913916be9bafc836832268ffa1e053c7cb0b36d581b393f4
 SHA512: c2941b843dbf15d498c8678444a9c82cd5d108374bd3a6b47b64101cf9cf6ffa6ed0f58d9cf035a433a2d4acc228562d340c9b3989b17116e9fb2b4aec13f696
-Homepage: https://ndk-jailbreak.github.io/info/ninemusic/?p=info
+Homepage: https://qilskcter.github.io/jailbreak/info/ninemusic/?p=info
 Description: iOS 9 Lockscreen Music Player!
 Name: NineMusic
 Author: MinhTon <ford.tonthat@gmail.com>
-Depiction: https://ndk-jailbreak.github.io/info/ninemusic/?p=info
+Depiction: https://qilskcter.github.io/jailbreak/info/ninemusic/?p=info
 Icon: file:///Applications/Cydia.app/Sections/NDK-Tweaks.png
-SileoDepiction: https://ndk-jailbreak.github.io/Sileoinfo/ninemusic.json
+SileoDepiction: https://qilskcter.github.io/jailbreak/Sileoinfo/ninemusic.json
 
 Package: com.ndk.nineunlock
 Architecture: iphoneos-arm
@@ -3228,13 +3228,13 @@ MD5sum: c84e2c2613d95bc73eef613bb2d8ea74
 SHA1: 526f2f492ef33a85da51616be8a84dec2dec85aa
 SHA256: f8404a6e821bbc319392d458322adf460bc3997ec9d1a8252c26a3cc2a20fdc8
 SHA512: 3948dd9839e8426c21479b4a1bb380abaedea7ce75424fdb71625a5f403c886a52f6ee4e4d6aaaa5b3820f1098b91b61dc021589f7b298be0192792e95dd2561
-Homepage: https://ndk-jailbreak.github.io/info/nineunlock/?p=info
+Homepage: https://qilskcter.github.io/jailbreak/info/nineunlock/?p=info
 Description: Bring back the iOS 9 style "Slide To Unlock" to iOS 13!
 Name: NineUnlock
 Author: MinhTon <ford.tonthat@gmail.com>
-Depiction: https://ndk-jailbreak.github.io/info/nineunlock/?p=info
+Depiction: https://qilskcter.github.io/jailbreak/info/nineunlock/?p=info
 Icon: file:///Applications/Cydia.app/Sections/NDK-Tweaks.png
-SileoDepiction: https://ndk-jailbreak.github.io/Sileoinfo/nineunlock.json
+SileoDepiction: https://qilskcter.github.io/jailbreak/Sileoinfo/nineunlock.json
 
 
 
@@ -3290,14 +3290,14 @@ MD5sum: b96d3c0fb424bbc76fcac658119dcd17
 SHA1: 4f5f7fb0d127ee553ef63d9e5d37168605a607e9
 SHA256: 93c660624d925c51c4d0882d2cdcaee06e3a13064f51459ae37ade49ee7af306
 SHA512: f1f2454a777b9fdf35bc9dce13500fb9398ec64b96ca5d6f5a38fd3c06cbc9a051a73feab7933b8483d5fd95474f11049f530e9b79731d4a585a19edffba3088
-Homepage: https://ndk-jailbreak.github.io/Debinfo/dockls/?p=info
+Homepage: https://qilskcter.github.io/jailbreak/Debinfo/dockls/?p=info
 Description: Gắn Dock vào màn hình khóa của bạn!
 Name: DockLS
 Author: Ginsu
 Icon: file:///Applications/Cydia.app/Sections/NDK-Tweaks.png
 Website: https://ndk-jailbreal.github.io/info/dockls/?p=info
-Depiction: https://ndk-jailbreak.github.io/info/dockls/?p=info
-SileoDepiction: https://ndk-jailbreak.github.io/Sileoinfo/dockls.json
+Depiction: https://qilskcter.github.io/jailbreak/info/dockls/?p=info
+SileoDepiction: https://qilskcter.github.io/jailbreak/Sileoinfo/dockls.json
 
 
 
@@ -3314,13 +3314,13 @@ MD5sum: d5357ae8113717d15d8a6b49c2c69fd0
 SHA1: 78211db3b5e7ea7cd6758a904ee967cb787d493d
 SHA256: 67be702ab7e57f8b7a3141dfe901022c1eebbaee03b35816c83a29ea65491461
 SHA512: b0f82fde06e01bf292ca60504d51eb66c85bc79726b9e7c0fa276621b2d7f0936e4106f25f6692da32d7e0ea9d89eb0c017e06c7ec15f3035ef0cdb4cce0c7a5
-Homepage: https://ndk-jailbreak.github.io/info/callassistbar/?p=info
+Homepage: https://qilskcter.github.io/jailbreak/info/callassistbar/?p=info
 Description: Simple call do not disturb windowing plugin. The game will not be interrupted!
 Name: CallAssistBar
 Author: nqt1195
 Icon: file:///Applications/Cydia.app/Sections/NDK-Tweaks.png
-Depiction: https://ndk-jailbreak.github.io/info/callassistbar/?p=info
-SileoDepiction: https://ndk-jailbreak.github.io/Sileoinfo/callassistbar.json
+Depiction: https://qilskcter.github.io/jailbreak/info/callassistbar/?p=info
+SileoDepiction: https://qilskcter.github.io/jailbreak/Sileoinfo/callassistbar.json
 
 Package: com.ndk.13hudvn
 Architecture: iphoneos-arm
@@ -3336,13 +3336,13 @@ MD5sum: 38e9e7c26dbab29fa38b784f072bcdab
 SHA1: 7ec9d3e4ba2c1ab3d7ec3f97a26645eabb400d9e
 SHA256: d76873d6c831ddea65d656f4c10deca8e5710787f0fcbcefa671b954f997a7bc
 SHA512: 310391a1fecd63abc0593e42cd4163ddea777d7f546169d7678af8951421b669e0232197c52709e9f4b118564f2d8d0857db4c4bb11f899c85d23a289bce05ac
-Homepage: https://ndk-jailbreak.github.io/info/13HUD/?p=info
+Homepage: https://qilskcter.github.io/jailbreak/info/13HUD/?p=info
 Description: Thanh điều chỉnh âm lượng của iOS 13 cho iOS 11, 12
 Name: 13HUD VN
 Author: Muirey03
 Icon: file:///Applications/Cydia.app/Sections/NDK-Tweaks.png
-Depiction: https://ndk-jailbreak.github.io/info/13HUD/?p=info
-SileoDepiction: https://ndk-jailbreak.github.io/Sileoinfo/13HUD.json
+Depiction: https://qilskcter.github.io/jailbreak/info/13HUD/?p=info
+SileoDepiction: https://qilskcter.github.io/jailbreak/Sileoinfo/13HUD.json
 
 Package: com.ndk.8ballhack
 Architecture: iphoneos-arm
@@ -3373,13 +3373,13 @@ MD5sum: 3d358b709a76555223ebd45398719ca5
 SHA1: cd61607a6e0f614479bfea0e79d62464fb850f4f
 SHA256: 995ec7005675bae35e9a08144e5053ce9ee1c2a46080ca2474149924d3f455aa
 SHA512: 510b69f174b087120bba8520adce89ce96c40d5ff9096ebf7c165801b01ae1f03fd8cb97eb657aab314d7f2503211c5549ed5d68d9b316af7bc2911e301e598c
-Homepage: https://ndk-jailbreak.github.io/info/AsistiveTouchX/?p=info
+Homepage: https://qilskcter.github.io/jailbreak/info/AsistiveTouchX/?p=info
 Description: Nút Home Iphone X
 Name: AssistiveTouchX
 Author: @ongcenh
 Icon: file:///Applications/Cydia.app/Sections/NDK-Car.png
-Depiction: https://ndk-jailbreak.github.io/info/AsistiveTouchX/?p=info
-SileoDepiction: https://ndk-jailbreak.github.io/Sileoinfo/AsistiveTouchX.json
+Depiction: https://qilskcter.github.io/jailbreak/info/AsistiveTouchX/?p=info
+SileoDepiction: https://qilskcter.github.io/jailbreak/Sileoinfo/AsistiveTouchX.json
 
 Package: com.ndk.AssistiveTouch1
 Architecture: iphoneos-arm
@@ -3392,13 +3392,13 @@ MD5sum: c837df32f9af90cba6e7a7426310d0ff
 SHA1: 43abb453b46591640151069b830578a62b90460e
 SHA256: 89868f41ecf6554c0c1a34651b15c558cfdefd0f025fcc230e0760f01fd59bce
 SHA512: 23d0d25e753168e5e95d04924ef97e62841d38ee5d1bcbcac609c916eebfd6ab48938759be15fca9d28172209134ea8fc545949f3033ba61ee0fd17a589f563a
-Homepage: https://ndk-jailbreak.github.io/info/AssistiveTouch1/?p=info
+Homepage: https://qilskcter.github.io/jailbreak/info/AssistiveTouch1/?p=info
 Description: Thay đổi hình dạng AssistiveTouch
 Name: AssistiveTouch || 1
 Author: @ongcenh <anhminh311105@gmail.com>
 Icon: file:///Applications/Cydia.app/Sections/NDK-Car.png
-Depiction: https://ndk-jailbreak.github.io/info/AssistiveTouch1/?p=info
-SileoDepiction: https://ndk-jailbreak.github.io/Sileoinfo/AsistiveTouch1.json
+Depiction: https://qilskcter.github.io/jailbreak/info/AssistiveTouch1/?p=info
+SileoDepiction: https://qilskcter.github.io/jailbreak/Sileoinfo/AsistiveTouch1.json
 
 Package: com.ndk.AssistiveTouch2
 Architecture: iphoneos-arm
@@ -3411,13 +3411,13 @@ MD5sum: 5309d05b2a5a506fcc1a82ae3f8a1483
 SHA1: 42d693aa17ee792eca84ae2aaf59455654052f6d
 SHA256: 091d850f8e5889c02c8b6de9960fa22a1e1b5fd051c0f0869c2cdcf57e586d59
 SHA512: 41b42e05c6369653e5034435a0fa2720b8a0195bb9423b1aaab900b50a24675aac08f33d4908a9de464d05d1168d982da7be7a7a383355bbce5d57f00ac57241
-Homepage: https://ndk-jailbreak.github.io/info/AssistiveTouch2/?p=info
+Homepage: https://qilskcter.github.io/jailbreak/info/AssistiveTouch2/?p=info
 Description: Thay đổi hình dạng cho AssistiveTouch
 Name: AssistiveTouch || 2
 Author: @ongcenh <anhminh311105@gmail.com>
 Icon: file:///Applications/Cydia.app/Sections/NDK-Car.png
-Depiction: https://ndk-jailbreak.github.io/info/AssistiveTouch2/?p=info
-SileoDepiction: https://ndk-jailbreak.github.io/Sileoinfo/AssistiveTouch2.json
+Depiction: https://qilskcter.github.io/jailbreak/info/AssistiveTouch2/?p=info
+SileoDepiction: https://qilskcter.github.io/jailbreak/Sileoinfo/AssistiveTouch2.json
 
 Package: com.ndk.JanTTP
 Architecture: iphoneos-arm
@@ -3464,13 +3464,13 @@ MD5sum: b8a0b53bd8f158f548c84483750575f1
 SHA1: 797adcd7605e4ab69c78a70dcc4851a269c75dc0
 SHA256: 01ffd85a50f05e22d9fd6fc1f7ac37d040dee34c708f4b636c395af1b05bcb40
 SHA512: b826048eb9d1c8c3d51b1372742511814ba76b3a7e1fd829524cfd6e9bae3f9e28a57faa5bb7d663f77c54a2e22f6df81e4dede11bbe66f0fb1fe82b91212760
-Homepage: https://ndk-jailbreak.github.io/info/Mado/?p=info
+Homepage: https://qilskcter.github.io/jailbreak/info/Mado/?p=info
 Description: LS Cho XenHTML
 Name: Mado VN
 Author: Andrew69, KhanhNDK
 Icon: file:///Applications/Cydia.app/Sections/NDK-Widgets.png
-Depiction: https://ndk-jailbreak.github.io/info/Mado/?p=info
-SileoDepiction: https://ndk-jailbreak.github.io/Sileoinfo/Mado.json
+Depiction: https://qilskcter.github.io/jailbreak/info/Mado/?p=info
+SileoDepiction: https://qilskcter.github.io/jailbreak/Sileoinfo/Mado.json
 
 Package: com.ndk.TTP1508
 Architecture: iphoneos-arm
@@ -3513,13 +3513,13 @@ MD5sum: 2f08b6d4b62240a4895e99a66970f633
 SHA1: 3ce4aabe543a0ea96bae22fb3f446641d7177f7f
 SHA256: 1a425247789377680e0a64a3a80191f6c9d87ceeb83f8d89c2278ace129e03dd
 SHA512: 7565dd1bbcfc9af34ada88906f93b16c4f5d4833204dfc3d3dcf9038268d7c78d38eb96640fff83588aa163549bca0ba3d4c14aa7c7a49f025bef706a9de88ec
-Homepage: https://ndk-jailbreak.github.io/info/Air/?p=info
+Homepage: https://qilskcter.github.io/jailbreak/info/Air/?p=info
 Description: Theme AIR
 Name: AIR
 Author: Blue
 Icon: file:///Applications/Cydia.app/Sections/NDK-Themes.png
-Depiction: https://ndk-jailbreak.github.io/info/Air/?p=info
-SileoDepiction: https://ndk-jailbreak.github.io/Sileoinfo/Air.json
+Depiction: https://qilskcter.github.io/jailbreak/info/Air/?p=info
+SileoDepiction: https://qilskcter.github.io/jailbreak/Sileoinfo/Air.json
 
 Package: com.ndk.airportvn
 Architecture: iphoneos-arm
@@ -3535,13 +3535,13 @@ MD5sum: 528946aaa044c4f7582e0fb7bdd3c5c9
 SHA1: 6cc25ba49143a5e688bd4796625f73bf71d6a838
 SHA256: 30a811a430573c4b08ea28fd8a2b392c383e277125dbb40e6a0112a0d4b6ee89
 SHA512: 5b6e05b2ce5e0c66240c7fce55ec2cb8e61de98a18235352003e2f26d515fb84ddbc697c43ec5ccfa0ce532fa3e664d59f292499fd1fa47eb9e99ec26e4e9a8b
-Homepage: https://ndk-jailbreak.github.io/info/Airport/?p=info
+Homepage: https://qilskcter.github.io/jailbreak/info/Airport/?p=info
 Description: cải thiện thông báo AirPods của bạn
 Name: AirPort VN
 Author: Boo
 Icon: file:///Applications/Cydia.app/Sections/NDK-Tweaks.png
-Depiction: https://ndk-jailbreak.github.io/info/Airport/?p=info
-SileoDepiction: https://ndk-jailbreak.github.io/Sileoinfo/Airport.json
+Depiction: https://qilskcter.github.io/jailbreak/info/Airport/?p=info
+SileoDepiction: https://qilskcter.github.io/jailbreak/Sileoinfo/Airport.json
 
 Package: com.ndk.amonglock
 Architecture: iphoneos-arm
@@ -3556,13 +3556,13 @@ MD5sum: 9d05eab2af48e752440d57fee86b9835
 SHA1: 8ca445c23e5db111b8f9e8cc56164b10251c3a39
 SHA256: 94a2e71e727cd1b553c105b00b019eb3128b06f80f118e89db9e6ab31ae79097
 SHA512: 5e04e511a66a74b92ab989d7a75f23df4954db3fc8e0e52ac14e20d0067659c054c6658909579abf011dc092b83fe86c9047db0e765d74c3670a3540e89dfdd6
-Homepage: https://ndk-jailbreak.github.io/info/amonglock/?p=info
+Homepage: https://qilskcter.github.io/jailbreak/info/amonglock/?p=info
 Description: Mở khóa thiết bị theo kiểu trò chơi Among US
 Name: AmongLock VN
 Author: Litten <hiya@litten.love>
 Icon: file:///Applications/Cydia.app/Sections/NDK-Tweaks.png
-Depiction: https://ndk-jailbreak.github.io/info/amonglock/?p=info
-SileoDepiction: https://ndk-jailbreak.github.io/Sileoinfo/amonglock.json
+Depiction: https://qilskcter.github.io/jailbreak/info/amonglock/?p=info
+SileoDepiction: https://qilskcter.github.io/jailbreak/Sileoinfo/amonglock.json
 
 Package: com.ndk.anime
 Architecture: iphoneos-arm
@@ -3574,12 +3574,12 @@ MD5sum: 284d740a61836f08a18a4cca5870e595
 SHA1: 07c09ba222532a7cf15cfd228bb6c52aedee96f1
 SHA256: 0dbb0c73506549ac7df7dde61d71c7d53e29adcbf43a8cb86a1a8b2231c354ae
 SHA512: 881719d6c6ac872a2979602bcd6165c8e6f9f170dd5a32604ee21f490a2f29b3fe112cb73e92ef0345067084380fc55612d175bb081f01035d3c517ab0f352db
-Homepage: https://ndk-jailbreak.github.io/info/Anime/?p=info
+Homepage: https://qilskcter.github.io/jailbreak/info/Anime/?p=info
 Description: Widget cho Xen HTML
 Name: Anime
 Author: Trương Tam Phong
-Depiction: https://ndk-jailbreak.github.io/info/Anime/?p=info
-SileoDepiction: https://ndk-jailbreak.github.io/Sileoinfo/Anime.json
+Depiction: https://qilskcter.github.io/jailbreak/info/Anime/?p=info
+SileoDepiction: https://qilskcter.github.io/jailbreak/Sileoinfo/Anime.json
 Icon: file:///Applications/Cydia.app/Sections/NDK-Widgets.png
 
 Package: com.ndk.appcdupd
@@ -3629,13 +3629,13 @@ MD5sum: eb3a35fba709202554f7f7ae7c64ae0e
 SHA1: bbc689ce36a6dd702fb85279c78ab5873d2a140e
 SHA256: 33200eaca7a9a657ddc6c79179d28a2cbd6e9c1cd76289d7d81416f9b539f6de
 SHA512: 0da8d5bb062f58bb8c4dd03e5b7fbd240ddad0d5762fddc2cf1dc65f6e690292ebcfc333ea090f45a0752fc747638ca77d35a1ffadcaf2b03be98449f7ce6336
-Homepage: https://ndk-jailbreak.github.io/info/Askew/?p=info
+Homepage: https://qilskcter.github.io/jailbreak/info/Askew/?p=info
 Description: Widget cho XenHTML
 Name: Askew VN
 Author: alimaulana, @ongcenh
 Icon: file:///Applications/Cydia.app/Sections/NDK-Widgets.png
-Depiction: https://ndk-jailbreak.github.io/info/Askew/?p=info
-SileoDepiction: https://ndk-jailbreak.github.io/Sileoinfo/Askew.json
+Depiction: https://qilskcter.github.io/jailbreak/info/Askew/?p=info
+SileoDepiction: https://qilskcter.github.io/jailbreak/Sileoinfo/Askew.json
 
 Package: com.ndk.autofishing
 Architecture: iphoneos-arm
@@ -3668,13 +3668,13 @@ MD5sum: 1f467325e87b5a3283b7233da6460823
 SHA1: 7f7b5987e0724aaf9bf108bba787d406889dad1d
 SHA256: d4e7ea9d2f4d2206d3aa24abccf465ca8409386ff801d4f44fce65fc31914242
 SHA512: bbc080cc819296dd710abe7824935d0232db9cfba05c4daf06be82a0faf9d6e0406c102cf96ee30d70ede14cbbbea82744a72becc8abfa71ed5af751c8fdbc82
-Homepage: https://ndk-jailbreak.github.io/info/autohidehomebarX/?p=info
+Homepage: https://qilskcter.github.io/jailbreak/info/autohidehomebarX/?p=info
 Description: Tự Động Ẩn Thanh Home iPhone X
 Tag: purpose::extension, compatible::ios11, compatible::ios12, compatible::ios13
 Author: Asterix <asterix_gaul@outlook.com>
 Name: AutoHideHomeBarX VN
-Depiction: https://ndk-jailbreak.github.io/info/autohidehomebarX/?p=info
-SileoDepiction: https://ndk-jailbreak.github.io/Sileoinfo/autohidehomebarX.json
+Depiction: https://qilskcter.github.io/jailbreak/info/autohidehomebarX/?p=info
+SileoDepiction: https://qilskcter.github.io/jailbreak/Sileoinfo/autohidehomebarX.json
 dev: asterix
 Icon: file:///Applications/Cydia.app/Sections/NDK-Tweaks.png
 
@@ -3728,13 +3728,13 @@ MD5sum: b3223b644247fc6a8ba48b8ab763b9ef
 SHA1: 82d6a62a5d4a29d4b02e16f5e6bd83defe26743d
 SHA256: 150e8a9259967a809325ba775f43293c2394a3dae4404a1fa0c8ff57da1774cd
 SHA512: c5afac7859de231be12dad9a3944520bb6389e2f40914b8366de1367380a4378981b391ce8747b448687802fa75f5436ecb5be440da0914c403b3f9a391ffd61
-Homepage: https://ndk-jailbreak.github.io/info/Barmoji/?p=info
+Homepage: https://qilskcter.github.io/jailbreak/info/Barmoji/?p=info
 Description: Quick Emoji Access Bar
 Tag: purpose::extension, compatible_min::ios10, compatible_max::ios13.3
 Name: Barmoji
 Author: CP Digital Darkroom <admin@cpdigitaldarkroom.com>
-Depiction: https://ndk-jailbreak.github.io/info/Barmoji/?p=info
-SileoDepiction: https://ndk-jailbreak.github.io/Sileoinfo/Barmoji.json
+Depiction: https://qilskcter.github.io/jailbreak/info/Barmoji/?p=info
+SileoDepiction: https://qilskcter.github.io/jailbreak/Sileoinfo/Barmoji.json
 Icon: file:///Applications/Cydia.app/Sections/NDK-Tweaks.png
 
 Package: com.ndk.beenet
@@ -3748,12 +3748,12 @@ MD5sum: 6970b5d27852db008fe170b2f4dad6f6
 SHA1: 99d6db1103ff5bfb339119d25f6347874a662c8f
 SHA256: 3752ba2a5ef21af00670b1910965809e257a46842953faccc162b9023e4f2b5e
 SHA512: 6f2f6bf0d9f35a4c35ab6c9c0a4f1256c67788f3596eed0c0ae86db47501fbe03f7d7c2d4730b27e3b41e1611c30625a7060112f499ccffa7117076ab761192c
-Homepage: https://ndk-jailbreak.github.io/info/Beenet/?p=info
+Homepage: https://qilskcter.github.io/jailbreak/info/Beenet/?p=info
 Description: LS cho XenHTML
 Name: BeeNet VN
 Author: @ongcenh
-Depiction: https://ndk-jailbreak.github.io/info/Beenet/?p=info
-SileoDepiction: https://ndk-jailbreak.github.io/Sileoinfo/Beenet.json
+Depiction: https://qilskcter.github.io/jailbreak/info/Beenet/?p=info
+SileoDepiction: https://qilskcter.github.io/jailbreak/Sileoinfo/Beenet.json
 Icon: file:///Applications/Cydia.app/Sections/NDK-Widgets.png
 
 Package: com.ndk.begreen12
@@ -3770,11 +3770,11 @@ MD5sum: 7c77daf58e2a7e1fa99928624e821b8f
 SHA1: c4ee1f3b2591db6f40c7b5ec38e33080bb23542c
 SHA256: c926e985c3f40a99765b411bfdcf3e7183579ef60b7d40b1cd83c77f8cf41202
 SHA512: c6c0ba6e24194f36dd1c0c009101baa86c6a9583e45ad302eb92f801316943269ee03c38b0a1ae69b1b44f0f56369a9081ebee6f6918e951ca6783d8f5686448
-Homepage: https://ndk-jailbreak.github.io/info/Begreen/?p=info
+Homepage: https://qilskcter.github.io/jailbreak/info/Begreen/?p=info
 Description: Thay Đổi Kiểu Dáng Phần Trăm Pin
 Name: BeGreen12
-Depiction: https://ndk-jailbreak.github.io/info/Begreen/?p=info
-SileoDepiction: https://ndk-jailbreak.github.io/Sileoinfo/Begreen.json
+Depiction: https://qilskcter.github.io/jailbreak/info/Begreen/?p=info
+SileoDepiction: https://qilskcter.github.io/jailbreak/Sileoinfo/Begreen.json
 Author: tateu (Josh Harris) <tateu@tateu.net>
 Icon: file:///Applications/Cydia.app/Sections/NDK-Tweaks.png
 
@@ -3805,10 +3805,10 @@ MD5sum: 227bf7aee856fcb3170e637ae52cea49
 SHA1: a6df7eb816c1b995694a9b20bca47bd00f893b1b
 SHA256: 2111bfac5a28ce5c1fceeb2b4912e557d85f4d95976c8202ea438e0733cfa210
 SHA512: 2bee9c5f14954736ef60ba1ae754fee3a4debbbb72d1e78c1a5248b72d2226b2ee8ede09a23c81840392ca52bf267729ed7b91616f449910c965521559018d35
-Homepage: https://ndk-jailbreak.github.io/info/BOPro/?p=info
+Homepage: https://qilskcter.github.io/jailbreak/info/BOPro/?p=info
 Name: BlackOrange Pro
-Depiction: https://ndk-jailbreak.github.io/info/BOPro/?p=info
-SileoDepiction: https://ndk-jailbreak.github.io/Sileoinfo/BOPro.json
+Depiction: https://qilskcter.github.io/jailbreak/info/BOPro/?p=info
+SileoDepiction: https://qilskcter.github.io/jailbreak/Sileoinfo/BOPro.json
 Author: Khoảng Lặng
 Icon: file:///Applications/Cydia.app/Sections/NDK-Themes.png
 
@@ -3842,13 +3842,13 @@ MD5sum: d1334aeeaccd1015aaa06d95b362b37c
 SHA1: 492c918c273c20dc539075135a8114f9ad376a7d
 SHA256: 540ec750578a04d931a95409acdbbd4307cde06a8bbcaf95192dac16bcc02ccc
 SHA512: 501d06d3f549d6c997b9469b871e67dcaca5ec4e7ebcf2931b2f1f94db5fe12402faa4927c73383bcfa8c8cb3eb0641e97b2f29733f6d6e202d348b1374b9cc3
-Homepage: https://ndk-jailbreak.github.io/info/boxy3/?p=info
+Homepage: https://qilskcter.github.io/jailbreak/info/boxy3/?p=info
 Description: Sắp xếp các biểu tượng trên màn hình chính.
 Name: Boxy 3 (iOS 11 - 12)
 Author: William Vabrinskas
 Icon: file:///Applications/Cydia.app/Sections/NDK-Tweaks.png
-Depiction: https://ndk-jailbreak.github.io/info/boxy3/?p=info
-SileoDepiction: https://ndk-jailbreak.github.io/Debinfo/boxy3.json
+Depiction: https://qilskcter.github.io/jailbreak/info/boxy3/?p=info
+SileoDepiction: https://qilskcter.github.io/jailbreak/Debinfo/boxy3.json
 
 Package: com.ndk.boxy4
 Architecture: iphoneos-arm
@@ -3864,13 +3864,13 @@ MD5sum: f8f7b4042c14f6320c93370d3bf599f3
 SHA1: 5e44374a6726aac7ec0d5aef72d8702b9541dcba
 SHA256: b53b7d82375a38be2b2f8f110297295bad9ca4f1889ac0007452fb87f535b9b7
 SHA512: ce5e12e87ae6f99ad2ad01792e3aa329e0b49b3fd4c5502761e8aef27dc4591ab233447856e72456979dd173a7d7da0cd37e0f01ed6fb1698763193bcff9b9a3
-Homepage: https://ndk-jailbreak.github.io/info/boxy4/?p=info
+Homepage: https://qilskcter.github.io/jailbreak/info/boxy4/?p=info
 Description: Sắp xếp các biểu tượng trên màn hình chính.
 Name: Boxy 4 (iOS 13 - 14)
 Author: William Vabrinskas
 Icon: file:///Applications/Cydia.app/Sections/NDK-Tweaks.png
-Depiction: https://ndk-jailbreak.github.io/info/boxy4/?p=info
-SileoDepiction: https://ndk-jailbreak.github.io/Sileoinfo/boxy4.json
+Depiction: https://qilskcter.github.io/jailbreak/info/boxy4/?p=info
+SileoDepiction: https://qilskcter.github.io/jailbreak/Sileoinfo/boxy4.json
 
 Package: com.ndk.carbondarkmodevn
 Architecture: iphoneos-arm
@@ -3885,12 +3885,12 @@ MD5sum: 1c36e7dda31f9ec0281d980b970ce45e
 SHA1: 4a59ad986a774ea074b26f478f124b3349ccd055
 SHA256: d8b23fdac102d8307894a9e98690b4c59c5131a9a458befbc8ededef1cf1906d
 SHA512: 6176082d412c01a7d7839b75cce5082ecdca2141555f78fc244b1575a5854bc571c3e12c8d2993719a590c0b6b8f6a146bf1e618088dd4fa61bc6d5903bdd905
-Homepage: https://ndk-jailbreak.github.io/info/Carbon/?p=info
+Homepage: https://qilskcter.github.io/jailbreak/info/Carbon/?p=info
 Description: Chế độ tối trên toàn hệ thống
 Name: Carbon Dark Mode VN
 Author: OxideLabs
-Depiction: https://ndk-jailbreak.github.io/info/Carbon/?p=info
-SileoDepiction: https://ndk-jailbreak.github.io/Sileoinfo/Carbon.json
+Depiction: https://qilskcter.github.io/jailbreak/info/Carbon/?p=info
+SileoDepiction: https://qilskcter.github.io/jailbreak/Sileoinfo/Carbon.json
 Icon: file:///Applications/Cydia.app/Sections/NDK-Tweaks.png
 
 Package: com.ndk.carcall
@@ -3904,13 +3904,13 @@ MD5sum: da2df6f5d15a95c8b8c2f042234ebc5c
 SHA1: b8ae0fe43b1167fc498f4be1f28921012d0cfb8a
 SHA256: aa8f006ac715d8a604d72026d1353093885fed0ab330eec9d98daed5ca4966c1
 SHA512: 1ad3b8c8c0b3a9e4e7730fc2f34cbdd2c6dae77d0a78cabd1a092bc2170a6302d268d7feabd5b1f4597d2150db46331b7eb55686766c0f2a6b5559bdf0669d8c
-Homepage: https://ndk-jailbreak.github.io/info/carcall/?p=info
+Homepage: https://qilskcter.github.io/jailbreak/info/carcall/?p=info
 Description: CarCall thay đổi icon cuộc gọi !
 Name: CarCall
 Author: @ongcenh <anhminh31115@gmail.com>
 Icon: file:///Applications/Cydia.app/Sections/NDK-Car.png
-Depiction: https://ndk-jailbreak.github.io/info/carcall/?p=info
-SileoDepiction: https://ndk-jailbreak.github.io/Sileoinfo/carcall.json
+Depiction: https://qilskcter.github.io/jailbreak/info/carcall/?p=info
+SileoDepiction: https://qilskcter.github.io/jailbreak/Sileoinfo/carcall.json
 
 Package: com.ndk.celllios6
 Architecture: iphoneos-arm
@@ -3924,13 +3924,13 @@ MD5sum: ae64e470f658dc68ada12c4d27a1b438
 SHA1: a6d163cbfd0188d12d9c93990e401c4172455e2d
 SHA256: 8bed420c0fc0712adce7d517c270bd48758bbde25a604c8846d9e33fd97cd7e2
 SHA512: 75dbf9392442cbc4e4b6b86ffbc408f28adc3c15e10a548f1110ba3bc94156b928ba0cddd92ba0492a999c14399c555a281a34bced349acd5b85de45d6bbb10b
-Homepage: https://ndk-jailbreak.github.io/info/celllios6/?p=info
+Homepage: https://qilskcter.github.io/jailbreak/info/celllios6/?p=info
 Description: Biểu tượng sóng wifi trái tim !
 Name: Cell IOS 6
 Author: @ongcenh <anhminh311105@gmail.com>
 Icon: file:///Applications/Cydia.app/Sections/NDK-Car.png
-Depiction: https://ndk-jailbreak.github.io/info/celllios6/?p=info
-SileoDepiction: https://ndk-jailbreak.github.io/Sileoinfo/celllios6.json
+Depiction: https://qilskcter.github.io/jailbreak/info/celllios6/?p=info
+SileoDepiction: https://qilskcter.github.io/jailbreak/Sileoinfo/celllios6.json
 
 Package: com.ndk.celllove11
 Architecture: iphoneos-arm
@@ -3944,13 +3944,13 @@ MD5sum: c5c1732960eb91c3d4160efe03ef8de4
 SHA1: cf166e581328fa48e862dad3fffbb717dd8fb816
 SHA256: ea6debc562432bf286b9637b95ad16ae370d7ab6dfeaa00ebd2a85bad905ba13
 SHA512: 17e490a1bd7f0038aff70ac778f46fd90381eba39c556ab3b9e89e1566895d97dc06f47025be2d11c1d824a6996f943bd3c777770fa5b678dcea54319fa2dc24
-Homepage: https://ndk-jailbreak.github.io/info/celllove11/?p=info
+Homepage: https://qilskcter.github.io/jailbreak/info/celllove11/?p=info
 Description: Biểu tượng sóng wifi trái tim !
 Name: Cell Love ( 11 )
 Author: @ongcenh <anhminh311105@gmail.com>
 Icon: file:///Applications/Cydia.app/Sections/NDK-Car.png
-Depiction: https://ndk-jailbreak.github.io/info/celllove11/?p=info
-SileoDepiction: https://ndk-jailbreak.github.io/Sileoinfo/celllove11.json
+Depiction: https://qilskcter.github.io/jailbreak/info/celllove11/?p=info
+SileoDepiction: https://qilskcter.github.io/jailbreak/Sileoinfo/celllove11.json
 
 Package: com.ndk.celllove12
 Architecture: iphoneos-arm
@@ -3964,13 +3964,13 @@ MD5sum: e849b856c3f65cca3daf31e920d84a35
 SHA1: 37bab45f22db5e0cf648c237e1770c1780d1f50b
 SHA256: fddc646e297aff6e9833e9760232b4add498ad4b01396d39da64b99198739bdb
 SHA512: ad093e5a860e4c2139e7bb077b898fe2ff5d889b6d52ca08726ee26845b0308b70df3cd34cb49f31e01416a30a5d6f48bc363af01aa8fcb3f19f4fdef3f312e1
-Homepage: https://ndk-jailbreak.github.io/info/celllove12/?p=info
+Homepage: https://qilskcter.github.io/jailbreak/info/celllove12/?p=info
 Description: Biểu tượng sóng wifi trái tim !
 Name: Cell Love
 Author: @ongcenh <anhminh311105@gmail.com>
 Icon: file:///Applications/Cydia.app/Sections/NDK-Car.png
-Depiction: https://ndk-jailbreak.github.io/info/celllove12/?p=info
-SileoDepiction: https://ndk-jailbreak.github.io/Sileoinfo/celllove12.json
+Depiction: https://qilskcter.github.io/jailbreak/info/celllove12/?p=info
+SileoDepiction: https://qilskcter.github.io/jailbreak/Sileoinfo/celllove12.json
 
 Package: com.ndk.cercube3
 Architecture: iphoneos-arm
@@ -4003,13 +4003,13 @@ MD5sum: 064c4ce224a963768339f5727565e5e1
 SHA1: a1a4ada8355d31ebaa43c5028c075eee3436c063
 SHA256: 753f6f37caaa6b3cb65317ca72d465adfadb5f2c2d83e9c5044064a459cb93ca
 SHA512: 9dcda991a76ad8b7b18dd7cc4b00b41a06b8358fcb4b920ab3d62eefb086de7b7fb561e131ff52525d77aef3730f82bd1f90cd8e84732c0ed2241c7d1de72106
-Homepage: https://ndk-jailbreak.github.io/info/Cercube/?p=info
+Homepage: https://qilskcter.github.io/jailbreak/info/Cercube/?p=info
 Description: Bổ sung cho Youtube
 Icon: file:///Applications/Cydia.app/Sections/NDK-Tweaks.png
 Name: Cercube For YouTube VN
 Author: Majd Alfhaily
-Sileodepiction: https://ndk-jailbreak.github.io/Sileoinfo/Cercube.json
-Depiction: https://ndk-jailbreak.github.io/info/Cercube/?p=info
+Sileodepiction: https://qilskcter.github.io/jailbreak/Sileoinfo/Cercube.json
+Depiction: https://qilskcter.github.io/jailbreak/info/Cercube/?p=info
 
 Package: com.ndk.chatbubbleslite
 Architecture: iphoneos-arm
@@ -4024,13 +4024,13 @@ MD5sum: d4343669e8e362634d69170dd36d159e
 SHA1: 653c1a2f15adaeae6100f83f0f636e67777fb8dc
 SHA256: ee643a2c07afa1bbb4db8711c6325ecf754bb30e9c775d3729265ad2ce2e54ac
 SHA512: aff8a20223b1561870e42f93b96ed7c9971246504018166b646156da6825c0b98a8a5fbaf01246905d8f85e2e4e11956f3c17087b5c44c90b6985384f3d23d67
-Homepage: https://ndk-jailbreak.github.io/info/chatbubbleslite/?p=info
+Homepage: https://qilskcter.github.io/jailbreak/info/chatbubbleslite/?p=info
 Description: Tin nhắn bong bóng chat !
 Name: ChatBubbles Lite
 Author: Baw Appie <pp121324@gmail.com>
 Icon: file:///Applications/Cydia.app/Sections/NDK-Tweaks.png
-Depiction: https://ndk-jailbreak.github.io/info/chatbubbleslite/?p=info
-SileoDepiction: https://ndk-jailbreak.github.io/Sileoinfo/chatbubbleslite.json
+Depiction: https://qilskcter.github.io/jailbreak/info/chatbubbleslite/?p=info
+SileoDepiction: https://qilskcter.github.io/jailbreak/Sileoinfo/chatbubbleslite.json
 
 Package: com.ndk.chatbubblesmessenger
 Architecture: iphoneos-arm
@@ -4081,12 +4081,12 @@ MD5sum: 392f822ddd582d2e6cf9b5680209ec4c
 SHA1: eb62ae3e872b8e307ed5ebb46bb30131d98b3173
 SHA256: 7e069f5aec9afbca95f09eebf7bc9fc4e9a1e310ea7018f850e41d7473af66f8
 SHA512: d8ab46587bceb0e1629eeedcb8317e30bcb98bf371c85c52025111bafdc2ee507342c89f734c9a4747c5487b230ee3d78d32f530e798a4e0831ac9871b80ec38
-Homepage: https://ndk-jailbreak.github.io/info/CiutadellaRounded/?p=info
+Homepage: https://qilskcter.github.io/jailbreak/info/CiutadellaRounded/?p=info
 Description: Font Ciutadella Rounded
 Name: Ciutadella Rounded
 Author: NDK
-Depiction: https://ndk-jailbreak.github.io/info/CiutadellaRounded/?p=info
-SileoDepiction: https://ndk-jailbreak.github.io/Sileoinfo/CiutadellaRounded.json
+Depiction: https://qilskcter.github.io/jailbreak/info/CiutadellaRounded/?p=info
+SileoDepiction: https://qilskcter.github.io/jailbreak/Sileoinfo/CiutadellaRounded.json
 Icon: file:///Applications/Cydia.app/Sections/NDK-Font.png
 
 Package: com.ndk.clockvietnam
@@ -4100,13 +4100,13 @@ MD5sum: 3db18b8df7723a7e3d593d092fd9964c
 SHA1: 6df80b9489e3e8e7613145b9c9f7b85a789eb804
 SHA256: 96028b388e25b65cf611f6977265f286bd323f5d3189943d911e67c99e3baae2
 SHA512: f003bec4c8a4110ddd4baaeea1a916999dea8762c9f46168185f7489cb00717390de686c13d0710ed312ebfb9142047a3093bc47949979998e6780c5a431abeb
-Homepage: https://ndk-jailbreak.github.io/info/ClockVN/?p=info
+Homepage: https://qilskcter.github.io/jailbreak/info/ClockVN/?p=info
 Description: Wigdet cho XenHTML
 Name: Clock Việt Nam !
 Author: @ongcenh <anhminh311105@gmail.com>
 Icon: file:///Applications/Cydia.app/Sections/NDK-Widgets.png
-Depiction: https://ndk-jailbreak.github.io/info/ClockVN/?p=info
-SileoDepiction: https://ndk-jailbreak.github.io/Sileoinfo/ClockVN.json
+Depiction: https://qilskcter.github.io/jailbreak/info/ClockVN/?p=info
+SileoDepiction: https://qilskcter.github.io/jailbreak/Sileoinfo/ClockVN.json
 
 Package: com.ndk.cover
 Architecture: iphoneos-arm
@@ -4118,12 +4118,12 @@ MD5sum: e1e072ee23e922428b9be529e62f7bb7
 SHA1: 606c5001df87c5a8578a493d7f9a8489085a2f9f
 SHA256: 729c4f9372a117009f7cfd6de033e0e72d904110ec793c9c5012e2e539f6eb87
 SHA512: 3233cea709fa7c26d7fe5c3fe2354e0251f647dce5d8a8df0965cf1097939d2aa9cbde751c3e2a5332d00b884b421a4f2547758a6c001b2652915a7a55faee3f
-Homepage: https://ndk-jailbreak.github.io/info/Cover/?p=info
+Homepage: https://qilskcter.github.io/jailbreak/info/Cover/?p=info
 Description: Widget cho Xen HTML
 Name: Cover
 Author: Trương Tam Phong
-Depiction: https://ndk-jailbreak.github.io/info/Cover/?p=info
-SileoDepiction: https://ndk-jailbreak.github.io/Sileoinfo/Cover.json
+Depiction: https://qilskcter.github.io/jailbreak/info/Cover/?p=info
+SileoDepiction: https://qilskcter.github.io/jailbreak/Sileoinfo/Cover.json
 Icon: file:///Applications/Cydia.app/Sections/NDK-Widgets.png
 
 Package: com.ndk.cydownvn
@@ -4156,13 +4156,13 @@ MD5sum: 8b0c57c15f271dd92cd0706dbd63f961
 SHA1: c921b028f5e28087254ae251248832c9815ad18d
 SHA256: c4ac8e8c7f8ba3f0654346b0272ca37be198c3a166551ef613a1f716bc720641
 SHA512: c83da466d4357fad8b50b9c9e2b7f14810f08df52ada0e7d01604dce1c7aa34c63b1486b238cded0734ede898cd58e5257985b71559fe15509e1cfd7a0864e65
-Homepage: https://ndk-jailbreak.github.io/info/DaemonDisabler/?p=info
+Homepage: https://qilskcter.github.io/jailbreak/info/DaemonDisabler/?p=info
 Description: Bật Tắt Các Deamon Trong Cài Đặt
 Name: DaemonDisabler VN
 Author: level3tjg
 Icon: file:///Applications/Cydia.app/Sections/NDK-Tweaks.png
-Depiction: https://ndk-jailbreak.github.io/info/DaemonDisabler/?p=info
-SileoDepiction: https://ndk-jailbreak.github.io/Sileoinfo/DaemonDisabler.json
+Depiction: https://qilskcter.github.io/jailbreak/info/DaemonDisabler/?p=info
+SileoDepiction: https://qilskcter.github.io/jailbreak/Sileoinfo/DaemonDisabler.json
 
 Package: com.ndk.docky
 Architecture: iphoneos-arm
@@ -4178,13 +4178,13 @@ MD5sum: 59dbfdecad114be23d65a6466b283e2b
 SHA1: 5cd16068623b451e0fe5dceaf195a30b41ead0f4
 SHA256: 4266c0b87188ec7eaf377e388d95177089bdbb591ab205e1b9ba7cdb5878e663
 SHA512: c76169389d62ede30957d4988b0eeb6bccad1220b04b8f66a99232c0ec84cc399ad8d3e1105afde436e59af3e8a28e91b326267bfea77df19333cc38801599ac
-Homepage: https://ndk-jailbreak.github.io/info/Docky/?p=info
+Homepage: https://qilskcter.github.io/jailbreak/info/Docky/?p=info
 Description: Dock customizer
 Name: Docky VN
 Author: Nepeta <ominousness@protonmail.com>
 Icon: file:///Applications/Cydia.app/Sections/NDK-Tweaks.png
-Depiction: https://ndk-jailbreak.github.io/info/Docky/?p=info
-SileoDepiction: https://ndk-jailbreak.github.io/Sileoinfo/Docky.json
+Depiction: https://qilskcter.github.io/jailbreak/info/Docky/?p=info
+SileoDepiction: https://qilskcter.github.io/jailbreak/Sileoinfo/Docky.json
 
 Package: com.ndk.eqesuperbass
 Architecture: iphoneos-arm
@@ -4249,10 +4249,10 @@ MD5sum: 6629fde55a92c48c2ee8ffebe183c471
 SHA1: 7a7ed080354ffcd944978663dd51f437ebff79ce
 SHA256: 742f83524e5950587070566954d04bc7fa7ef1d5290a8e5c08d28c94b8e4ef17
 SHA512: 9dbd70f6d901cd387544f8f0989e58ab587226eaac1c88fe21130d2a9a8644fc36e57b6048c9b427cb64a4d29b0a6f4b4d844792c859fef6416284fb99bd52b9
-Homepage: https://ndk-jailbreak.github.io/info/Flux/?p=info
+Homepage: https://qilskcter.github.io/jailbreak/info/Flux/?p=info
 Description: Chủ đề Flux
-Depiction: https://ndk-jailbreak.github.io/info/Flux/?p=info
-SileoDepiction: https://ndk-jailbreak.github.io/Sileoinfo/Flux.json
+Depiction: https://qilskcter.github.io/jailbreak/info/Flux/?p=info
+SileoDepiction: https://qilskcter.github.io/jailbreak/Sileoinfo/Flux.json
 Icon: file:///Applications/Cydia.app/Sections/NDK-Themes.png
 Name: Flux
 Author: dpth
@@ -4268,12 +4268,12 @@ MD5sum: 25e5b0adcef8d3fdbc407758e4bd6007
 SHA1: 2c1b7f861373cf17c1f85c0aabbe7a4cd62a50e2
 SHA256: 44388d84964c6d29d7977554db92b49326f3d796a4b44bc58ce013cb36aa671a
 SHA512: 25bc8870b4cd5a25c472978c1a14a95b881e9a61df48da5fc685084659c7774a30d7674968250a203d306bef4c480f5409f36476617cc5b9b95e71558b70a523
-Homepage: https://ndk-jailbreak.github.io/info/FluxDark/?p=info
+Homepage: https://qilskcter.github.io/jailbreak/info/FluxDark/?p=info
 Description: Chủ đề tối cho Flux
 Name: Flux Dark
 Author: dpth
-Depiction: https://ndk-jailbreak.github.io/info/FluxDark/?p=info
-SileoDepiction: https://ndk-jailbreak.github.io/Sileoinfo/FluxDark.json
+Depiction: https://qilskcter.github.io/jailbreak/info/FluxDark/?p=info
+SileoDepiction: https://qilskcter.github.io/jailbreak/Sileoinfo/FluxDark.json
 Icon: file:///Applications/Cydia.app/Sections/NDK-Themes.png
 
 Package: com.ndk.force3dappshortcuts
@@ -4325,12 +4325,12 @@ MD5sum: b9358c2c14fa13a5aca6a8ebe33a8632
 SHA1: 6dfa2631cda9decf2d433b6d6598946f830c86ef
 SHA256: 6092c9ef2d15b0a3ce731a21df5d6b3c2cfcd65d53ffa89318c8101d426860cc
 SHA512: 12cfbb24d710cb6dd3696fe5c1346bb571ae941ef8963c440f83ecc1669baf98db296eaaf8abd5a223b5dcbf51c717ee6a0fff5736733f86291d66d31d081fd7
-Homepage: https://ndk-jailbreak.github.io/info/FridayTTP/?p=info
+Homepage: https://qilskcter.github.io/jailbreak/info/FridayTTP/?p=info
 Description: Widget cho Xen HTML
 Name: Friday TTP
 Author: Trương Tam Phong
-Depiction: https://ndk-jailbreak.github.io/info/FridayTTP/?p=info
-SileoDepiction: https://ndk-jailbreak.github.io/Sileoinfo/FridayTTP.json
+Depiction: https://qilskcter.github.io/jailbreak/info/FridayTTP/?p=info
+SileoDepiction: https://qilskcter.github.io/jailbreak/Sileoinfo/FridayTTP.json
 Icon: file:///Applications/Cydia.app/Sections/NDK-Widgets.png
 
 Package: com.ndk.gineso
@@ -4344,12 +4344,12 @@ MD5sum: 8d51211ec79316ae882a40727e93e9ed
 SHA1: dd0ad53ee22a93f0efc588ea6078749c93c4e095
 SHA256: 92748c8ab44999ef5e5d1901b37da462366642b914351c6c90dc7831df71d346
 SHA512: 382847fbe79a13c22a5b69ddd4ae0951f40bfceb93415166ce4521e8b1160a8af68486dcefd684a4482a1802655e132d93bd50000807022c99644c36192309e6
-Homepage: https://ndk-jailbreak.github.io/info/Gineso/?p=info
+Homepage: https://qilskcter.github.io/jailbreak/info/Gineso/?p=info
 Description: Font Gineso
 Name: Gineso
 Author: NDK
-Depiction: https://ndk-jailbreak.github.io/info/Gineso/?p=info
-SileoDepiction: https://ndk-jailbreak.github.io/Sileoinfo/Gineso.json
+Depiction: https://qilskcter.github.io/jailbreak/info/Gineso/?p=info
+SileoDepiction: https://qilskcter.github.io/jailbreak/Sileoinfo/Gineso.json
 Icon: file:///Applications/Cydia.app/Sections/NDK-Font.png
 
 Package: com.ndk.googlesans
@@ -4363,12 +4363,12 @@ MD5sum: 1c86a3de6ad89b96a405b295db3d1870
 SHA1: 13f175c4d71a29d61fcbdc4824c2176e087a8512
 SHA256: b10ecbafbdf17df5c87ef0d2a04c2da7983b9935e73f3d94201f4743d65168c1
 SHA512: a97e9ce97acafa8d9a35352c09fc7eaa4d7e340e43f02da1845b447569afd6901aae04a80242eaeaaa08200a943e228bcb2edb0d2b3ded190524d4e7728d1a2a
-Homepage: https://ndk-jailbreak.github.io/info/GoogleSans/?p=info
+Homepage: https://qilskcter.github.io/jailbreak/info/GoogleSans/?p=info
 Description: Font Google Sans
 Name: Google Sans
 Author: NDK
-Depiction: https://ndk-jailbreak.github.io/info/GoogleSans/?p=info
-SileoDepiction: https://ndk-jailbreak.github.io/Sileoinfo/GoogleSans.json
+Depiction: https://qilskcter.github.io/jailbreak/info/GoogleSans/?p=info
+SileoDepiction: https://qilskcter.github.io/jailbreak/Sileoinfo/GoogleSans.json
 Icon: file:///Applications/Cydia.app/Sections/NDK-Font.png
 
 Package: com.ndk.greenmist
@@ -4382,12 +4382,12 @@ MD5sum: 483d5a5989a1a234420a418ab3d1db59
 SHA1: a7eeaae9f6cda9c52d679dca3654696ed9c046e3
 SHA256: b8fb47cc6820d7add4cd151aee45d42ba756cbdb01ca9c8d3de36f72fddd86e5
 SHA512: b5e475fec93e9e103ba5b33654c0b2cc11a599094a53f51c1f9efdffa5edfcb6705bb8d691b21acee5a47de421a43d7ed7bb5e1aa1854c0606e84fce76ab1579
-Homepage: https://ndk-jailbreak.github.io/info/GreenMist/?p=info
+Homepage: https://qilskcter.github.io/jailbreak/info/GreenMist/?p=info
 Description: GreenMist Themes
 Name: GreenMist
 Author: NDK
-Depiction: https://ndk-jailbreak.github.io/info/GreenMist/?p=info
-SileoDepiction: https://ndk-jailbreak.github.io/Sileoinfo/GreenMist.json
+Depiction: https://qilskcter.github.io/jailbreak/info/GreenMist/?p=info
+SileoDepiction: https://qilskcter.github.io/jailbreak/Sileoinfo/GreenMist.json
 Icon: file:///Applications/Cydia.app/Sections/NDK-Themes.png
 
 Package: com.ndk.greenred
@@ -4401,12 +4401,12 @@ MD5sum: 83041959449f6b23b6cf2356d54488e1
 SHA1: 88c39efd7309853d8f714dba066c4b0bf40d31ec
 SHA256: 01d641d485f9194133efef6b8ff9211a5133f1f0550a8ff16be2a92ec486e63d
 SHA512: 8232c41c64fa38ab50179d5fad96f4a1ebf50deeb58e62d97c06defbbae851864747d760e6099137ef466ed18d62b36eae3940176a5b8d8801d3cf492381a6bc
-Homepage: https://ndk-jailbreak.github.io/info/GreenRed/?p=info
+Homepage: https://qilskcter.github.io/jailbreak/info/GreenRed/?p=info
 Description: GreenRed themes
 Name: GreenRed
 Author: Bùi Quang
-Depiction: https://ndk-jailbreak.github.io/info/GreenRed/?p=info
-SileoDepiction: https://ndk-jailbreak.github.io/Sileoinfo/GreenRed.json
+Depiction: https://qilskcter.github.io/jailbreak/info/GreenRed/?p=info
+SileoDepiction: https://qilskcter.github.io/jailbreak/Sileoinfo/GreenRed.json
 Icon: file:///Applications/Cydia.app/Sections/NDK-Themes.png
 
 Package: com.ndk.grpro
@@ -4420,13 +4420,13 @@ MD5sum: 6392f029c05a52df0079875cba0441d2
 SHA1: 94230814b7e2092dbe1cee22fed387c4120f5c46
 SHA256: 6c5fcc8459f6d32d4efce21774525faedb31c1d5b6adbd4bf198ed373b96b3e3
 SHA512: 1b92a882288ae182dada4c847dca26e4ece30837c2cb85531a50f85ee087595a957f0fd44db6f6cb6e97f45334f901ea9cb397eea0e11e62a88c823fb6be66f9
-Homepage: https://ndk-jailbreak.github.io/info/GRPro/?p=info
+Homepage: https://qilskcter.github.io/jailbreak/info/GRPro/?p=info
 Description: Chủ đề GR Pro
 Name: GR Pro
 Author: HungBG,@ongcenh <anhminh311105@gmail>
 Icon: file:///Applications/Cydia.app/Sections/NDK-Themes.png
-Depiction: https://ndk-jailbreak.github.io/info/GRPro/?p=info
-SileoDepiction: https://ndk-jailbreak.github.io/Sileoinfo/GRPro.json
+Depiction: https://qilskcter.github.io/jailbreak/info/GRPro/?p=info
+SileoDepiction: https://qilskcter.github.io/jailbreak/Sileoinfo/GRPro.json
 
 Package: com.ndk.halfipad
 Architecture: iphoneos-arm
@@ -4441,13 +4441,13 @@ MD5sum: 5f1aa244d53dfbf3c85da0fde88997a2
 SHA1: fdf5376929f3abb0197fa238fe1c41f20ed56d2f
 SHA256: b8de08c22a184ca557aa051c07ff0a9c29690617c9eca9a44d22597a0d787e9e
 SHA512: 89bfe49e090925e94fbc14bc7318141ac4f36b4f90943a115a6eb5fce2a704231b8fe052d908bd8a069906930820ddf7299d7d8d27a0a03a1d8064390c5d067a
-Homepage: http://ndk-jailbreak.github.io/info/HalfiPad/?p=info
+Homepage: http://qilskcter.github.io/jailbreak/info/HalfiPad/?p=info
 Description: Cử chỉ iPhone X cho các dòng 6,7,8
 Tag: purpose::extension, compatible::ios13
 Author: Hius
 Name: HalFiPad
-Depiction: http://ndk-jailbreak.github.io/info/HalfiPad/?p=info
-SileoDepiction: http://ndk-jailbreak.github.io/Sileoinfo/HalfiPad.json
+Depiction: http://qilskcter.github.io/jailbreak/info/HalfiPad/?p=info
+SileoDepiction: http://qilskcter.github.io/jailbreak/Sileoinfo/HalfiPad.json
 Icon: file:///Applications/Cydia.app/Sections/NDK-Tweaks.png
 dev: hius
 
@@ -4502,8 +4502,8 @@ SHA512: 5cfe678cfa679dc68cb9ed6a0c71d2ef16084da77925b086406328f9bf005f6ded78d96d
 Description: Biểu tượng Cydia cho kho lưu trữ NDK
 Name: Icon Repo
 Author: @ongcenh
-Depiction: https://ndk-jailbreak.github.io/info/Iconrepo
-SileoDepiction: https://ndk-jailbreak.github.io/info/Iconrepo
+Depiction: https://qilskcter.github.io/jailbreak/info/Iconrepo
+SileoDepiction: https://qilskcter.github.io/jailbreak/info/Iconrepo
 
 Package: com.ndk.ider
 Architecture: iphoneos-arm
@@ -4516,12 +4516,12 @@ MD5sum: d85154b02d8aeea60250d3e83807a5ce
 SHA1: be474c2d3f169aa78956090e52df027b09192c34
 SHA256: 5f1195cfe7d9a7fca004427bbae475eb537abd3a781ed8282d286b045f8800c2
 SHA512: becf48cf4c5c1c9da8711161bf09b57d646a104bce03b66206cca80b69fdf2aaa8ee9041f16e8d4a0703ccd2d5892ff8e50c1e0fe62b7d9620846b6760928169
-Homepage: https://ndk-jailbreak.github.io/info/iDer/?p=info
+Homepage: https://qilskcter.github.io/jailbreak/info/iDer/?p=info
 Description: iDer Theme
 Name: iDer
 Author: Le0n
-Depiction: https://ndk-jailbreak.github.io/info/iDer/?p=info
-SileoDepiction: https://ndk-jailbreak.github.io/Sileoinfo/iDer.json
+Depiction: https://qilskcter.github.io/jailbreak/info/iDer/?p=info
+SileoDepiction: https://qilskcter.github.io/jailbreak/Sileoinfo/iDer.json
 Icon: file:///Applications/Cydia.app/Sections/NDK-Themes.png
 
 Package: com.ndk.iderred
@@ -4535,12 +4535,12 @@ MD5sum: f0be9d5c75da20ff06ce1cdbf8604560
 SHA1: 4d924e6bfe9b905e92725e5b23aad3adaf257017
 SHA256: b3ed02a5e175adb4f6319c315b497ff1c1dd9167375d4743f1626eb335a577f8
 SHA512: 72a35220b61ca5b215a76e3638148e68949c31ede5f0d02f0091abd8b7458e8e3c9e3b26a6f0c0fc18a310d75458a516d694b50cfdd3d89cf0c7e33c9d477642
-Homepage: https://ndk-jailbreak.github.io/info/iDerRed/?p=info
+Homepage: https://qilskcter.github.io/jailbreak/info/iDerRed/?p=info
 Description: iDer Red Theme
 Name: iDer Red
 Author: Le0n
-Depiction: https://ndk-jailbreak.github.io/info/iDerRed/?p=info
-SileoDepiction: https://ndk-jailbreak.github.io/Sileoinfo/iDerRed.json
+Depiction: https://qilskcter.github.io/jailbreak/info/iDerRed/?p=info
+SileoDepiction: https://qilskcter.github.io/jailbreak/Sileoinfo/iDerRed.json
 Icon: file:///Applications/Cydia.app/Sections/NDK-Themes.png
 
 Package: com.ndk.ios14
@@ -4554,12 +4554,12 @@ MD5sum: 6679ec3803ded382cf8f37ba1f7b017d
 SHA1: b8ee68add3997df19ad4a3ae2949e595754c13dc
 SHA256: e1e881383f955ab6d9092708d3b011af25cea029b94a3e3063b78aa7e1934f8d
 SHA512: 930d1923a34cd6f5462cc0cae38e9d6ac480032ce5984794149d7ea3ab35d16e252e3b175cd6ffd60a088463b9269dab741bb325cb5bd3c30d9cbe514cfed385
-Homepage: https://ndk-jailbreak.github.io/info/iOS14/?p=info
+Homepage: https://qilskcter.github.io/jailbreak/info/iOS14/?p=info
 Description: Chủ đề iOS 14
 Name: iOS 14 (iOS12)
 Author: NDK
-Depiction: https://ndk-jailbreak.github.io/info/iOS14/?p=info
-SileoDepiction: https://ndk-jailbreak.github.io/info/iOS14.json
+Depiction: https://qilskcter.github.io/jailbreak/info/iOS14/?p=info
+SileoDepiction: https://qilskcter.github.io/jailbreak/info/iOS14.json
 Icon: file:///Applications/Cydia.app/Sections/NDK-Themes.png
 
 Package: com.ndk.ios14
@@ -4573,12 +4573,12 @@ MD5sum: ada3dfcaa5411dc9009c1fdfd84fcb81
 SHA1: fab928afc8e35f6030856f0aeb7bd6aecd188be4
 SHA256: e710b7c21d55852ac6895d1e28262bb660f1d0d643bb8999116d1b6d30d5592e
 SHA512: b96aaac8086abb064176ccac52ff68e077ae76f20c7aad706d3415e7df5a4302cbf05a562ad3f3ae81c96f4c2caa26274025855e93711e54a3f780da4829ab98
-Homepage: https://ndk-jailbreak.github.io/info/iOS14/?p=info
+Homepage: https://qilskcter.github.io/jailbreak/info/iOS14/?p=info
 Description: Chủ đề iOS 14
 Name: iOS 14 (iOS12)
 Author: NDK
-Depiction: https://ndk-jailbreak.github.io/info/iOS14/?p=info
-SileoDepiction: https://ndk-jailbreak.github.io/info/iOS14.json
+Depiction: https://qilskcter.github.io/jailbreak/info/iOS14/?p=info
+SileoDepiction: https://qilskcter.github.io/jailbreak/info/iOS14.json
 Icon: file:///Applications/Cydia.app/Sections/NDK-Themes.png
 
 Package: com.ndk.ios14wg
@@ -4610,13 +4610,13 @@ MD5sum: 8237b24384e9e683629c23ec163a1b62
 SHA1: fb0b8c16b1eff7aeac0c58a0c5b12ec6de2ae545
 SHA256: b4e027660bf13fe30a2a34a70ab0e8b08a237c027e72a6edeaebb16dbfdbd2f7
 SHA512: 395d377a520b870828de66d53f14ed76393e9a6ffed0591d9bf43aca2e581fcb1c3f04ea2cbe55d4df4aab81e233e6e356022983c864372eb6e5121b7a8fb9c3
-Homepage: https://ndk-jailbreak.github.io/info/iPadsttb/?p=info
+Homepage: https://qilskcter.github.io/jailbreak/info/iPadsttb/?p=info
 Description: Mang Thanh Trạng Thái iPad Lên iPhone
 Name: iPadStatusBar VN
 Author: NoisyFlake
 Icon: file:///Applications/Cydia.app/Sections/NDK-Tweaks.png
-Depiction: https://ndk-jailbreak.github.io/info/iPadsttb/?p=info
-SileoDepiction: https://ndk-jailbreak.github.io/Sileoinfo/iPadsttb.json
+Depiction: https://qilskcter.github.io/jailbreak/info/iPadsttb/?p=info
+SileoDepiction: https://qilskcter.github.io/jailbreak/Sileoinfo/iPadsttb.json
 
 Package: com.ndk.ithemer
 Architecture: iphoneos-arm
@@ -4652,13 +4652,13 @@ MD5sum: 4657adafd24c8097e51faeef65270d79
 SHA1: b425e88ac8bee825a403738711eb797fe2eb34e5
 SHA256: 07918b4be7fd55d8e52906cac105cde47e0a23c4bb284b41ed6b831b66219555
 SHA512: 4a8dac75c90a71a43fcd35923ac23c3231f46547d68f689acfb772b47792bcf7592af93d0bac28f3aa6c514068e59aa673e8b8e03c4ccd69585c19d8a5e8893a
-Homepage: https://ndk-jailbreak.github.io/info/Jellyfish/?p=info
+Homepage: https://qilskcter.github.io/jailbreak/info/Jellyfish/?p=info
 Description: Cải thiện màn hình khoá của bạn
 Name: JellyFish VN
 Author: Justin Proulx and AppleBetas
 Icon: file:///Applications/Cydia.app/Sections/NDK-Tweaks.png
-Depiction: https://ndk-jailbreak.github.io/info/Jellyfish/?p=info
-SileoDepiction: https://ndk-jailbreak.github.io/Sileoinfo/Jellyfish.json
+Depiction: https://qilskcter.github.io/jailbreak/info/Jellyfish/?p=info
+SileoDepiction: https://qilskcter.github.io/jailbreak/Sileoinfo/Jellyfish.json
 
 Package: com.ndk.keyboardx
 Architecture: iphoneos-arm
@@ -4755,13 +4755,13 @@ MD5sum: 440bb1931ab2c7c911eb30c6bcbe316a
 SHA1: 375a23baacf7c57b36dd6c98391b23940048d0cb
 SHA256: 989a3e3b32cd3426ebc2c115b84255ea5f9272040050b27d3563c8df9668b397
 SHA512: 90fb12396db9859ae3361549198a3db9b4ac9a3541a02f3aa0051826a133124a61c4d56ae46fcc7ebf01ae92f0f1e1d4359979bed428727ddb0b98c5fdcbac42
-Homepage: https://ndk-jailbreak.github.io/info/LittleXS/?p=info
+Homepage: https://qilskcter.github.io/jailbreak/info/LittleXS/?p=info
 Description: LittleX revitalized for iOS 12.
 Name: LittleXS VN
 Author: binksalex & Ryan Nair
 Icon: file:///Applications/Cydia.app/Sections/NDK-Tweaks.png
-Depicion: https://ndk-jailbreak.github.io/info/LittleXS/?p=info
-SileoDepicion: https://ndk-jailbreak.github.io/Sileoinfo/LittleXS.json
+Depicion: https://qilskcter.github.io/jailbreak/info/LittleXS/?p=info
+SileoDepicion: https://qilskcter.github.io/jailbreak/Sileoinfo/LittleXS.json
 
 Package: com.ndk.lockdown
 Architecture: iphoneos-arm
@@ -4831,10 +4831,10 @@ MD5sum: ea45e9dde2b38fdf53124174e94e1fcc
 SHA1: 84b18b3249cc5e3d77445b2cfeb101034591fd92
 SHA256: b2e2893e2a4749306b43fd3112f2daf0f6a678190707a7c71c4d38c80765aa57
 SHA512: 652a34e298fab2158e70f5ebe4ca9d899cad52efef72379360efcd731a9d04cd3bddf6383e9c8f30253cddbb3c8a6f832c49d8c4009102282ac336bf474955ae
-Homepage: https://ndk-jailbreak.github.io/info/TaiTho/?p=info
+Homepage: https://qilskcter.github.io/jailbreak/info/TaiTho/?p=info
 Description: Mask Tai Thỏ kích hoạt qua iThemer hoặc SnowBoard
 Icon: file:///Applications/Cydia.app/Sections/NDK-Themes.png
-Depiction: https://ndk-jailbreak.github.io/Sileoinfo/TaiTho.json
+Depiction: https://qilskcter.github.io/jailbreak/Sileoinfo/TaiTho.json
 Name: Mask Tai Thỏ
 Author: Kênh Táo
 
@@ -4907,15 +4907,15 @@ MD5sum: ccdb3ac9435363ae10bbbe26e28d168a
 SHA1: 8b35ea9eee6979cf103109f50dc5015b431969f1
 SHA256: e9bc41b4760f673a4814dbab296f48a5a3b4035f1762b51c6fa7007e18a7bdae
 SHA512: 385b27cb08c07fc4e40a917a841de376faaa1c98d7f8ad830c4dd5079f7efd6e3011fa87d91130287f0d0f02862eb04357a38816ce6ee057ed57a5717554fd0b
-Homepage: https://ndk-jailbreak.github.io/info/Neptune/?p=info
+Homepage: https://qilskcter.github.io/jailbreak/info/Neptune/?p=info
 Description: Kích Hoạt Cử Chỉ Vuốt iPhone X Trên Các Dòng iPhone
 Tag: purpose::extension, compatible::ios12
 Name: Neptune for iPhone VN
 Author: Duraid Abdul <feedback.100@icloud.com>
 dev: duraidabdul
 Icon: file:///Applications/Cydia.app/Sections/NDK-Tweaks.png
-Depictions: https://ndk-jailbreak.github.io/info/Neptune/?p=info
-SileoDepictions: https://ndk-jailbreak.github.io/Sileoinfo/Neptune.json
+Depictions: https://qilskcter.github.io/jailbreak/info/Neptune/?p=info
+SileoDepictions: https://qilskcter.github.io/jailbreak/Sileoinfo/Neptune.json
 
 Package: com.ndk.nicebarxvn
 Architecture: iphoneos-arm
@@ -4930,10 +4930,10 @@ MD5sum: 77f185e46c40dcb73fcfe54c7b993a37
 SHA1: dd04be1b149f9220095132056c695de30a06350e
 SHA256: 2427ec9d947a18ac04f2fbe4eb5e67f7f129298e1477b9f1765dae572116e221
 SHA512: 170e80e9fea08711f6f3406adc7eb5b562c62c89847892a8b11b32f518f12af00d0c5ec7c45a719ab5b88b397c1c3f162c7ad4d0bf379aa717648d460451351f
-Homepage: https://ndk-jailbreak.github.io/info/NiceBarX/?p=info
+Homepage: https://qilskcter.github.io/jailbreak/info/NiceBarX/?p=info
 Description: Một tinh chỉnh tuyệt vời cho thanh trạng thái của bạn
-Depiction: https://ndk-jailbreak.github.io/info/NiceBarX/?p=info
-SileoDepiction: https://ndk-jailbreak.github.io/Sileoinfo/NiceBarX.json
+Depiction: https://qilskcter.github.io/jailbreak/info/NiceBarX/?p=info
+SileoDepiction: https://qilskcter.github.io/jailbreak/Sileoinfo/NiceBarX.json
 Icon: file:///Applications/Cydia.app/Sections/NDK-Tweaks.png
 Name: NiceBarX VN
 Author: niceios
@@ -4967,13 +4967,13 @@ MD5sum: b735c12ced2d3bd6a988fc6efc79bfe3
 SHA1: ac2c0e9cd53bb200f96a8fa2523a732df3b27a3a
 SHA256: 5e50af82afaaf0f6e440b7f9bb39a6b3e71b9efc29464488af03d0f9bbeb6ddb
 SHA512: b643837a05745d9b1f323cbf18001aacb7ca61aabd59262e72f13427f4bd1edab4f8af2e1119b5af91edcea21edd477e09885088039bcf9efd8fe51765a5e0c3
-Homepage: https://ndk-jailbreak.github.io/info/orion/?p=info
+Homepage: https://qilskcter.github.io/jailbreak/info/orion/?p=info
 Description: Cấu hình mọi thứ trên thiết bị của bạn!
 Name: Orion
 Icon: file:///Applications/Cydia.app/Sections/NDK-Tweaks.png
 Author: John Zarogiannis <johnzrgnns@gmail.com>
-Depiction: https://ndk-jailbreak.github.io/info/orion/?p=info
-SileoDepiction: https://ndk-jailbreak.github.io/Sileoinfo/orion.json
+Depiction: https://qilskcter.github.io/jailbreak/info/orion/?p=info
+SileoDepiction: https://qilskcter.github.io/jailbreak/Sileoinfo/orion.json
 
 Package: com.ndk.powercuffvn
 Architecture: iphoneos-arm
@@ -4988,12 +4988,12 @@ MD5sum: b77e6bb12c2bde60aafff88486fa0494
 SHA1: 029623fb605fa664f8ed94214f5bf5d95fdaa8dd
 SHA256: 891220a70ea95681686ab0d933c971bb27b43805bf19b2bde2e9312401b5c281
 SHA512: 9f7346c60e32833b59d2c611a474476eaf23475ba9e51979336182bb4aa65be4f1ad046b27f2b61117b299f71e18d9e9b47cb277cac0e3e651b48dc4f5b84ca0
-Homepage: https://ndk-jailbreak.github.io/info/PowerCuff/?p=info
+Homepage: https://qilskcter.github.io/jailbreak/info/PowerCuff/?p=info
 Description: Select from additional low power device states
 Tag: purpose::extension
 Name: Powercuff VN
-Depiction: https://ndk-jailbreak.github.io/info/PowerCuff/?p=info
-SileoDepiction: https://ndk-jailbreak.github.io/Sileoinfo/PowerCuff.json
+Depiction: https://qilskcter.github.io/jailbreak/info/PowerCuff/?p=info
+SileoDepiction: https://qilskcter.github.io/jailbreak/Sileoinfo/PowerCuff.json
 Author: Ryan Petrich <rpetrich+powercuff@gmail.com>
 Sponsor: thebigboss.org <http://thebigboss.org>
 dev: rpetrich
@@ -5030,13 +5030,13 @@ MD5sum: 3519f339fbdec8555c080ca600ef6a4a
 SHA1: 58fbc5cf386a0c54793eb5988f0fe963485016a3
 SHA256: 203f4e68d628ed2b066eb8268b7b567fa9cbe594ada5978c6149e5bebd3c0122
 SHA512: cdd6db5c0a418328944ec9e1f324b81406e2c0b8aac34e1a038242af3a8838f39c7bc9200e0c76a27d2ca0126c54f5e26d8d87e2b1e99b9c16ba9a1ec533deea
-Homepage: https://ndk-jailbreak.github.io/info/ProudlockXr/?p=info
+Homepage: https://qilskcter.github.io/jailbreak/info/ProudlockXr/?p=info
 Description: Thêm Biểu Tượng Khoá Như iPhone X
 Name: ProudLock Xr VN
 Author: Sniper_GER <sniperger@festival.ml>
 Icon: file:///Applications/Cydia.app/Sections/NDK-Tweaks.png
-Depiction: https://ndk-jailbreak.github.io/info/ProudlockXr/?p=info
-SileoDepiction: https://ndk-jailbreak.github.io/Sileoinfo/ProudlockXr.json
+Depiction: https://qilskcter.github.io/jailbreak/info/ProudlockXr/?p=info
+SileoDepiction: https://qilskcter.github.io/jailbreak/Sileoinfo/ProudlockXr.json
 
 Package: com.ndk.rgboardvn
 Architecture: iphoneos-arm
@@ -5051,12 +5051,12 @@ MD5sum: df1a6f64204cf25b437ebfd0cdcc67ab
 SHA1: b9bed5e24016f1f651a64dd1fe64ebab42fef2b3
 SHA256: 2f40646d4cc6725c03a1880af5dacd959e0ae245876958c658d56b36d590b231
 SHA512: c3db03ad2892fb3916a61ffd37e2a6d1916fd64759834042a671d45a2c14f9662ada3d6c691205a7e8722f25f762739a8513a9aea274feba7c2b31e4f5ae619d
-Homepage: https://ndk-jailbreak.github.io/info/RGBoard/?p=info
+Homepage: https://qilskcter.github.io/jailbreak/info/RGBoard/?p=info
 Description: Razer Chroma RGB keyboard.
 Tag: purpose::extension, compatible_min::ios12, compatible_max::ios13.6
 Name: RGBoard VN
-Depiction: https://ndk-jailbreak.github.io/info/RGBoard/?p=info
-SileoDepiction: https://ndk-jailbreak.github.io/Sileoinfo/RGBoard.json
+Depiction: https://qilskcter.github.io/jailbreak/info/RGBoard/?p=info
+SileoDepiction: https://qilskcter.github.io/jailbreak/Sileoinfo/RGBoard.json
 Icon: file:///Applications/Cydia.app/Sections/NDK-Tweaks.png
 Author: MiRO <tweaks_support@miro92.com>
 
@@ -5073,13 +5073,13 @@ MD5sum: 597a0045fc66a1196af51a4e23cb2ec4
 SHA1: 51513e7a3238d312c0d061a30ec56a82998ca719
 SHA256: b6b596b0075507862b4eedc1ffce8adbb0d7e9ae28cd2af773595912abfa5e67
 SHA512: c132d301310e4980b7f4619887e5853369e6150f2edb8ab3d9241ca7e0d8b7e29f154766d5909591a625cda97faf1412859fb1cd317bd2c84893d38dc6a951e0
-Homepage: https://ndk-jailbreak.github.io/info/prysm/?p=info
+Homepage: https://qilskcter.github.io/jailbreak/info/prysm/?p=info
 Description: Trung tâm điều khiển hoàn toàn mới.
 Name: Prysm
 Author: LaughingQuoll
 Icon: file:///Applications/Cydia.app/Sections/NDK-Tweaks.png
-Depiction: https://ndk-jailbreak.github.io/info/prysm/?p=info
-SileoDepiction: https://ndk-jailbreak.github.io/Sileoinfo/prysm.json
+Depiction: https://qilskcter.github.io/jailbreak/info/prysm/?p=info
+SileoDepiction: https://qilskcter.github.io/jailbreak/Sileoinfo/prysm.json
 
 Package: com.ndk.saily
 Architecture: iphoneos-arm
@@ -5126,12 +5126,12 @@ MD5sum: 44090ba496e641aa95d122c76dacd424
 SHA1: fd70b4d46f83fe7cebb862b914cc5eae058173b4
 SHA256: 535b49083d73f59a729f5a64d847b9f5524f46b2c7defe127471018cd069fb97
 SHA512: ee25d82f1ee113bf1c0023a15a575c4fcf8dc2e10e9c855e6e14b45c18e9f3673595f36c80a76b204028ec2abb1188de04da2420a0ac8f5db7da61d5bbd522cc
-Homepage: https://ndk-jailbreak.github.io/info/SFCompactRounded/?p=info
+Homepage: https://qilskcter.github.io/jailbreak/info/SFCompactRounded/?p=info
 Description: Font SF Compact Rounded
 Name: SF Compact Rounded
 Author: NDK
-Depiction: https://ndk-jailbreak.github.io/info/SFCompactRounded/?p=info
-SileoDepiction: https://ndk-jailbreak.github.io/Sileoinfo/SFCompactRounded.json
+Depiction: https://qilskcter.github.io/jailbreak/info/SFCompactRounded/?p=info
+SileoDepiction: https://qilskcter.github.io/jailbreak/Sileoinfo/SFCompactRounded.json
 Icon: file:///Applications/Cydia.app/Sections/NDK-Font.png
 
 Package: com.ndk.sileo
@@ -5402,12 +5402,12 @@ MD5sum: ecfe7d7bf4b91d3732d2bb2ca5fff46a
 SHA1: 9eaa07a53fb05b63e703d64d95b2b14cb7eec6b0
 SHA256: 424575718002b2a8b239cdbf350c52855132442158976391ffbee71110b642e1
 SHA512: 0891931ce4bb969bc4b517f26b48f8f99bb3937e8638f1b591fc2d7fafad0c5f8a6847de042c823d5ba2b3719739fb48add96d441fbec7f5ce2c8f31ba2263a5
-Homepage: https://ndk-jailbreak.github.io/info/Song10/?p=info
+Homepage: https://qilskcter.github.io/jailbreak/info/Song10/?p=info
 Description: Cột Sóng iOS 10
 Name: Sóng iOS10
 Author: @ongcenh
-Depiction: https://ndk-jailbreak.github.io/info/Song10/?p=info
-SileoDepiction: https://ndk-jailbreak.github.io/Sileoinfo/Song10.json
+Depiction: https://qilskcter.github.io/jailbreak/info/Song10/?p=info
+SileoDepiction: https://qilskcter.github.io/jailbreak/Sileoinfo/Song10.json
 Icon: file:///Applications/Cydia.app/Sections/NDK-Car.png
 
 Package: com.ndk.statusbarxs
@@ -5441,12 +5441,12 @@ MD5sum: f006516b1551390c450fbf75867fa196
 SHA1: 105b0e0f1ee783b3d64dbc5a03b068a7afa6f02f
 SHA256: 65638c6aa53743af59bf21a61d96df92eb8776817a67366f6548c56e80bbf378
 SHA512: 4ebe67cadca992d3296f420b2671975c9306325a2a5803c0285358f1f7d3ec3b7ac7730268ea54003595b8b5e927d4c182fe3d0e5060e4d3898d21cb207e4869
-Homepage: https://ndk-jailbreak.github.io/info/SugarCane/?p=info
+Homepage: https://qilskcter.github.io/jailbreak/info/SugarCane/?p=info
 Description: Hiện Phần Trăm Ở Thanh Trượt Control Center cho ios 11-12.
 Name: SugarCane VN
 Author: iOS Creatix
-Depiction: https://ndk-jailbreak.github.io/info/SugarCane/?p=info
-SileoDepiction: https://ndk-jailbreak.github.io/Sileoinfo/SugarCane.json
+Depiction: https://qilskcter.github.io/jailbreak/info/SugarCane/?p=info
+SileoDepiction: https://qilskcter.github.io/jailbreak/Sileoinfo/SugarCane.json
 Icon: file:///Applications/Cydia.app/Sections/NDK-Tweaks.png
 
 Package: com.ndk.systeminfovn
@@ -5481,12 +5481,12 @@ MD5sum: 9d385b22e7918243625c86c1f6a4d1e7
 SHA1: 0d55b8d32051c83a19c7ea9c15018aa70119baff
 SHA256: 3179698b111c96787a614b6cc62ead4e256c4f45e3ce50c14c014c00547fed28
 SHA512: 8a175b54a166f274b242b0a564fca644060548718d6eb0016fcc77cae44b9af6a77b50e557e33dfb2574e17bf6231afff13aefd5aafefef8244e02dca8748a42
-Homepage: https://ndk-jailbreak.github.io/info/Tron/?p=info
+Homepage: https://qilskcter.github.io/jailbreak/info/Tron/?p=info
 Description: Mask cho iPhone
 Name: Mask Tròn
 Author: NDK
-Depiction: https://ndk-jailbreak.github.io/info/Tron/?p=info
-SileoDepiction: https://ndk-jailbreak.github.io/Sileoinfo/Tron.json
+Depiction: https://qilskcter.github.io/jailbreak/info/Tron/?p=info
+SileoDepiction: https://qilskcter.github.io/jailbreak/Sileoinfo/Tron.json
 Icon: file:///Applications/Cydia.app/Sections/NDK-Themes.png
 
 Package: com.ndk.uyou
@@ -5502,13 +5502,13 @@ MD5sum: 5f18bd16e9c7c162e66b2d22996108d7
 SHA1: cec785eaf7bb8214d97d47cbb3028b36bed35dfd
 SHA256: 8ff83d15bc91caa8f9cf8f81cea827381074b73dd77fedddd72d72589423af35
 SHA512: 9b722cc5fa7e64fe24c1941fe0f3fc6fa7a50c958a7e9d06b36d9a03d9de7b500bec84802fc95f510ea3da85c030a12e40f0026f8db7d421832e9d5f8a359f02
-Homepage: https://ndk-jailbreak.github.io/info/uyou/?p=info
+Homepage: https://qilskcter.github.io/jailbreak/info/uyou/?p=info
 Description: Trình quản lý tải xuống cho YouTube.
 Tag: purpose::extension, compatible_min::ios13, compatible_max::ios14
 Name: uYou VH
 Icon: file:///Applications/Cydia.app/Sections/NDK-Tweaks.png
-Depiction: https://ndk-jailbreak.github.io/info/uyou/?p=info
-SileoDepiction: https://ndk-jailbreak.github.io/Sileoinfo/uyou.json
+Depiction: https://qilskcter.github.io/jailbreak/info/uyou/?p=info
+SileoDepiction: https://qilskcter.github.io/jailbreak/Sileoinfo/uyou.json
 Author: MiRO <tweaks_support@miro92.com>
 
 Package: com.ndk.vedettevn
@@ -5524,13 +5524,13 @@ MD5sum: d8c3a6bacba5d21d32f1ae4b99c35c71
 SHA1: 5eea6b235b67c77f4e1ba9e7824d34888c48c88e
 SHA256: 106998ad087be2d9c9666c761787201470a03220244b72c1b87f597c09812970
 SHA512: 5729499f6dce81d854e891d0474f81bac70b751f381de145c55474ccdec74e70428cb0dddb1534e92af8fc93c3fa0a68e3ffd9230440614a26d088ad897af4ce
-Homepage: https://ndk-jailbreak.github.io/info/Vedette/?p=info
+Homepage: https://qilskcter.github.io/jailbreak/info/Vedette/?p=info
 Description: Tuỳ Chỉnh Công Suất CPU
 Name: Vedette VN
 Author: udevs
 Icon: file:///Applications/Cydia.app/Sections/NDK-Tweaks.png
-Depiction: https://ndk-jailbreak.github.io/info/Vedette/?p=info
-SileoDepiction: https://ndk-jailbreak.github.io/Sileoinfo/Vedette.json
+Depiction: https://qilskcter.github.io/jailbreak/info/Vedette/?p=info
+SileoDepiction: https://qilskcter.github.io/jailbreak/Sileoinfo/Vedette.json
 
 Package: com.ndk.vnodebypass
 Architecture: iphoneos-arm
@@ -5561,12 +5561,12 @@ MD5sum: 7cdfcd2db7224de455fc51ad2e16d798
 SHA1: 7a41e94b4c1d18862aacf60a5390300df352ee19
 SHA256: ad0c3a536e0ea11395a5df214903202964c4ff7b4c04a8a0469f87f2fe71b797
 SHA512: 369e14bc4caa94b2a455f95d4943040f160243bdbb740953587cdb9420133a3f43b2f38f036c9178ac04a4a0696fbc2c192fd59d5bd5857493c265a8ef3459e2
-Homepage: https://ndk-jailbreak.github.io/info/VolteRounded/?p=info
+Homepage: https://qilskcter.github.io/jailbreak/info/VolteRounded/?p=info
 Description: Font Volte Rounded
 Name: Volte Rounded
 Author: NDK
-Depiction: https://ndk-jailbreak.github.io/info/VolteRounded/?p=info
-SileoDepiction: https://ndk-jailbreak.github.io/Sileoinfo/VolteRounded.json
+Depiction: https://qilskcter.github.io/jailbreak/info/VolteRounded/?p=info
+SileoDepiction: https://qilskcter.github.io/jailbreak/Sileoinfo/VolteRounded.json
 Icon: file:///Applications/Cydia.app/Sections/NDK-Font.png
 
 Package: com.ndk.volumecafe
@@ -5580,13 +5580,13 @@ MD5sum: 2804896a978c714cc19d2f58e2e2928c
 SHA1: 71e2462283f5583a92cbe6a72104e5f129c720be
 SHA256: edc5ea6f559db6a17c430da5057ba79b415d93c2517e068713ed4ef10b55a9f8
 SHA512: ca5bc3b9e26261e3a1d9487f31936fc67d3e9993d86a9071153965c46ab85714898fef67d069bba1628e5e475fb9ebfc74e8f56a8f8720aafddd0a68aa732e30
-Homepage: https://ndk-jailbreak.github.io/info/VolCafe/?p=info
+Homepage: https://qilskcter.github.io/jailbreak/info/VolCafe/?p=info
 Description: Thay đổi biểu tượng Âm Lượng !
 Name: Volume Cafe
 Author: @ongcenh <anhminh311105@gmail.com>
 Icon: file:///Applications/Cydia.app/Sections/NDK-Car.png
-Depiction: https://ndk-jailbreak.github.io/info/VolCafe/?p=info
-SileoDepiction: https://ndk-jailbreak.github.io/Sileoinfo/VolCafe.json
+Depiction: https://qilskcter.github.io/jailbreak/info/VolCafe/?p=info
+SileoDepiction: https://qilskcter.github.io/jailbreak/Sileoinfo/VolCafe.json
 
 Package: com.ndk.volumelove
 Architecture: iphoneos-arm
@@ -5599,13 +5599,13 @@ MD5sum: 26306d4a33ba70cab13564e668c5b3a1
 SHA1: 907a3fb3341ed70c0c27b00f8bf8e3e7da8418fb
 SHA256: 4136302170fde31b4215434ba19a6da36d14a55f1e67dd3768348fa62b081718
 SHA512: 936a459e2669bc7d4400eae33ee99039ee24dad2225494ff979047f5ebca61cf83318e51192b75b62b1c076f5495c072b4f65264ed81aa2d7a2a689fa0091cf3
-Homepage: https://ndk-jailbreak.github.io/info/volumelove/?p=info
+Homepage: https://qilskcter.github.io/jailbreak/info/volumelove/?p=info
 Description: Thay đổi biểu tượng Âm Lượng !
 Name: Volume Love
 Author: @ongcenh <anhminh311105@gmail.com>
 Icon: file:///Applications/Cydia.app/Sections/NDK-Car.png
-Depiction: https://ndk-jailbreak.github.io/info/volumelove/?p=info
-SileoDepiction: https://ndk-jailbreak.github.io/Sileoinfo/volumelove.json
+Depiction: https://qilskcter.github.io/jailbreak/info/volumelove/?p=info
+SileoDepiction: https://qilskcter.github.io/jailbreak/Sileoinfo/volumelove.json
 
 Package: com.ndk.zebra
 Architecture: iphoneos-arm
@@ -5639,13 +5639,13 @@ MD5sum: 9c2feec254fa91bb4e35a23a08a137ce
 SHA1: af720602717a505c8147e9cac6d6b6a7c71686dc
 SHA256: 5a4cd483a0bef9d78ffd1fca523152cb7d164312d7286a8cd5c69590ccf79382
 SHA512: 98df7e83dc3d67362927f47ad69fb3f81e9c2af6590d010e6d43ac90b6283c63942ed1015a0ffa0c2af06018e024770c1184f7eaaf89819627871e37d5728272
-Homepage: https://ndk-jailbreak.github.io/info/Nereid/?p=info
+Homepage: https://qilskcter.github.io/jailbreak/info/Nereid/?p=info
 Description: Lock screen music player redesign
 Name: Nereid
 Author: Nepeta
 Icon: file:///Applications/Cydia.app/Sections/NDK-Tweaks.png
-Depiction: https://ndk-jailbreak.github.io/info/Nereid/?p=info
-SileoDepiction: https://ndk-jailbreak.github.io/Sileoinfo/Nereid.json
+Depiction: https://qilskcter.github.io/jailbreak/info/Nereid/?p=info
+SileoDepiction: https://qilskcter.github.io/jailbreak/Sileoinfo/Nereid.json
 
 
 
@@ -5666,13 +5666,13 @@ MD5sum: 6a974e4a7b70b46b38b88d6945715e83
 SHA1: 58cde01b51161c039e93fa5815592dd4f2ff6ffa
 SHA256: bb4452c8cfcac85597f486afe9b0939078284daeb46a133977b36270006f4908
 SHA512: 327130127a26011cde92727fee4d00f12a10ed7989e33f1234ec5adfaf927394e7ba697ca0d77ca17f1d2a3035dba81e71f9bf4d1cda291012bfef7eea9326fc
-Homepage: https://ndk-jailbreak.github.io/info/Ventana/?p=info
+Homepage: https://qilskcter.github.io/jailbreak/info/Ventana/?p=info
 Description: Màn hình khoá kiểu Windows 10
 Name: Ventana VN (Unc0ver, checkra1n)
 Author: CoolStar & Jeremy Goulet
 Icon: file:///Applications/Cydia.app/Sections/NDK-Tweaks.png
-Depiction: https://ndk-jailbreak.github.io/info/Ventana/?p=info
-SileoDepiction: https://ndk-jailbreak.github.io/info/Ventana.json
+Depiction: https://qilskcter.github.io/jailbreak/info/Ventana/?p=info
+SileoDepiction: https://qilskcter.github.io/jailbreak/info/Ventana.json
 
 Package: com.ndk.callconnected
 Architecture: iphoneos-arm
@@ -5705,13 +5705,13 @@ MD5sum: 6fc4f99b270cac9c5e1ce26787dc3168
 SHA1: 25064488efe4bb8f3ce3196a9c41c0b9ad8e8918
 SHA256: 2cf796cfdc14ac13da6e2e8f7d336edaaf3cc73d209312a180e30524a81a06ca
 SHA512: 4ad4e55fdb5be66c7359b648d6e4756b4ddd0ae167878a0e58da158526f08722298b1b83d5cfc925e6d9a9a1a7e824e4702a478ea9b704614f70f647f697cfc1
-Homepage: https://ndk-jailbreak.github.io/info/callassistbar/?p=info
+Homepage: https://qilskcter.github.io/jailbreak/info/callassistbar/?p=info
 Description: MiniBar For InComingCall & Vibrate When Your Call Connected!
 Name: CallAssistBar
 Author: nqt1195
 Icon: file:///Applications/Cydia.app/Sections/NDK-Tweaks.png
-Depiction: https://ndk-jailbreak.github.io/info/callassistbar/?p=info
-SileoDepiction: https://ndk-jailbreak.github.io/Sileoinfo/callassistbar.json
+Depiction: https://qilskcter.github.io/jailbreak/info/callassistbar/?p=info
+SileoDepiction: https://qilskcter.github.io/jailbreak/Sileoinfo/callassistbar.json
 
 
 

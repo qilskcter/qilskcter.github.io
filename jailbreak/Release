@@ -1,0 +1,11 @@
+Origin: qilskcter
+Label: qilskcter
+Suite: stable
+Version: 1.0
+Codename: ios
+Architecture: iphoneos-arm
+Components: main
+Description: Return of the NDK-Jailbreak Repository
+MD5Sum:
+ 0e2e5d9fa4bced5e4e344be846ffb3a4 250316 Bytes Packages
+ 1becc17ab1506285006fb72e75015f44 61751 Packages.bz2

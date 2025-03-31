@@ -540,6 +540,10 @@ h5.animate-on-load {
     color: #ccc;
 }
 
+#album-cover {
+    display: none;
+}
+
 .button-container {
     display: flex;
     justify-content: center;

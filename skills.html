@@ -23,7 +23,7 @@
                     </svg></a></li>
             <li><a href="about.html">About</a></li>
             <li><a href="awards.html">Award</a></li>
-            <li><a href="index.html">Repository</a></li>
+            <li><a href="jailbreak/index.html">Repository</a></li>
             <li><a href="skills.html">Skill</a></li>
             <li><a href="device.html">Device</a></li>
             <li><a href="contact.html">Contact</a></li>
@@ -59,8 +59,20 @@
                 <img src="/assets/python.svg" class="invert-icon" width="30" height="30" alt="SVG Icon">
                 Python
             </h2>
+            <h2 class="animate-on-load">
+                <img src="/assets/java.svg" width="32" height="32" alt="SVG Icon">
+                Java
+            </h2>
         </ul>
     </section>
+
+    <svg width="0" height="0" style="position:absolute; left: -1000px; top: -1000px;">
+        <filter id="distorsion">
+        <feTurbulence type="turbulence" baseFrequency="0.03" numOctaves="2" seed="1" result="noise" />
+        <feDisplacementMap in="SourceGraphic" in2="noise" scale="15" xChannelSelector="R" yChannelSelector="G" />
+        </filter>
+    </svg>
+
     <script src="script.js"></script>
     <footer class="site-footer">
         <p>© 2024 qilskcter | Built with ❤️</p>

@@ -1,24 +1,50 @@
 document.addEventListener("DOMContentLoaded", function () {
-    const binaryContainer = document.createElement("div");
-    binaryContainer.classList.add("binary-container");
-    document.body.appendChild(binaryContainer);
+    
+    function createSnowflake() {
+        const snowflake = document.createElement("div");
+        snowflake.classList.add("snowflake");
+        
+        snowflake.style.left = Math.random() * window.innerWidth + "px";
+        
+        const size = Math.random() * 4 + 2; 
+        snowflake.style.width = size + "px";
+        snowflake.style.height = size + "px";
+        
+        const duration = Math.random() * 5 + 5; 
+        snowflake.style.animationDuration = duration + "s";
 
-    function createBinaryDigit() {
-        const digit = document.createElement("div");
-        digit.classList.add("binary-digit");
+        snowflake.style.animationDelay = Math.random() * -5 + "s"; 
+        
+        snowflake.style.opacity = Math.random() * 0.5 + 0.3; 
 
-        digit.style.left = Math.random() * window.innerWidth + "px";
-        digit.textContent = Math.random() < 0.5 ? "0" : "1";
-        digit.style.animationDuration = (Math.random() * 5 + 3) + "s";
-
-        binaryContainer.appendChild(digit);
+        document.body.appendChild(snowflake);
 
         setTimeout(() => {
-            digit.remove();
-        }, 8000);
+            snowflake.remove();
+        }, duration * 1000);
     }
 
-    setInterval(createBinaryDigit, 100);
+    setInterval(createSnowflake, 300);
+});
+
+document.addEventListener("DOMContentLoaded", function() {
+    const navbar = document.querySelector(".navbar");
+
+    if (!navbar) {
+        return;
+    }
+
+    function checkScroll() {
+        if (window.scrollY > 10) {
+            navbar.classList.add("navbar-scrolled");
+        } else {
+            navbar.classList.remove("navbar-scrolled");
+        }
+    }
+
+    checkScroll();
+
+    window.addEventListener("scroll", checkScroll);
 });
 
 document.addEventListener("DOMContentLoaded", function () {
@@ -188,29 +214,6 @@ document.addEventListener('keydown', function(e) {
         alert('Lói rồi, bỏ đi');
         return false;
     }
-});
-
-document.addEventListener("DOMContentLoaded", () => {
-    const particleContainer = document.createElement("div");
-    particleContainer.classList.add("particle-container");
-    document.body.appendChild(particleContainer);
-
-    document.addEventListener("mousemove", (e) => {
-        let particle = document.createElement("div");
-        particle.classList.add("particle");
-        particle.style.left = `${e.clientX}px`;
-        particle.style.top = `${e.clientY}px`;
-        
-        let size = Math.random() * 6 + 4;
-        particle.style.width = `${size}px`;
-        particle.style.height = `${size}px`;
-
-        particleContainer.appendChild(particle);
-
-        setTimeout(() => {
-            particle.remove();
-        }, 500);
-    });
 });
 
 async function refreshAccessToken(refreshToken) {

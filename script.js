@@ -210,23 +210,23 @@ window.addEventListener("load", function () {
     });
 });
 
-// document.addEventListener('keydown', function (e) {
-//     if (
-//         e.key === 'F12' ||
-//         (e.altKey && e.metaKey && e.key.toLowerCase() === 'i') ||
-//         (e.ctrlKey && e.shiftKey && e.key.toLowerCase() === 'i')
-//     ) {
-//         e.preventDefault();
-//         alert('Bỏ đi mà làm người :))))');
-//         return false;
-//     }
+document.addEventListener('keydown', function (e) {
+    if (
+        e.key === 'F12' ||
+        (e.altKey && e.metaKey && e.key.toLowerCase() === 'i') ||
+        (e.ctrlKey && e.shiftKey && e.key.toLowerCase() === 'i')
+    ) {
+        e.preventDefault();
+        alert('Bỏ đi mà làm người :))))');
+        return false;
+    }
 
-//     if (e.ctrlKey && e.key.toLowerCase() === 'u') {
-//         e.preventDefault();
-//         alert('Lói rồi, bỏ đi');
-//         return false;
-//     }
-// });
+    if (e.ctrlKey && e.key.toLowerCase() === 'u') {
+        e.preventDefault();
+        alert('Lói rồi, bỏ đi');
+        return false;
+    }
+});
 
 let accessToken = null;
 

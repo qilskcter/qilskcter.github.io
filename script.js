@@ -210,28 +210,28 @@ window.addEventListener("load", function () {
     });
 });
 
-document.addEventListener('keydown', function (e) {
-    if (
-        e.key === 'F12' ||
-        (e.altKey && e.metaKey && e.key.toLowerCase() === 'i') ||
-        (e.ctrlKey && e.shiftKey && e.key.toLowerCase() === 'i')
-    ) {
-        e.preventDefault();
-        alert('Bỏ đi mà làm người :))))');
-        return false;
-    }
+// document.addEventListener('keydown', function (e) {
+//     if (
+//         e.key === 'F12' ||
+//         (e.altKey && e.metaKey && e.key.toLowerCase() === 'i') ||
+//         (e.ctrlKey && e.shiftKey && e.key.toLowerCase() === 'i')
+//     ) {
+//         e.preventDefault();
+//         alert('Bỏ đi mà làm người :))))');
+//         return false;
+//     }
 
-    if (e.ctrlKey && e.key.toLowerCase() === 'u') {
-        e.preventDefault();
-        alert('Lói rồi, bỏ đi');
-        return false;
-    }
-});
+//     if (e.ctrlKey && e.key.toLowerCase() === 'u') {
+//         e.preventDefault();
+//         alert('Lói rồi, bỏ đi');
+//         return false;
+//     }
+// });
 
 let accessToken = null;
 
 async function getAccessTokenFromProxy() {
-    const proxyUrl = "https://spotify-token-proxy.nguyendinhkhanh06.workers.dev/";
+    const proxyUrl = "/api/spotify";
 
     if (proxyUrl.includes("tên-worker")) {
         console.warn("Cloudflare Worker link wasn't configurated!");
@@ -300,21 +300,15 @@ async function getCurrentlyPlaying() {
 setInterval(getCurrentlyPlaying, 5000);
 getCurrentlyPlaying();
 
-const playerElement = document.getElementById("spotify-player");
+const playerElement = document.querySelector(".spotify-player");
+
 if (playerElement) {
     playerElement.addEventListener("click", function () {
         const songUrl = this.getAttribute("data-url");
         if (songUrl) window.open(songUrl, "_blank");
     });
-} else {
-    const playerByClass = document.querySelector(".spotify-player");
-    if (playerByClass) {
-        playerByClass.addEventListener("click", function () {
-            const songUrl = this.getAttribute("data-url");
-            if (songUrl) window.open(songUrl, "_blank");
-        });
-    }
 }
+
 document.addEventListener("DOMContentLoaded", function () {
     const animatedElements = document.querySelectorAll('.animate-on-load');
 
@@ -326,4 +320,11 @@ document.addEventListener("DOMContentLoaded", function () {
             el.style.transform = "translateY(0)";
         });
     });
+});
+
+document.getElementById('contact-email').addEventListener('click', function (e) {
+    e.preventDefault();
+    const user = "gospel_texts_4a";
+    const domain = "icloud.com";
+    window.location.href = `mailto:${user}@${domain}`;
 });

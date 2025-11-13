@@ -805,7 +805,7 @@ h5.animate-on-load {
 }
 
 .spotify-player {
-    display: flex;
+    display: none;
     align-items: center;
     gap: 15px;
     border: 1px solid rgba(255, 255, 255, 0.18);

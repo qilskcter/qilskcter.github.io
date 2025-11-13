@@ -234,7 +234,7 @@ async function getAccessTokenFromProxy() {
     const proxyUrl = "/api/spotify";
 
     if (proxyUrl.includes("tên-worker")) {
-        console.warn("Cloudflare Worker link wasn't configurated!");
+        console.warn("API wasn't configurated!");
         return null;
     }
 

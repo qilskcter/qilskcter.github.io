@@ -256,44 +256,45 @@ async function getCurrentlyPlaying() {
 
     if (!accessToken) return;
 
-    const response = await fetch("https://api.spotify.com/v1/me/player/currently-playing", {
-        headers: { "Authorization": `Bearer ${accessToken}` }
-    });
+    try {
+        const response = await fetch("https://api.spotify.com/v1/me/player/currently-playing", {
+            headers: { "Authorization": `Bearer ${accessToken}` }
+        });
 
-    const spotifyPlayer = document.querySelector(".spotify-player");
-    const albumCover = document.getElementById("album-cover");
-    const songTitle = document.getElementById("song-title");
-    const artistName = document.getElementById("artist-name");
+        const spotifyPlayer = document.querySelector(".spotify-player");
+        const albumCover = document.getElementById("album-cover");
+        const songTitle = document.getElementById("song-title");
+        const artistName = document.getElementById("artist-name");
 
-    if (!spotifyPlayer || !albumCover || !songTitle || !artistName) return;
+        if (!spotifyPlayer || !albumCover || !songTitle || !artistName) return;
 
-    if (response.status === 401) {
-        accessToken = null;
-        return;
+        if (response.status === 401) {
+            accessToken = null;
+            return;
+        }
+
+        if (response.status === 204) {
+            spotifyPlayer.style.display = "none";
+            return;
+        }
+
+        const data = await response.json();
+        if (data && data.item) {
+            songTitle.textContent = data.item.name;
+            artistName.textContent = data.item.artists.map(artist => artist.name).join(", ");
+            albumCover.src = data.item.album.images[0].url;
+            songTitle.href = data.item.external_urls.spotify;
+
+            spotifyPlayer.setAttribute("data-url", data.item.external_urls.spotify);
+
+            spotifyPlayer.style.display = "flex";
+            albumCover.style.display = "block";
+        }
+    } catch (error) {
+        console.log("Lỗi Spotify:", error);
+        const spotifyPlayer = document.querySelector(".spotify-player");
+        if (spotifyPlayer) spotifyPlayer.style.display = "none";
     }
-
-    if (response.status === 204) {
-        spotifyPlayer.style.display = "none";
-        return;
-    }
-
-    const data = await response.json();
-    if (data && data.item) {
-        songTitle.textContent = data.item.name;
-        artistName.textContent = data.item.artists.map(artist => artist.name).join(", ");
-        albumCover.src = data.item.album.images[0].url;
-        songTitle.href = data.item.external_urls.spotify;
-
-        spotifyPlayer.setAttribute("data-url", data.item.external_urls.spotify);
-
-        spotifyPlayer.style.display = "flex";
-        albumCover.style.display = "block";
-    }
-} catch (error) {
-    console.log("Lỗi Spotify:", error);
-    const spotifyPlayer = document.querySelector(".spotify-player");
-    if (spotifyPlayer) spotifyPlayer.style.display = "none";
-}
 }
 
 setInterval(getCurrentlyPlaying, 5000);

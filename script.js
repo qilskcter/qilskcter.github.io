@@ -1,21 +1,21 @@
 document.addEventListener("DOMContentLoaded", function () {
-    
+
     function createSnowflake() {
         const snowflake = document.createElement("div");
         snowflake.classList.add("snowflake");
-        
+
         snowflake.style.left = Math.random() * window.innerWidth + "px";
-        
-        const size = Math.random() * 4 + 2; 
+
+        const size = Math.random() * 4 + 2;
         snowflake.style.width = size + "px";
         snowflake.style.height = size + "px";
-        
-        const duration = Math.random() * 5 + 5; 
+
+        const duration = Math.random() * 5 + 5;
         snowflake.style.animationDuration = duration + "s";
 
-        snowflake.style.animationDelay = Math.random() * -5 + "s"; 
-        
-        snowflake.style.opacity = Math.random() * 0.5 + 0.3; 
+        snowflake.style.animationDelay = Math.random() * -5 + "s";
+
+        snowflake.style.opacity = Math.random() * 0.5 + 0.3;
 
         document.body.appendChild(snowflake);
 
@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", function () {
     setInterval(createSnowflake, 300);
 });
 
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function () {
     const navbar = document.querySelector(".navbar");
 
     if (!navbar) {
@@ -109,12 +109,17 @@ function detectBrowser() {
 
 async function detectOS() {
     let userAgent = navigator.userAgent;
+    let platform = navigator.platform || "";
     let osName = "Unknown OS";
-    let osVersion = ""; 
-    
+    let osVersion = "";
+
+    if (platform === 'MacIntel' && navigator.maxTouchPoints > 1) {
+        return "iPadOS";
+    }
+
     if (navigator.userAgentData) {
         try {
-            const uaData = await navigator.userAgentData.getHighEntropyValues(["platformVersion", "platform", "model"]);
+            const uaData = await navigator.userAgentData.getHighEntropyValues(["platformVersion", "platform"]);
             const majorVersion = parseInt(uaData.platformVersion.split('.')[0]);
 
             if (uaData.platform === "macOS") {
@@ -126,64 +131,35 @@ async function detectOS() {
                 else if (majorVersion === 12) osVersion = "Monterey";
                 else if (majorVersion === 11) osVersion = "Big Sur";
                 else osVersion = `Version ${majorVersion}`;
-            }
-            
-            else if (uaData.platform === "Windows") {
+            } else if (uaData.platform === "Windows") {
                 osName = "Windows";
                 osVersion = (majorVersion >= 13) ? "11" : "10";
-            }
-            
-            else if (uaData.platform === "Android") {
+            } else if (uaData.platform === "Android") {
                 osName = "Android";
                 osVersion = uaData.platformVersion;
             }
-            
-            else if (uaData.platform === "Linux") {
-                osName = "Linux";
-            }
 
-            if (osName !== "Unknown OS") {
-                return `${osName} ${osVersion}`.trim();
-            }
-
-        } catch (e) {
-            console.warn("Client Hints check failed, falling back to User Agent", e);
-        }
+            if (osName !== "Unknown OS") return `${osName} ${osVersion}`.trim();
+        } catch (e) { }
     }
 
     if (/iPhone|iPad|iPod/.test(userAgent) && !window.MSStream) {
         osName = "iOS";
-        const match = userAgent.match(/OS (\d+)_(\d+)_?(\d+)?/);
-        if (match) {
-            osVersion = `${match[1]}.${match[2]}`;
-            if (match[3]) osVersion += `.${match[3]}`;
-        }
-    }
-    
-    else if (/Android/.test(userAgent)) {
+        const match = userAgent.match(/OS (\d+)_(\d+)/);
+        if (match) osVersion = `${match[1]}.${match[2]}`;
+    } else if (/Android/.test(userAgent)) {
         osName = "Android";
         const match = userAgent.match(/Android\s([0-9.]+)/);
         if (match) osVersion = match[1];
-    }
-
-    else if (/Windows NT/.test(userAgent)) {
-        osName = "Windows";
-        if (/Windows NT 10.0/.test(userAgent)) osVersion = "10 (hoặc 11)";
-        else if (/Windows NT 6.3/.test(userAgent)) osVersion = "8.1";
-        else if (/Windows NT 6.2/.test(userAgent)) osVersion = "8";
-        else if (/Windows NT 6.1/.test(userAgent)) osVersion = "7";
-        else if (/Windows NT 5.1/.test(userAgent)) osVersion = "XP";
-    }
-    
-    else if (/Mac OS X/.test(userAgent)) {
+    } else if (/Mac OS X/.test(userAgent)) {
         osName = "macOS";
         const match = userAgent.match(/Mac OS X (\d+)[_.](\d+)/);
-        if (match) {
-            osVersion = `${match[1]}.${match[2]}`; 
-        }
-    }
-    else if (/Linux/.test(userAgent)) {
-        osName = "Linux";
+        if (match) osVersion = `${match[1]}.${match[2]}`;
+    } else if (/Windows NT/.test(userAgent)) {
+        osName = "Windows";
+        if (/Windows NT 10.0/.test(userAgent)) osVersion = "10/11";
+        else if (/Windows NT 6.2/.test(userAgent)) osVersion = "8";
+        else if (/Windows NT 6.1/.test(userAgent)) osVersion = "7";
     }
 
     return `${osName} ${osVersion}`.trim();
@@ -195,19 +171,16 @@ async function displaySystemInfo() {
 
     let browserName = "Unknown Browser";
     const ua = navigator.userAgent;
-    
     if (ua.indexOf("Edg") != -1) browserName = "Microsoft Edge";
     else if (ua.indexOf("Chrome") != -1) browserName = "Chrome";
     else if (ua.indexOf("Safari") != -1 && ua.indexOf("Chrome") == -1) browserName = "Safari";
     else if (ua.indexOf("Firefox") != -1) browserName = "Firefox";
-    else if (ua.indexOf("OPR") != -1 || ua.indexOf("Opera") != -1) browserName = "Opera";
+    else if (ua.indexOf("MSIE") > -1 || ua.indexOf("Trident") > -1) browserName = "Internet Explorer";
 
-    if (browserElement) {
-        browserElement.innerText = `Browser: ${browserName}`;
-    }
+    if (browserElement) browserElement.innerText = `Browser: ${browserName}`;
 
     if (osElement) {
-        osElement.innerText = "OS Version: Detecting..."; 
+        osElement.innerText = "Detecting OS...";
         const osString = await detectOS();
         osElement.innerText = `Operating System: ${osString}`;
     }
@@ -215,11 +188,6 @@ async function displaySystemInfo() {
 
 document.addEventListener('DOMContentLoaded', () => {
     displaySystemInfo();
-});
-
-document.addEventListener("DOMContentLoaded", function () {
-    document.getElementById("browser-info").textContent = "Browser: " + detectBrowser();
-    document.getElementById("os-info").textContent = "Operating System: " + detectOS();
 });
 
 window.addEventListener("load", () => {
@@ -242,10 +210,10 @@ window.addEventListener("load", function () {
     });
 });
 
-document.addEventListener('keydown', function(e) {
+document.addEventListener('keydown', function (e) {
     if (
         e.key === 'F12' ||
-        (e.altKey && e.metaKey && e.key.toLowerCase() === 'i') || 
+        (e.altKey && e.metaKey && e.key.toLowerCase() === 'i') ||
         (e.ctrlKey && e.shiftKey && e.key.toLowerCase() === 'i')
     ) {
         e.preventDefault();
@@ -260,110 +228,102 @@ document.addEventListener('keydown', function(e) {
     }
 });
 
-async function refreshAccessToken(refreshToken) {
-    const clientId = "c521750ae18c4c998aeb7c244a79efd4";
-    const clientSecret = "7a57402665e2473da5f4e848c00752c3";
-    const url = "https://accounts.spotify.com/api/token";
+let accessToken = null;
 
-    const params = new URLSearchParams();
-    params.append("grant_type", "refresh_token");
-    params.append("refresh_token", refreshToken);
-    params.append("client_id", clientId);
-    params.append("client_secret", clientSecret);
+async function getAccessTokenFromProxy() {
+    const proxyUrl = "https://spotify-token-proxy.nguyendinhkhanh06.workers.dev/";
+
+    if (proxyUrl.includes("tên-worker")) {
+        console.warn("Cloudflare Worker link wasn't configurated!");
+        return null;
+    }
 
     try {
-        const response = await fetch(url, {
-            method: "POST",
-            headers: {
-                "Content-Type": "application/x-www-form-urlencoded",
-            },
-            body: params,
-        });
-
-        if (!response.ok) {
-            throw new Error("Lỗi khi refresh token");
-        }
-
+        const response = await fetch(proxyUrl);
+        if (!response.ok) throw new Error("Proxy Server Error");
         const data = await response.json();
         return data.access_token;
     } catch (error) {
-        console.error("Lỗi refresh token:", error);
+        console.error("Can't not get token:", error);
         return null;
     }
 }
 
-const refreshToken = "AQCz1v_M0KPJjb5LgpIx5XoD7yRbhpaSYhbUhFawA9HaaCxx7v5sPchQHHJfGCFg70UHGlGHT17BZMZYw3ij4SaC9oSI8k13ZMh4gl3cVZC-fmRiRf796IEnfhGbJuSUdRU";  // Lưu Refresh Token của bạn
-let accessToken = "BQBO7gN_B7soHqiVahvZSTWnGn_KFvAo5PLN17aIPjnh7o9qUfc8vTMAPosd2LFEh3sXeeKQPO_HIoAYBwz-uPOg8AyrWhmku4LvW01jk-oyaA7E3euYno0UN1Lu191gnDLlyTZQi9rIWANeINex3MACD_FZrVResdPZFU3zWEhW38rj8-DRSN235xfqmjgdLExBGjvswN8zFKK7fKCJvBlCc13Sy-mb6lsxiHtZ";  // Token hiện tại
-
 async function getCurrentlyPlaying() {
+    if (!accessToken) {
+        accessToken = await getAccessTokenFromProxy();
+    }
+
+    if (!accessToken) return;
+
     try {
         const response = await fetch("https://api.spotify.com/v1/me/player/currently-playing", {
-            headers: {
-                "Authorization": `Bearer ${accessToken}`
-            }
+            headers: { "Authorization": `Bearer ${accessToken}` }
         });
 
+        const spotifyPlayer = document.querySelector(".spotify-player");
         const albumCover = document.getElementById("album-cover");
         const songTitle = document.getElementById("song-title");
         const artistName = document.getElementById("artist-name");
-        const spotifyPlayer = document.querySelector(".spotify-player");
+
+        if (!spotifyPlayer || !albumCover || !songTitle || !artistName) return;
 
         if (response.status === 401) {
-            console.log("Token hết hạn, đang làm mới...");
-            accessToken = await refreshAccessToken(refreshToken);
-            return getCurrentlyPlaying();
+            accessToken = null;
+            return;
         }
 
-        if (response.status === 200) {
-            const data = await response.json();
-            if (data && data.item) {
-                songTitle.textContent = data.item.name;
-                artistName.textContent = data.item.artists[0].name;
-                albumCover.src = data.item.album.images[0].url;
-                songTitle.href = data.item.external_urls.spotify;
+        if (response.status === 204) {
+            spotifyPlayer.style.display = "none";
+            return;
+        }
 
-                spotifyPlayer.style.display = "flex";
-                albumCover.style.display = "block";
-            }
-        } else {
-            throw new Error("Không có bài hát nào đang phát");
+        const data = await response.json();
+        if (data && data.item) {
+            songTitle.textContent = data.item.name;
+            artistName.textContent = data.item.artists.map(artist => artist.name).join(", ");
+            albumCover.src = data.item.album.images[0].url;
+            songTitle.href = data.item.external_urls.spotify;
+
+            spotifyPlayer.setAttribute("data-url", data.item.external_urls.spotify);
+
+            spotifyPlayer.style.display = "flex";
+            albumCover.style.display = "block";
         }
     } catch (error) {
-        console.log("Lỗi khi lấy bài hát:", error);
-
-        const albumCover = document.getElementById("album-cover");
-        const songTitle = document.getElementById("song-title");
-        const artistName = document.getElementById("artist-name");
+        console.log("Lỗi Spotify:", error);
         const spotifyPlayer = document.querySelector(".spotify-player");
-
-        songTitle.textContent = "Not Playing";
-        artistName.textContent = "";
-        albumCover.src = "";
-        albumCover.style.display = "none";
-        spotifyPlayer.style.display = "none";
+        if (spotifyPlayer) spotifyPlayer.style.display = "none";
     }
 }
 
-setInterval(getCurrentlyPlaying, 10000);
-
+setInterval(getCurrentlyPlaying, 5000);
 getCurrentlyPlaying();
 
-document.getElementById("spotify-player").addEventListener("click", function () {
-    const songUrl = this.getAttribute("data-url");
-    if (songUrl) {
-        window.open(songUrl, "_blank");
+const playerElement = document.getElementById("spotify-player");
+if (playerElement) {
+    playerElement.addEventListener("click", function () {
+        const songUrl = this.getAttribute("data-url");
+        if (songUrl) window.open(songUrl, "_blank");
+    });
+} else {
+    const playerByClass = document.querySelector(".spotify-player");
+    if (playerByClass) {
+        playerByClass.addEventListener("click", function () {
+            const songUrl = this.getAttribute("data-url");
+            if (songUrl) window.open(songUrl, "_blank");
+        });
     }
-});
-
+}
 document.addEventListener("DOMContentLoaded", function () {
     const animatedElements = document.querySelectorAll('.animate-on-load');
 
     animatedElements.forEach(el => {
         el.addEventListener('animationend', () => {
             el.classList.remove('animate-on-load');
-            
+
             el.style.opacity = "1";
-            el.style.transform = "translateY(0)"; 
+            el.style.transform = "translateY(0)";
         });
     });
 });

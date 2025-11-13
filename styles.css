@@ -686,7 +686,7 @@ section {
 }
 
 #browser-info {
-    margin-top: 230px;
+    margin-top: 20px;
     text-align: center;
     font-size: 14px;
     color: #ccc;
@@ -694,10 +694,11 @@ section {
 }
 
 #os-info {
-    margin-top: 10px;
+    margin-top: 5px;
     text-align: center;
     font-size: 14px;
     color: #ccc;
+    margin-bottom: 10px;
     font-style: italic;
 }
 

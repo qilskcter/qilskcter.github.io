@@ -107,56 +107,115 @@ function detectBrowser() {
     return browserName;
 }
 
-function detectOS() {
+async function detectOS() {
     let userAgent = navigator.userAgent;
     let osName = "Unknown OS";
-    let osVersion = "Unknown Version";
+    let osVersion = ""; 
+    
+    if (navigator.userAgentData) {
+        try {
+            const uaData = await navigator.userAgentData.getHighEntropyValues(["platformVersion", "platform", "model"]);
+            const majorVersion = parseInt(uaData.platformVersion.split('.')[0]);
 
-    if (/Windows NT 10.0/.test(userAgent)) {
-        if (navigator.userAgentData && navigator.userAgentData.platform === "Windows") {
-            osName = "Windows";
-            osVersion = "11";
-        } else {
-            osName = "Windows";
-            osVersion = "10";
+            if (uaData.platform === "macOS") {
+                osName = "macOS";
+                if (majorVersion === 26) osVersion = "Tahoe";
+                else if (majorVersion === 15) osVersion = "Sequoia";
+                else if (majorVersion === 14) osVersion = "Sonoma";
+                else if (majorVersion === 13) osVersion = "Ventura";
+                else if (majorVersion === 12) osVersion = "Monterey";
+                else if (majorVersion === 11) osVersion = "Big Sur";
+                else osVersion = `Version ${majorVersion}`;
+            }
+            
+            else if (uaData.platform === "Windows") {
+                osName = "Windows";
+                osVersion = (majorVersion >= 13) ? "11" : "10";
+            }
+            
+            else if (uaData.platform === "Android") {
+                osName = "Android";
+                osVersion = uaData.platformVersion;
+            }
+            
+            else if (uaData.platform === "Linux") {
+                osName = "Linux";
+            }
+
+            if (osName !== "Unknown OS") {
+                return `${osName} ${osVersion}`.trim();
+            }
+
+        } catch (e) {
+            console.warn("Client Hints check failed, falling back to User Agent", e);
         }
-    } else if (/Windows NT 6.3/.test(userAgent)) {
-        osName = "Windows";
-        osVersion = "8.1";
-    } else if (/Windows NT 6.2/.test(userAgent)) {
-        osName = "Windows";
-        osVersion = "8";
-    } else if (/Windows NT 6.1/.test(userAgent)) {
-        osName = "Windows";
-        osVersion = "7";
-    } else if (/Mac OS X 10_15/.test(userAgent)) {
-        osName = "macOS";
-        osVersion = "Catalina (10.15)";
-    } else if (/Mac OS X 10_14/.test(userAgent)) {
-        osName = "macOS";
-        osVersion = "Mojave (10.14)";
-    } else if (/Mac OS X 10_13/.test(userAgent)) {
-        osName = "macOS";
-        osVersion = "High Sierra (10.13)";
-    } else if (/Mac OS X 10_12/.test(userAgent)) {
-        osName = "macOS";
-        osVersion = "Sierra (10.12)";
-    } else if (/Mac OS X 10_11/.test(userAgent)) {
-        osName = "macOS";
-        osVersion = "El Capitan (10.11)";
-    } else if (/Mac OS X 10_10/.test(userAgent)) {
-        osName = "macOS";
-        osVersion = "Yosemite (10.10)";
-    } else if (/Android/.test(userAgent)) {
-        osName = "Android";
-    } else if (/iPhone|iPad|iPod/.test(userAgent)) {
+    }
+
+    if (/iPhone|iPad|iPod/.test(userAgent) && !window.MSStream) {
         osName = "iOS";
-    } else if (/Linux/.test(userAgent)) {
+        const match = userAgent.match(/OS (\d+)_(\d+)_?(\d+)?/);
+        if (match) {
+            osVersion = `${match[1]}.${match[2]}`;
+            if (match[3]) osVersion += `.${match[3]}`;
+        }
+    }
+    
+    else if (/Android/.test(userAgent)) {
+        osName = "Android";
+        const match = userAgent.match(/Android\s([0-9.]+)/);
+        if (match) osVersion = match[1];
+    }
+
+    else if (/Windows NT/.test(userAgent)) {
+        osName = "Windows";
+        if (/Windows NT 10.0/.test(userAgent)) osVersion = "10 (hoặc 11)";
+        else if (/Windows NT 6.3/.test(userAgent)) osVersion = "8.1";
+        else if (/Windows NT 6.2/.test(userAgent)) osVersion = "8";
+        else if (/Windows NT 6.1/.test(userAgent)) osVersion = "7";
+        else if (/Windows NT 5.1/.test(userAgent)) osVersion = "XP";
+    }
+    
+    else if (/Mac OS X/.test(userAgent)) {
+        osName = "macOS";
+        const match = userAgent.match(/Mac OS X (\d+)[_.](\d+)/);
+        if (match) {
+            osVersion = `${match[1]}.${match[2]}`; 
+        }
+    }
+    else if (/Linux/.test(userAgent)) {
         osName = "Linux";
     }
 
-    return `${osName} ${osVersion}`;
+    return `${osName} ${osVersion}`.trim();
 }
+
+async function displaySystemInfo() {
+    const osElement = document.getElementById('os-info');
+    const browserElement = document.getElementById('browser-info');
+
+    let browserName = "Unknown Browser";
+    const ua = navigator.userAgent;
+    
+    if (ua.indexOf("Edg") != -1) browserName = "Microsoft Edge";
+    else if (ua.indexOf("Chrome") != -1) browserName = "Chrome";
+    else if (ua.indexOf("Safari") != -1 && ua.indexOf("Chrome") == -1) browserName = "Safari";
+    else if (ua.indexOf("Firefox") != -1) browserName = "Firefox";
+    else if (ua.indexOf("OPR") != -1 || ua.indexOf("Opera") != -1) browserName = "Opera";
+
+    if (browserElement) {
+        browserElement.innerText = `Browser: ${browserName}`;
+    }
+
+    if (osElement) {
+        osElement.innerText = "OS Version: Detecting..."; 
+        const osString = await detectOS();
+        osElement.innerText = `Operating System: ${osString}`;
+    }
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+    displaySystemInfo();
+});
 
 document.addEventListener("DOMContentLoaded", function () {
     document.getElementById("browser-info").textContent = "Browser: " + detectBrowser();

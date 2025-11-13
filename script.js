@@ -129,21 +129,6 @@ function detectOS() {
     } else if (/Windows NT 6.1/.test(userAgent)) {
         osName = "Windows";
         osVersion = "7";
-    } else if (/Mac OS X 15/.test(userAgent)) {
-        osName = "macOS";
-        osVersion = "Sequoia (15)";
-    } else if (/Mac OS X 14/.test(userAgent)) {
-        osName = "macOS";
-        osVersion = "Sonoma (14)";
-    } else if (/Mac OS X 13/.test(userAgent)) {
-        osName = "macOS";
-        osVersion = "Ventura (13)";
-    } else if (/Mac OS X 12/.test(userAgent)) {
-        osName = "macOS";
-        osVersion = "Monterey (12)";
-    } else if (/Mac OS X 11/.test(userAgent)) {
-        osName = "macOS";
-        osVersion = "Big Sur (11)";
     } else if (/Mac OS X 10_15/.test(userAgent)) {
         osName = "macOS";
         osVersion = "Catalina (10.15)";
@@ -309,4 +294,17 @@ document.getElementById("spotify-player").addEventListener("click", function () 
     if (songUrl) {
         window.open(songUrl, "_blank");
     }
+});
+
+document.addEventListener("DOMContentLoaded", function () {
+    const animatedElements = document.querySelectorAll('.animate-on-load');
+
+    animatedElements.forEach(el => {
+        el.addEventListener('animationend', () => {
+            el.classList.remove('animate-on-load');
+            
+            el.style.opacity = "1";
+            el.style.transform = "translateY(0)"; 
+        });
+    });
 });

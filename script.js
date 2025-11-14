@@ -198,7 +198,7 @@ window.addEventListener("load", () => {
 
 window.addEventListener('load', () => {
     const preloader = document.querySelector('.preloader');
-    
+
     if (preloader) {
         preloader.classList.add('hidden');
     }
@@ -244,7 +244,7 @@ async function getCurrentlyPlaying() {
     try {
         const timestamp = Math.floor(Date.now() / 1000).toString();
         
-        const response = await fetch("/api/spotify", {
+        const response = await fetch("/api/get-music", {
             method: "GET",
             headers: {
                 "x-timestamp": timestamp

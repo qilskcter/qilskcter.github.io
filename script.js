@@ -237,7 +237,7 @@ async function getAccessTokenFromProxy() {
     const timestamp = Math.floor(Date.now() / 1000).toString();
     
     try {
-        const response = await fetch("/api/spotify", {
+        const response = await fetch("https://qilskcter.live/api/spotify", {
             method: "GET",
             headers: {
                 "x-timestamp": timestamp

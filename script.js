@@ -244,7 +244,7 @@ async function getCurrentlyPlaying() {
     try {
         const timestamp = Math.floor(Date.now() / 1000).toString();
         
-        const response = await fetch("/api/get-music", {
+        const response = await fetch("/api/spotify", {
             method: "GET",
             headers: {
                 "x-timestamp": timestamp

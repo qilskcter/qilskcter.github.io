@@ -233,71 +233,51 @@ document.addEventListener('keydown', function (e) {
     }
 });
 
-let accessToken = null;
-
-async function getAccessTokenFromProxy() {
-    const proxyUrl = "/api/spotify";
-
-    if (proxyUrl.includes("tên-worker")) {
-        console.warn("API wasn't configurated!");
-        return null;
-    }
-
-    try {
-        const response = await fetch(proxyUrl);
-        if (!response.ok) throw new Error("Proxy Server Error");
-        const data = await response.json();
-        return data.access_token;
-    } catch (error) {
-        console.error("Can't not get token:", error);
-        return null;
-    }
-}
-
 async function getCurrentlyPlaying() {
-    if (!accessToken) {
-        accessToken = await getAccessTokenFromProxy();
-    }
+    const spotifyPlayer = document.querySelector(".spotify-player");
+    const albumCover = document.getElementById("album-cover");
+    const songTitle = document.getElementById("song-title");
+    const artistName = document.getElementById("artist-name");
 
-    if (!accessToken) return;
+    if (!spotifyPlayer || !albumCover || !songTitle || !artistName) return;
 
     try {
-        const response = await fetch("https://api.spotify.com/v1/me/player/currently-playing", {
-            headers: { "Authorization": `Bearer ${accessToken}` }
+        const timestamp = Math.floor(Date.now() / 1000).toString();
+        
+        const response = await fetch("/api/spotify", {
+            method: "GET",
+            headers: {
+                "x-timestamp": timestamp
+            }
         });
-
-        const spotifyPlayer = document.querySelector(".spotify-player");
-        const albumCover = document.getElementById("album-cover");
-        const songTitle = document.getElementById("song-title");
-        const artistName = document.getElementById("artist-name");
-
-        if (!spotifyPlayer || !albumCover || !songTitle || !artistName) return;
-
-        if (response.status === 401) {
-            accessToken = null;
-            return;
-        }
 
         if (response.status === 204) {
             spotifyPlayer.style.display = "none";
             return;
         }
 
+        if (!response.ok) {
+            spotifyPlayer.style.display = "none";
+            console.error("Lỗi từ proxy server:", response.statusText);
+            return;
+        }
+
         const data = await response.json();
+
         if (data && data.item) {
             songTitle.textContent = data.item.name;
             artistName.textContent = data.item.artists.map(artist => artist.name).join(", ");
             albumCover.src = data.item.album.images[0].url;
             songTitle.href = data.item.external_urls.spotify;
-
             spotifyPlayer.setAttribute("data-url", data.item.external_urls.spotify);
-
             spotifyPlayer.style.display = "flex";
             albumCover.style.display = "block";
+        } else {
+            spotifyPlayer.style.display = "none";
         }
+
     } catch (error) {
-        console.log("Spotify Error:", error);
-        const spotifyPlayer = document.querySelector(".spotify-player");
+        console.log("Lỗi khi lấy Spotify data:", error);
         if (spotifyPlayer) spotifyPlayer.style.display = "none";
     }
 }

@@ -197,7 +197,12 @@ window.addEventListener("load", () => {
 
 
 window.addEventListener('load', () => {
-    document.querySelector('.preloader').classList.add('hidden');
+    const preloader = document.querySelector('.preloader');
+    
+    if (preloader) {
+        preloader.classList.add('hidden');
+    }
+    
     document.body.classList.add('loaded');
 });
 
@@ -228,26 +233,28 @@ document.addEventListener('keydown', function (e) {
     }
 });
 
-let accessToken = null;
-
 async function getAccessTokenFromProxy() {
-    const proxyUrl = "/api/spotify";
-
-    if (proxyUrl.includes("tên-worker")) {
-        console.warn("Cloudflare Worker link wasn't configurated!");
-        return null;
-    }
-
+    const timestamp = Math.floor(Date.now() / 1000).toString();
+    
     try {
-        const response = await fetch(proxyUrl);
+        const response = await fetch("https://qilskcter.live/api/spotify", {
+            method: "GET",
+            headers: {
+                "x-timestamp": timestamp
+            }
+        });
+
         if (!response.ok) throw new Error("Proxy Server Error");
         const data = await response.json();
-        return data.access_token;
-    } catch (error) {
-        console.error("Can't not get token:", error);
+        return data.access_token || null;
+
+    } catch (err) {
+        console.error("Can't get token:", err);
         return null;
     }
 }
+
+let accessToken = null;
 
 async function getCurrentlyPlaying() {
     if (!accessToken) {
@@ -322,9 +329,39 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 
-document.getElementById('contact-email').addEventListener('click', function (e) {
-    e.preventDefault();
-    const user = "gospel_texts_4a";
-    const domain = "icloud.com";
-    window.location.href = `mailto:${user}@${domain}`;
+document.addEventListener("DOMContentLoaded", function () {
+    const contactEmail = document.getElementById('contact-email');
+
+    if (contactEmail) {
+        contactEmail.addEventListener('click', function (e) {
+            e.preventDefault();
+            const user = "gospel_texts_4a";
+            const domain = "icloud.com";
+            window.location.href = `mailto:${user}@${domain}`;
+        });
+    }
 });
+
+async function generateHMAC(secret, timestamp) {
+    const origin = window.location.origin;
+    const message = `${timestamp}:${origin}`;
+    
+    const encoder = new TextEncoder();
+    const key = await crypto.subtle.importKey(
+        "raw",
+        encoder.encode(secret),
+        { name: "HMAC", hash: "SHA-256" },
+        false,
+        ["sign"]
+    );
+
+    const sigBuffer = await crypto.subtle.sign(
+        "HMAC",
+        key,
+        encoder.encode(message)
+    );
+
+    return [...new Uint8Array(sigBuffer)]
+        .map(b => b.toString(16).padStart(2, "0"))
+        .join("");
+}

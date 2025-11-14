@@ -319,27 +319,3 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     }
 });
-
-async function generateHMAC(secret, timestamp) {
-    const origin = window.location.origin;
-    const message = `${timestamp}:${origin}`;
-    
-    const encoder = new TextEncoder();
-    const key = await crypto.subtle.importKey(
-        "raw",
-        encoder.encode(secret),
-        { name: "HMAC", hash: "SHA-256" },
-        false,
-        ["sign"]
-    );
-
-    const sigBuffer = await crypto.subtle.sign(
-        "HMAC",
-        key,
-        encoder.encode(message)
-    );
-
-    return [...new Uint8Array(sigBuffer)]
-        .map(b => b.toString(16).padStart(2, "0"))
-        .join("");
-}

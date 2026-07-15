@@ -1,33 +1,4 @@
 document.addEventListener("DOMContentLoaded", function () {
-
-    function createSnowflake() {
-        const snowflake = document.createElement("div");
-        snowflake.classList.add("snowflake");
-
-        snowflake.style.left = Math.random() * window.innerWidth + "px";
-
-        const size = Math.random() * 4 + 2;
-        snowflake.style.width = size + "px";
-        snowflake.style.height = size + "px";
-
-        const duration = Math.random() * 5 + 5;
-        snowflake.style.animationDuration = duration + "s";
-
-        snowflake.style.animationDelay = Math.random() * -5 + "s";
-
-        snowflake.style.opacity = Math.random() * 0.5 + 0.3;
-
-        document.body.appendChild(snowflake);
-
-        setTimeout(() => {
-            snowflake.remove();
-        }, duration * 1000);
-    }
-
-    setInterval(createSnowflake, 300);
-});
-
-document.addEventListener("DOMContentLoaded", function () {
     const navbar = document.querySelector(".navbar");
 
     if (!navbar) {

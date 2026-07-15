@@ -10,12 +10,12 @@ export const navigationLinks = [
 ];
 
 export const skills = [
-  { name: 'JavaScript', icon: '/public/assets/js.svg', invert: true },
-  { name: 'HTML', icon: '/public/assets/html.svg' },
-  { name: 'CSS', icon: '/public/assets/css.svg' },
-  { name: 'C++', icon: '/public/assets/cpp.svg' },
-  { name: 'Python', icon: '/public/assets/python.svg', invert: true },
-  { name: 'Java', icon: '/public/assets/java.svg' },
+  { name: 'JavaScript', icon: '/assets/js.svg', invert: true },
+  { name: 'HTML', icon: '/assets/html.svg' },
+  { name: 'CSS', icon: '/assets/css.svg' },
+  { name: 'C++', icon: '/assets/cpp.svg' },
+  { name: 'Python', icon: '/assets/python.svg', invert: true },
+  { name: 'Java', icon: '/assets/java.svg' },
 ];
 
 export const awards = [
@@ -93,14 +93,14 @@ export const devices = [
     title: 'MacBook Pro (14-inch, Nov 2023)',
     subtitle: 'My main device for doing stuff.',
     specs: ['Apple M3', '8GB LPDDR5 Unified Memory', 'Apple M3 10-core GPU', '512GB Apple NVMe SSD', 'macOS Sonoma 14.8.4', 'Silver'],
-    image: '/public/assets/devices/macbook.png',
+    image: '/assets/devices/macbook.png',
     icon: 'laptop',
   },
   {
     title: 'Lenovo Thinkpad E490',
     subtitle: 'Secondary laptop.',
     specs: ['Intel® Core™ i5-8265U', '20GB DDR4 2400MHz', 'Intel® UHD Graphics 620', '512GB PCIe NVMe SSD', 'Arch Linux', 'Black'],
-    image: '/public/assets/devices/e490.png',
+    image: '/assets/devices/e490.png',
     icon: 'laptop',
   },
   {
@@ -114,42 +114,42 @@ export const devices = [
       { html: '<a href="https://github.com/qilskcter/Dell-Vostro-3460-Hackintosh" target="_blank" rel="noreferrer">macOS Big Sur 11.7</a> + Windows 10' },
       'Silver',
     ],
-    image: '/public/assets/devices/dell.png',
+    image: '/assets/devices/dell.png',
     icon: 'laptop',
   },
   {
     title: 'iPhone 15 Pro Max',
     subtitle: 'I use this device everyday.',
     specs: ['Apple A17 Pro', '8GB LPDDR5X RAM', '256GB Apple NVMe', 'iOS 18.4RC', 'Natural Titanium'],
-    image: '/public/assets/devices/15promax.png',
+    image: '/assets/devices/15promax.png',
     icon: 'phone',
   },
   {
     title: 'iPhone 11 Pro',
     subtitle: 'This device for testing iOS Betas.',
     specs: ['Apple A13 Bionic', '4GB LPDDR4 RAM', '64GB Apple NVMe', 'iOS 27.0', 'Midnight Green'],
-    image: '/public/assets/devices/11pro.png',
+    image: '/assets/devices/11pro.png',
     icon: 'phone',
   },
   {
     title: 'iPhone 6',
     subtitle: 'Old phone.',
     specs: ['Apple A8', '1GB LPDDR3 RAM', '16GB Apple NVMe', { html: 'iOS 12.5.4 (Jailbroken with <a href="https://checkra.in" target="_blank" rel="noreferrer">checkra1n</a>)' }, 'Space Gray'],
-    image: '/public/assets/devices/6.png',
+    image: '/assets/devices/6.png',
     icon: 'phone',
   },
   {
     title: 'iPad Pro (3rd-Generation)',
     subtitle: 'I love this iPad.',
     specs: ['Apple M1', '8GB LPDDR4X Unified Memory', 'Apple M1 8-core GPU', '128GB Apple NVMe', 'iPadOS 26.0', 'Space Gray'],
-    image: '/public/assets/devices/ipad.png',
+    image: '/assets/devices/ipad.png',
     icon: 'tablet',
   },
   {
     title: 'OnePlus 7',
     subtitle: 'An Android Phone.',
     specs: ['Qualcomm SM8150 Snapdragon 855', '8GB LPDDR4X RAM', '256GB UFS3.0', { html: '<a href="https://evolution-x.org/devices/guacamoleb" target="_blank" rel="noreferrer">Evolution X 11.6.3</a> (Android 16)' }, 'Mirror Gray'],
-    image: '/public/assets/devices/oneplus.png',
+    image: '/assets/devices/oneplus.png',
     icon: 'phone',
   },
 ];
@@ -158,27 +158,27 @@ export const repositoryActions = [
   { 
     label: 'Cydia', 
     href: 'cydia://url/https://cydia.saurik.com/api/share#?source=https://qilskcter.github.io/jailbreak',
-    image: '/public/assets/icons/cydia.png', 
+    image: '/assets/icons/cydia.png',
   },
   { 
     label: 'Sileo', 
     href: 'sileo://source/https://qilskcter.github.io/jailbreak',
-    image: '/public/assets/icons/sileo.png',
+    image: '/assets/icons/sileo.png',
   },
   { 
     label: 'Zebra', 
     href: 'zbra://sources/add/https://qilskcter.github.io/jailbreak',
-    image: '/public/assets/icons/zebra.png',
+    image: '/assets/icons/zebra.png',
   },
   { 
     label: 'Installer', 
     href: 'installer://add/https://qilskcter.github.io/jailbreak',
-    image: '/public/assets/icons/installer.png',
+    image: '/assets/icons/installer.png',
   },
   { 
     label: "Nepeta's Tweaks", 
     href: 'https://qilskcter.github.io/jailbreak/nepsgit.7z',
-    image: '/public/assets/icons/nepeta.png',
+    image: '/assets/icons/nepeta.png',
   },
 ];
 

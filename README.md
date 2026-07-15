@@ -101,8 +101,4 @@ npm run deploy
 
 ## License
 
-This open-source portfolio distribution is licensed directly under the **MIT License**. Feel free to fork, customize, and refactor it to construct your personal space on the web!
-
-```
-
-```
+This open-source portfolio distribution is licensed directly under the [**MIT License**](LICENSE). Feel free to fork, customize, and refactor it to construct your personal space on the web!

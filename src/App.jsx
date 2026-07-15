@@ -34,13 +34,8 @@ function TrophyIcon() {
 function PhoneIcon() {
   return (
     <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" viewBox="0 0 16 16" aria-hidden="true">
-      {}
       <path d="M4 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2H4zm0 1h8a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V3a1 1 0 0 1 1-1z" />
-      
-      {}
       <path d="M6 2h4v1a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V2z" />
-      
-      {}
       <rect x="6.5" y="13.5" width="3" height="0.5" rx="0.25" />
     </svg>
   );
@@ -79,7 +74,6 @@ function ContactIcon({ type }) {
       </svg>
     );
   }
-
   if (type === 'facebook') {
     return (
       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16" aria-hidden="true">
@@ -87,7 +81,6 @@ function ContactIcon({ type }) {
       </svg>
     );
   }
-
   if (type === 'discord') {
     return (
       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16" aria-hidden="true">
@@ -95,7 +88,6 @@ function ContactIcon({ type }) {
       </svg>
     );
   }
-
   return (
     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16" aria-hidden="true">
       <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z" />
@@ -106,58 +98,18 @@ function ContactIcon({ type }) {
 function TabletIcon() {
   return (
     <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" viewBox="0 0 16 16" aria-hidden="true">
-      {}
       <path d="M4 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2H4zm0 1h8a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V3a1 1 0 0 1 1-1z" />     
-      {}
       <rect x="6.5" y="13.5" width="3" height="0.5" rx="0.25" />
     </svg>
   );
 }
 
-function getPageFromPath(pathname) {
-  const normalized = pathname === '/' ? '/' : pathname.replace(/\/+$/, '');
-
-  switch (normalized) {
-    case '/':
-    case '/index.html':
-      return 'home';
-    case '/about':
-    case '/about.html':
-      return 'about';
-    case '/awards':
-    case '/awards.html':
-      return 'awards';
-    case '/projects':
-    case '/projects.html':
-      return 'projects';
-    case '/contact':
-    case '/contact.html':
-      return 'contact';
-    case '/device':
-    case '/device.html':
-      return 'device';
-    case '/skills':
-    case '/skills.html':
-      return 'skills';
-    case '/jailbreak':
-    case '/jailbreak/index.html':
-      return 'repository';
-    case '/404.html':
-      return 'notfound';
-    default:
-      return 'notfound';
-  }
-}
-
 function detectBrowser() {
   const userAgent = navigator.userAgent;
-
   if (userAgent.includes('Edg')) return 'Microsoft Edge';
   if (userAgent.includes('Chrome')) return 'Google Chrome';
   if (userAgent.includes('Safari') && !userAgent.includes('Chrome')) return 'Safari';
   if (userAgent.includes('Firefox')) return 'Mozilla Firefox';
-  if (userAgent.includes('MSIE') || userAgent.includes('Trident')) return 'Internet Explorer';
-
   return 'Unknown Browser';
 }
 
@@ -194,8 +146,7 @@ async function detectOS() {
       }
 
       if (osName !== 'Unknown OS') return `${osName} ${osVersion}`.trim();
-    } catch {
-    }
+    } catch {}
   }
 
   if (/iPhone|iPad|iPod/.test(userAgent) && !window.MSStream) {
@@ -213,8 +164,6 @@ async function detectOS() {
   } else if (/Windows NT/.test(userAgent)) {
     osName = 'Windows';
     if (/Windows NT 10.0/.test(userAgent)) osVersion = '10/11';
-    else if (/Windows NT 6.2/.test(userAgent)) osVersion = '8';
-    else if (/Windows NT 6.1/.test(userAgent)) osVersion = '7';
   }
 
   return `${osName} ${osVersion}`.trim();
@@ -227,14 +176,11 @@ function useBodyLifecycle() {
       document.body.style.transition = 'opacity 0.5s ease-in-out';
       document.body.classList.remove('preload');
     };
-
     if (document.readyState === 'complete') {
       applyReadyState();
       return undefined;
     }
-
     window.addEventListener('load', applyReadyState);
-
     return () => window.removeEventListener('load', applyReadyState);
   }, []);
 }
@@ -252,16 +198,13 @@ function useWindowGuards() {
         window.alert('Bỏ đi mà làm người :))))');
         return;
       }
-
       if (event.ctrlKey && event.key.toLowerCase() === 'u') {
         event.preventDefault();
         window.alert('Lói rồi, bỏ đi');
       }
     };
-
     document.addEventListener('contextmenu', preventContextMenu);
     document.addEventListener('keydown', preventDevtools);
-
     return () => {
       document.removeEventListener('contextmenu', preventContextMenu);
       document.removeEventListener('keydown', preventDevtools);
@@ -271,125 +214,100 @@ function useWindowGuards() {
 
 function useNavbarScroll() {
   const [isScrolled, setIsScrolled] = useState(false);
-
   useEffect(() => {
     const updateScrollState = () => {
       setIsScrolled(window.scrollY > 10);
     };
-
     updateScrollState();
     window.addEventListener('scroll', updateScrollState);
-
     return () => window.removeEventListener('scroll', updateScrollState);
   }, []);
-
   return isScrolled;
 }
 
 function useSystemInfo() {
   const [browser, setBrowser] = useState('Detecting Browser...');
   const [os, setOs] = useState('Detecting OS...');
-
   useEffect(() => {
     setBrowser(`Browser: ${detectBrowser()}`);
-
     let isMounted = true;
-
     detectOS().then((osString) => {
       if (isMounted) setOs(`Operating System: ${osString}`);
     });
-
     return () => {
       isMounted = false;
     };
   }, []);
-
   return { browser, os };
 }
 
 function useTypingText(text) {
   const [typed, setTyped] = useState('');
-
   useEffect(() => {
     let index = 0;
     let cancelled = false;
-
     const typeNext = () => {
       if (cancelled) return;
-
       setTyped(text.slice(0, index));
       index += 1;
-
       if (index <= text.length) {
         window.setTimeout(typeNext, 150);
       }
     };
-
     typeNext();
-
     return () => {
       cancelled = true;
     };
   }, [text]);
-
   return typed;
 }
 
-function useSpotifyPlayer() {
-  const [player, setPlayer] = useState({ visible: false, title: '', artist: '', cover: '', url: '' });
+function SpotifyProgressBar({ timestamps }) {
+  const [currentMs, setCurrentMs] = useState(0);
+
+  const totalMs = useMemo(() => {
+    if (!timestamps?.start || !timestamps?.end) return 0;
+    return timestamps.end - timestamps.start;
+  }, [timestamps]);
 
   useEffect(() => {
-    let cancelled = false;
+    if (!timestamps?.start) return undefined;
 
-    const getCurrentlyPlaying = async () => {
-      try {
-        const timestamp = Math.floor(Date.now() / 1000).toString();
-        const response = await fetch('/api/spotify', {
-          method: 'GET',
-          headers: {
-            'x-timestamp': timestamp,
-          },
-        });
-
-        if (cancelled) return;
-
-        if (response.status === 204 || !response.ok) {
-          setPlayer((current) => ({ ...current, visible: false }));
-          return;
-        }
-
-        const data = await response.json();
-
-        if (cancelled) return;
-
-        if (data?.item) {
-          setPlayer({
-            visible: true,
-            title: data.item.name,
-            artist: data.item.artists.map((artist) => artist.name).join(', '),
-            cover: data.item.album.images[0]?.url || '',
-            url: data.item.external_urls.spotify,
-          });
-        } else {
-          setPlayer((current) => ({ ...current, visible: false }));
-        }
-      } catch {
-        if (!cancelled) {
-          setPlayer((current) => ({ ...current, visible: false }));
-        }
-      }
+    const calculateProgress = () => {
+      const now = Date.now();
+      const elapsed = now - timestamps.start;
+      setCurrentMs(Math.min(elapsed, totalMs));
     };
 
-    getCurrentlyPlaying();
-    const intervalId = window.setInterval(getCurrentlyPlaying, 5000);
+    calculateProgress();
+    const interval = setInterval(calculateProgress, 1000);
 
-    return () => {
-      cancelled = true;
-      window.clearInterval(intervalId);
-    };
-  }, []);
+    return () => clearInterval(interval);
+  }, [timestamps, totalMs]);
 
-  return player;
+  const formatTime = (ms) => {
+    if (ms < 0) return '0:00';
+    const totalSeconds = Math.floor(ms / 1000);
+    const minutes = Math.floor(totalSeconds / 60);
+    const seconds = totalSeconds % 60;
+    return `${minutes}:${seconds < 10 ? '0' : ''}${seconds}`;
+  };
+
+  const progressPercent = totalMs > 0 ? (currentMs / totalMs) * 100 : 0;
+
+  return (
+    <div className="spotify-progress-wrapper" style={{ display: 'flex', alignItems: 'center', gap: '8px', width: '100%', marginTop: '4px' }}>
+      <span className="time-label current-time" style={{ fontSize: '0.75rem', opacity: 0.6, minWidth: '30px' }}>
+        {formatTime(currentMs)}
+      </span>
+      <div className="spotify-progress-bg" style={{ flex: 1, height: '3px', background: 'rgba(255,255,255,0.15)', borderRadius: '2px', overflow: 'hidden' }}>
+        <div className="spotify-progress-fill" style={{ width: `${progressPercent}%`, height: '100%', background: '#ffffff', transition: 'width 1s linear' }} />
+      </div>
+      <span className="time-label total-time" style={{ fontSize: '0.75rem', opacity: 0.6, minWidth: '30px', textAlign: 'right' }}>
+        {formatTime(totalMs)}
+      </span>
+    </div>
+  );
 }
 
 function Navbar({ isScrolled, menuOpen, setMenuOpen }) {
@@ -402,7 +320,6 @@ function Navbar({ isScrolled, menuOpen, setMenuOpen }) {
         {navigationLinks.map((link) => {
           const cleanHref = link.href.replace('.html', '').replace(/\/$/, '');
           const finalPath = cleanHref === '' ? '/' : cleanHref;
-
           return (
             <li key={link.href}>
               <Link to={finalPath} onClick={() => setMenuOpen(false)}>
@@ -419,7 +336,7 @@ function Navbar({ isScrolled, menuOpen, setMenuOpen }) {
 function Footer() {
   return (
     <footer className="site-footer">
-      <p>© 2024 qilskcter | Built with ❤️</p>
+      <p>© 2026 qilskcter | Built with ❤️</p>
     </footer>
   );
 }
@@ -441,7 +358,6 @@ function PageFrame({ eyebrow, title, description, children, className = '' }) {
 
 function HomePage() {
   const typedText = useTypingText(HOME_TEXT);
-  const player = useSpotifyPlayer();
   const systemInfo = useSystemInfo();
 
   const { loading, status } = useLanyard({
@@ -457,55 +373,122 @@ function HomePage() {
   };
   const currentStatus = status?.discord_status || 'offline';
   const dotColor = statusColors[currentStatus];
-  const activeActivity = status?.activities?.find(act => act.type !== 2);
+  
+  const activeActivity = status?.activities?.find(act => act.type !== 4 && act.name !== 'Spotify');
 
   const avatarUrl = status?.discord_user?.avatar 
     ? `https://cdn.discordapp.com/avatars/${status.discord_user.id}/${status.discord_user.avatar}.png`
     : 'https://cdn.discordapp.com/embed/avatars/0.png';
 
+  const decorationUrl = status?.discord_user?.avatar_decoration_data?.asset
+    ? `https://cdn.discordapp.com/avatar-decorations/${status.discord_user.avatar_decoration_data.asset}.png`
+    : null;
+
+  const gameImgUrl = useMemo(() => {
+    if (!activeActivity) return null;
+    const assetId = activeActivity.assets?.large_image;
+    if (assetId?.startsWith('mp:external')) {
+      return assetId.replace(/mp:external\/[^\/]+\/https\//, 'https://');
+    }
+    return assetId ? `https://cdn.discordapp.com/app-assets/${activeActivity.application_id}/${assetId}.png` : null;
+  }, [activeActivity]);
+
+  const gameTime = useMemo(() => {
+    if (!activeActivity?.timestamps?.start) return null;
+    const elapsedSec = Math.floor((Date.now() - activeActivity.timestamps.start) / 1000);
+    if (elapsedSec < 0) return '0:00';
+    const mins = Math.floor(elapsedSec / 60);
+    const secs = elapsedSec % 60;
+    return `${mins}:${secs < 10 ? '0' : ''}${secs}`;
+  }, [activeActivity, loading]);
+
   return (
     <main className="page-frame home-frame">
-      <section className="home-stage">
+      <section className="home-stage" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', width: '100%' }}>
         
-        {}
-        <div className="home-main-content">
-          <header className="hero home-hero">
+        <div className="home-main-content" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', width: '100%' }}>
+          <header className="hero home-hero" style={{ textAlign: 'center' }}>
             <h2><span className="typing">{typedText}</span></h2>
             <p className="animate-on-load">Studying <b>Information Technology (IT)</b> at HCM-UTE</p>
           </header>
 
-          {}
-          {!loading && status && (
-            <div className="discord-status-home animate-on-load">
-              {}
-              <div className="discord-avatar-wrapper">
-                <img src={avatarUrl} alt="Discord Avatar" className="discord-avatar" />
-                <span className="status-dot" style={{ backgroundColor: dotColor, boxShadow: `0 0 6px ${dotColor}` }} />
+          <div className="lanyard-cards-wrapper animate-on-load" style={{ display: 'flex', flexDirection: 'column', alignItems: 'stretch', gap: '16px', width: '100%', maxWidth: '420px', marginTop: '20px', boxSizing: 'border-box' }}>
+            
+            {!loading && status && (
+              <div className="discord-status-home" style={{ display: 'flex', alignItems: 'center', gap: '16px', background: 'rgba(255, 255, 255, 0.07)', border: '1px solid rgba(255, 255, 255, 0.08)', backdropFilter: 'blur(20px)', WebkitBackdropFilter: 'blur(20px)', borderRadius: '50px', padding: '10px 24px 10px 14px', color: '#fff', textAlign: 'left', width: 'fit-content', alignSelf: 'center', minWidth: '260px' }}>
+                <div className="discord-avatar-wrapper" style={{ position: 'relative', width: '44px', height: '44px', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0 }}>
+                  <img src={avatarUrl} alt="Discord Avatar" className="discord-avatar" style={{ width: '44px', height: '44px', borderRadius: '50%', objectFit: 'cover', zIndex: 1 }} />
+                  {decorationUrl && (
+                    <img src={decorationUrl} alt="" style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', scale: '1.15', zIndex: 2, pointerEvents: 'none' }} onError={(e) => e.target.style.display = 'none'} />
+                  )}
+                  <span className="status-dot" style={{ backgroundColor: dotColor, boxShadow: `0 0 8px ${dotColor}`, border: '2px solid rgba(255,255,255,0.1)', bottom: '0px', right: '0px', width: '12px', height: '12px', zIndex: 3 }} />
+                </div>
+                
+                <div className="status-text-wrapper" style={{ display: 'flex', flexDirection: 'column', minWidth: 0 }}>
+                  <span className="discord-username" style={{ fontWeight: 'bold', fontSize: '1.15rem', lineHeight: '1.2', fontFamily: 'monospace, sans-serif' }}>@{status.discord_user.username}</span>
+                  <span className="status-details" style={{ fontSize: '0.9rem', opacity: 0.6, marginTop: '2px', fontFamily: 'monospace, sans-serif', textTransform: 'capitalize' }}>
+                    {currentStatus}
+                  </span>
+                </div>
               </div>
-              
-              {}
-              <div className="status-text-wrapper">
-                <span className="discord-username">@{status.discord_user.username}</span>
-                <span className="status-details">
-                  {activeActivity ? `Playing ${activeActivity.name}` : currentStatus}
-                </span>
-              </div>
-            </div>
-          )}
+            )}
 
-          {player.visible ? (
-            <div className="spotify-player animate-on-load" onClick={() => window.open(player.url, '_blank', 'noreferrer')} role="button" tabIndex={0} aria-label="Open currently playing song on Spotify">
-              <img id="album-cover" src={player.cover} alt="Album Cover" />
-              <div className="track-info">
-                <a id="song-title" href={player.url} target="_blank" rel="noreferrer">{player.title}</a>
-                <p id="artist-name">{player.artist}</p>
+            {activeActivity && (
+              <div className="playing-card" style={{ background: 'rgba(255, 255, 255, 0.07)', border: '1px solid rgba(255, 255, 255, 0.08)', backdropFilter: 'blur(20px)', WebkitBackdropFilter: 'blur(20px)', borderRadius: '16px', padding: '16px', color: '#fff', textAlign: 'left', width: '100%', boxSizing: 'border-box', display: 'block' }}>
+                <div className="card-header" style={{ display: 'flex', justifyContent: 'space-between', fontSize: '0.8rem', fontWeight: 'bold', marginBottom: '12px', opacity: 0.5, letterSpacing: '0.05em' }}>
+                  <span>PLAYING</span>
+                </div>
+                
+                <div className="card-main-content" style={{ display: 'flex', gap: '16px', alignItems: 'center', width: '100%' }}>
+                  {gameImgUrl ? (
+                    <img src={gameImgUrl} alt={activeActivity.name} style={{ width: '68px', height: '68px', borderRadius: '12px', objectFit: 'cover', flexShrink: 0 }} />
+                  ) : (
+                    <div style={{ width: '68px', height: '68px', background: 'rgba(255,255,255,0.1)', borderRadius: '12px', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '1.6rem', flexShrink: 0 }}>🎮</div>
+                  )}
+                  <div style={{ minWidth: 0, flex: 1, display: 'flex', flexDirection: 'column', gap: '2px' }}>
+                    <span style={{ fontWeight: 'bold', fontSize: '1.05rem', display: 'block' }}>{activeActivity.name}</span>
+                    {activeActivity.details && <span style={{ fontSize: '0.88rem', opacity: 0.7, display: 'block' }}>{activeActivity.details}</span>}
+                    {activeActivity.state && <span style={{ fontSize: '0.85rem', opacity: 0.5, display: 'block' }}>{activeActivity.state}</span>}
+                    {gameTime && (
+                      <span className="game-timer" style={{ fontSize: '0.85rem', color: '#43b581', display: 'flex', alignItems: 'center', gap: '4px', marginTop: '2px' }}>
+                        🎮 {gameTime}
+                      </span>
+                    )}
+                  </div>
+                </div>
               </div>
-            </div>
-          ) : null}
+            )}
+
+            {status?.listening_to_spotify && status?.spotify ? (
+              <div className="spotify-player" onClick={() => window.open(`https://open.spotify.com/track/${status.spotify.track_id}`, '_blank', 'noreferrer')} role="button" tabIndex={0} aria-label="Open currently playing song on Spotify" style={{ background: 'rgba(255, 255, 255, 0.07)', border: '1px solid rgba(255, 255, 255, 0.08)', backdropFilter: 'blur(20px)', WebkitBackdropFilter: 'blur(20px)', borderRadius: '16px', padding: '16px', color: '#fff', textAlign: 'left', cursor: 'pointer', display: 'block', width: '100%', boxSizing: 'border-box' }}>
+                <div className="card-header" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', fontSize: '0.8rem', fontWeight: 'bold', marginBottom: '12px', opacity: 0.5, letterSpacing: '0.05em' }}>
+                  <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="#1db954" viewBox="0 0 16 16">
+                      <path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0m3.669 11.538a.5.5 0 0 1-.686.165c-1.876-1.143-4.242-1.408-7.028-.77a.5.5 0 0 1-.222-.975c3.056-.697 5.661-.396 7.77.892a.5.5 0 0 1 .166.688m.979-2.178a.624.624 0 0 1-.858.205c-2.15-1.321-5.428-1.704-7.972-.932a.625.625 0 0 1-.362-1.194c2.905-.881 6.517-.454 8.986 1.063a.624.624 0 0 1 .206.858m.084-2.268C10.154 5.56 5.9 5.419 3.438 6.166a.748.748 0 1 1-.434-1.432c2.825-.857 7.523-.692 10.492 1.07a.747.747 0 1 1-.764 1.288"/>
+                    </svg>
+                    <span>LISTENING TO SPOTIFY</span>
+                  </div>
+                </div>
+
+                <div className="card-main-content" style={{ display: 'flex', gap: '16px', alignItems: 'center', width: '100%' }}>
+                  <img id="album-cover" src={status.spotify.album_art_url} alt="Album Cover" style={{ width: '68px', height: '68px', borderRadius: '8px', objectFit: 'cover', flexShrink: 0, display: 'block' }} />
+                  <div className="track-info" style={{ minWidth: 0, flex: 1, display: 'flex', flexDirection: 'column' }}>
+                    <span id="song-title" style={{ fontWeight: 'bold', fontSize: '1rem', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis', display: 'block' }}>
+                      {status.spotify.song}
+                    </span>
+                    <p id="artist-name" style={{ margin: '2px 0 4px 0', fontSize: '0.85rem', opacity: 0.7, whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>
+                      {status.spotify.artist}
+                    </p>
+                    <SpotifyProgressBar timestamps={status.spotify.timestamps} />
+                  </div>
+                </div>
+              </div>
+            ) : null}
+
+          </div>
         </div>
 
-        {}
-        <div className="home-system-info animate-on-load">
+        <div className="home-system-info animate-on-load" style={{ marginTop: '30px' }}>
           <p id="browser-info">{systemInfo.browser}</p>
           <p id="os-info">{systemInfo.os}</p>
         </div>
@@ -522,12 +505,10 @@ function AboutPage() {
       description="My personal profile, academic background, technical focus, and creative interests."
     >
       <div className="text-card animate-on-load" style={{ display: 'flex', flexDirection: 'column', gap: '20px' }}>
-        {}
         <p className="profile-summary" style={{ fontSize: '1.05rem', lineHeight: '1.7', margin: 0, borderBottom: '1px solid rgba(255, 255, 255, 0.1)', paddingBottom: '15px' }}>
           {aboutProfile.summary}
         </p>
         
-        {}
         <div className="profile-points" style={{ display: 'flex', flexDirection: 'column', gap: '18px', textAlign: 'left' }}>
           {aboutProfile.details.map((point) => {
             const parts = point.split(':');
@@ -545,7 +526,6 @@ function AboutPage() {
           })}
         </div>
 
-        {}
         <div className="tech-tag-list" style={{ justifyContent: 'flex-start', marginTop: '10px' }}>
           <span className="tech-tag">Artificial Intelligence</span>
           <span className="tech-tag">HCM-UTE</span>
@@ -612,7 +592,7 @@ function ProjectsPage() {
                 aria-label={`View ${project.title} on GitHub`}
               >
                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16">
-                  <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+                  <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
                 </svg>
               </a>
             </div>
@@ -668,7 +648,6 @@ function ContactPage() {
 function DeviceCard({ device }) {
   return (
     <div className="device-card animate-on-load">
-      {}
       <div className="device-image-container">
         <img 
           src={device.image} 
@@ -678,27 +657,25 @@ function DeviceCard({ device }) {
         />
       </div>
       
-      {}
       <div className="device-info-content" style={{ marginTop: '15px' }}>
         <h3>{device.title}</h3>
         <h4>{device.subtitle}</h4>
       </div>
 
-      {}
-        <div className="device-specs-list" style={{ marginTop: '12px', width: '100%' }}>
+      <div className="device-specs-list" style={{ marginTop: '12px', width: '100%' }}>
         {device.specs.map((spec, index) => (
-            <p 
+          <p 
             key={`${device.title}-${index}`}
             style={{
-                fontSize: '0.85rem',
-                color: '#ddd',
-                margin: '6px 0',
-                lineHeight: '1.4'
+              fontSize: '0.85rem',
+              color: '#ddd',
+              margin: '6px 0',
+              lineHeight: '1.4'
             }}
             dangerouslySetInnerHTML={typeof spec === 'string' ? { __html: spec } : { __html: spec.html }}
-            />
+          />
         ))}
-        </div>
+      </div>
     </div>
   );
 }
@@ -753,7 +730,6 @@ function RepositoryPage() {
             className="custom-button animate-on-load repo-btn"
             style={{ animationDelay: `${0.1 * (index + 1)}s` }}
           >
-            {}
             {action.image && (
               <img 
                 src={action.image} 
@@ -824,7 +800,6 @@ export default function App() {
     <div className="app-shell">
       <Navbar isScrolled={isScrolled} menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
       
-      {}
       <div className={`content-wrap ${currentPage === 'home' ? 'home-content' : ''}`}>
         <Routes location={location} key={location.pathname}>
           <Route path="/" element={<HomePage />} />

@@ -97,7 +97,7 @@ export const devices = [
     icon: 'laptop',
   },
   {
-    title: 'Lenovo Thinkpad E490',
+    title: 'Lenovo ThinkPad E490',
     subtitle: 'Secondary laptop.',
     specs: ['Intel® Core™ i5-8265U', '20GB DDR4 2400MHz', 'Intel® UHD Graphics 620', '512GB PCIe NVMe SSD', 'Arch Linux', 'Black'],
     image: '/assets/devices/e490.png',
